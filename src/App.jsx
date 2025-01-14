@@ -11,10 +11,12 @@ import ContactUs from './components/ContactUs'
 import Footer from './layouts/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
 import AboutUs from './components/AboutUs'
+import ScrollToTop from './ScroolToTop'
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Header />
          
       <Routes>

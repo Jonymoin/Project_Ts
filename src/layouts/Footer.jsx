@@ -61,7 +61,7 @@ const Footer = () => {
             <div className='w-36 h-1 bg-[#37B126]'></div>
             <p className='text-xl
             '>Call : <span className='text-[#37B126]'>65 869 48390</span></p>
-            <a href="http://wa.me/6586948390" target='blank' rel='noopener noreferrer' className="flex items-center gap-1 text-xl"><FaWhatsapp /> <span className='text-[#37B126]'>65 869 48390</span></a> 
+            <a href="http://wa.me/6586948390" target='blank' rel='noopener noreferrer' className="flex items-center gap-1 text-xl hover:underline"><FaWhatsapp /> <span className='text-[#37B126]'>65 869 48390</span></a> 
             <a
           href="mailto:leo.engrg@gmail.com"
           className=" hover:underline flex items-center gap-2 text-xl"

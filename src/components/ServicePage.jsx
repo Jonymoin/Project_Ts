@@ -6,7 +6,13 @@ const ServicePage = () => {
   
 
   const services = [
-    {id :1 , name:"Washing Machine Repair", description:"Is your washing machine acting up? Don’t let laundry day stress you out! Our expert washing machine repair service in Singapore is here to help. From leaks and noisy spin cycles to electrical faults, our skilled technicians can diagnose and fix any issue efficiently. We work with all major brands, ensuring your appliance gets the care it deserves. With affordable rates and same-day service options, you’ll have your machine up and running in no time. Trust us for reliable repairs that extend the life of your washing machine and keep your household running smoothly."},
+    {id :1 , name:"Washing Machine Repair",
+      images:[
+        "/images/wm6.jpg",
+        "/images/wm2.jpg",
+        "/images/wm3.jpg",
+      ],
+      description:"Is your washing machine acting up? Don’t let laundry day stress you out! Our expert washing machine repair service in Singapore is here to help. From leaks and noisy spin cycles to electrical faults, our skilled technicians can diagnose and fix any issue efficiently. We work with all major brands, ensuring your appliance gets the care it deserves. With affordable rates and same-day service options, you’ll have your machine up and running in no time. Trust us for reliable repairs that extend the life of your washing machine and keep your household running smoothly."},
     { id: 2, name: "CCTV Installation Services ", description: "Secure your home or business with our professional CCTV installation services in Singapore. Our team specializes in installing high-quality surveillance systems tailored to your specific needs. Whether it’s for residential or commercial use, we provide expert guidance on camera placement, system setup, and connectivity to ensure optimal coverage and security. With a focus on reliable and efficient service, we help you monitor your property 24/7 for peace of mind. Protect what matters most with our affordable and trusted CCTV installation solutions. Contact us today for a consultation and free quote!" },
     { id: 3, name: "TV Installation Service", description: "Need help setting up your new TV? Our professional TV installation service in Singapore is here to make it easy for you. Whether it’s mounting your TV on the wall or setting it up on a stand, our skilled technicians ensure a secure and perfectly aligned installation. We handle all cable management, ensuring a clean and clutter-free look for your space. From flat screens to curved and smart TVs, we cater to all models and sizes. Sit back, relax, and let us bring the cinema experience to your home. Reliable, efficient, and hassle-free—book your installation today!" },
     { id: 4, name: "Electrical Service", description: "Having electrical issues or need new installations? Our reliable electrical service in Singapore is here to help! From fixing faulty wiring and power outages to installing new sockets, switches, or lighting fixtures, our licensed electricians provide safe and efficient solutions for all your needs. Whether it’s residential or commercial work, we ensure compliance with safety standards and deliver long-lasting results. No job is too big or small for our experienced team. Trust us to keep your home or business powered and safe. Contact us today for prompt and affordable electrical services!" },
@@ -33,12 +39,31 @@ const ServicePage = () => {
     return <h2>Service not found!</h2>;
    
   }
+  const backgroundImage = service.images && service.images[0];
+
 
   const imagePath = `/images/service-${service.id}.jpg`;
 
 
   return (
     <main>
+      {backgroundImage && (
+       <div
+       className="h-[400px] flex flex-col items-center justify-center text-white bg-cover bg-center bg-no-repeat"
+       style={{
+         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${backgroundImage})`,
+       }}
+     >
+       <h2 className="text-4xl font-bold font-montserrat">{service.name}</h2>
+       <p className='text-2xl'>
+  Call Us Now:  
+   <a href="tel:+6568698390" className="text-[#37B126] hover:underline">
+     65 8694 8390
+  </a>
+</p>
+       
+     </div>
+      )}
       <div className='bg-[#] font-roboto text-white py-4'>
       <h2 className='text-center text-4xl text-[#8f6c8c] font-extrabold'>{service.name}</h2>
       <div className='max-w-[80%] shadow-2xl  mx-auto bg-[#94c6c7] p-8 mt-6'>
@@ -51,6 +76,20 @@ const ServicePage = () => {
         />
       </div>
       </div>
+      {service.images && service.images[1] && service.images[2] && (
+          <div className="flex flex-col md:flex-row gap-3 bg-[#37B126] py-4 justify-center mb-6">
+            <img
+              src={service.images[1]}
+              alt={`${service.name} highlighted`}
+              className="md:w-[40%] w-[85%] mx-auto max-h-[400px] rounded-lg shadow-lg"
+            />
+            <img
+              src={service.images[2]}
+              alt={`${service.name} highlighted`}
+              className="md:w-[40%] max-h-[400px] w-[85%] mx-auto rounded-lg shadow-lg"
+            />
+          </div>
+        )}
        <ContactUs />
       
     </div>

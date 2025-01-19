@@ -46,7 +46,7 @@ const Header = () => {
       <div className="p-4 bg-[#37B126] text-white flex justify-around items-center">
        <div className='flex'>
        <img src="/images/hero.png" alt="" className='w-10' />
-       <h1 className="text-2xl font-roboto font-bold">Leo Handyman Services</h1>
+       <h1 className="text-2xl font-roboto font-bold">Leo Repair Services</h1>
        </div>
 
         {/* Large screen menu */}

@@ -25,13 +25,14 @@ const Hero3 = () => {
             id:1 , name:"Washing Machine Repair" , icon: LuWashingMachine
         },
         {
-            id:2 , name:"Install Your TV" , icon: MdOutlineResetTv
+            id:2 , name:"Dishwasher Repair" , icon: BiDish
         },
+        
         {
             id:3 , name:"CC TV Installation" , icon: BiCctv
         },
         {
-            id:4 , name:"Electrical Service" , icon: MdElectricBolt
+            id:4 , name:"Install Your TV" , icon: MdOutlineResetTv
         },
         {
             id:5 , name:"Plumbing Service" , icon: MdPlumbing
@@ -49,8 +50,9 @@ const Hero3 = () => {
             id:9 , name:"Carpenter" , icon: MdCarpenter
         },
         {
-            id:10 , name:"Dishwasher Repair" , icon: BiDish
+            id:10 , name:"Electrical Service" , icon: MdElectricBolt
         },
+        
         {
             id:11 , name:"Water Choke Trobleshoot" , icon: FaHouseFloodWaterCircleArrowRight
         },

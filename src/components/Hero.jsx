@@ -26,6 +26,7 @@ const Hero = () => {
       {/* <h3 className='text-xl md:text-2xl font-roboto font-semibold'>Trusted Handyman Service</h3>
         <h2 className="text-2xl md:text-4xl font-bold">Singapore Business Directory</h2>
         <p className='text-center'>Have a home repair issue? <br /> Call 24 hours emergency services all time!</p> */}
+
         <h3 className='uppercase text-6xl text-white font-extrabold md:tracking-[30px] md:text-[140px]  font-abril text-center'>Washing Machine Repair</h3>
          
         

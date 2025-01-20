@@ -27,6 +27,7 @@ const Hero3 = () => {
         {
             id:2 , name:"Dishwasher Repair" , icon: BiDish
         },
+        
         {
             id:3 , name:"CC TV Installation" , icon: BiCctv
         },
@@ -53,6 +54,7 @@ const Hero3 = () => {
         {
             id:10 , name:"Electrical Service" , icon: MdElectricBolt
         },
+        
         {
             id:11 , name:"Water Choke Trobleshoot" , icon: FaHouseFloodWaterCircleArrowRight
         },

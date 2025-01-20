@@ -10,15 +10,18 @@ const Header = () => {
 
   const services = [
     { id: 1, name: "Washing Machine Repair" },
-    { id: 2, name: "Install Your TV" },
+    { id: 2, name: "Dishwasher Repair" },
+
     { id: 3, name: "CC TV Installation" },
-    { id: 4, name: "Electrical Service" },
+    { id: 4, name: "Install Your TV" },
+    
     { id: 5, name: "Plumbing Service" },
     { id: 6, name: "Air-Conditioning Service" },
     { id: 7, name: "Painting" },
     { id: 8, name: "Intercom Issues" },
     { id: 9, name: "Carpenter" },
-    { id: 10, name: "Dishwasher Repair" },
+    { id: 10, name: "Electrical Service" },
+
     { id: 11, name: "Water Choke Troubleshoot" },
     { id: 12, name: "Mover Service" },
     { id: 13, name: "Automatic Door Issues" },

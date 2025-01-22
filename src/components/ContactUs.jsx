@@ -63,8 +63,8 @@ import { HiOutlineMailOpen } from "react-icons/hi";
        
       </div>
        <div className='md:w-1/2'>
-       <h3 className='text-center uppercase text-slate-700'>get in touch</h3>
-<h3 className='text-center text-[28px]'>Effortless Booking with us</h3>
+       <h3 className='text-center uppercase text-slate-700 font-bold tracking-widest'>get in touch</h3>
+<h3 className='text-center text-[28px] font-montserrat'>Effortless Booking with us</h3>
 <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-3'>
 
 <input type="text" name="user_name" className='text-black py-3 px-2 rounded-lg' placeholder='Name*'/>

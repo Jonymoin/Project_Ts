@@ -10,7 +10,7 @@ const Hero2 = () => {
            <div>
            <img src="/images/wm3.jpg" alt="" className='md:w-[500px] h-[550px]'/>
            <div className=' bg-[#37B126] text-white px-16 py-8 text-4xl font-bold'>
-                <p>4+ Years of <br />Experience</p>
+                <p>5+ Years of <br />Experience</p>
             </div>
            </div>
             

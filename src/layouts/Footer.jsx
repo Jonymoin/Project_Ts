@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import { FaWhatsapp } from "react-icons/fa";
+import { IoIosArrowDroprightCircle } from "react-icons/io";
+import { TbArrowBigRightLinesFilled } from "react-icons/tb";
+
 import { MdEmail } from "react-icons/md";
 
 
@@ -9,9 +12,9 @@ const Footer = () => {
     const services = [
         { id: 1, name: "Washing Machine Repair" },
         { id: 2, name: "Dishwasher Repair" },
-
-        { id: 3, name: "Install Your TV" },
-        { id: 4, name: "CC TV Installation" },
+        { id: 3, name: "CC TV Installation" },
+        { id: 4, name: "Install Your TV" },
+     
 
         { id: 5, name: "Plumbing Service" },
         { id: 6, name: "Air-Conditioning Service" },
@@ -43,14 +46,33 @@ const Footer = () => {
             TRADEHUB 21 <br />
             SINGAPORE (609966)</p>
         </div>
+        <div>
+        <p className='text-2xl text-center tracking-[10px]'>Quick <span className='text-[#37B126]'>Links</span></p>
+        <div className='w-36 h-1 bg-[#37B126] ml-36'></div>
+          <ul className='text-xl space-y-3 ml-6 mt-4'>
+          <li>
+            
+            <Link to="/about" className='flex items-center gap-2 hover:text-[#37B126]'><TbArrowBigRightLinesFilled /> About Us</Link>
+          </li>
+          <li>
+            
+            <Link to="/privacypolicy" className='flex items-center gap-2 hover:text-[#37B126]'><TbArrowBigRightLinesFilled/> Privacy Policy</Link>
+          </li>
+          <li>
+            
+            <Link to="/terms&conditions" className='flex items-center gap-2 hover:text-[#37B126]'><TbArrowBigRightLinesFilled/> Terms & Conditions</Link>
+          </li>
+          </ul>
+        </div>
         <div className='service'>
             <p className='text-2xl text-center tracking-[10px]'>Our <span className='text-[#37B126]'>Services</span></p>
             
             <div className='w-36 h-1 bg-[#37B126] ml-36'></div>
-            <ul className='grid grid-cols-2 gap-3'>
+            <ul className='grid grid-cols-1 md:grid-cols-2 gap-3'>
             {services.map((service) => (
                 <li key={service.id} className="py-2 px-4 hover:bg-[#37B126]">
-                  <Link to={`/service/${service.id}`}>
+                  <Link to={`/service/${service.id}`} className='flex items-center gap-2'>
+                  <IoIosArrowDroprightCircle />
                     {service.name}
                   </Link>
                 </li>
@@ -62,8 +84,8 @@ const Footer = () => {
             <h3 className='text-xl'>Contact <span className='text-[#37B126]'>Us</span></h3>
             <div className='w-36 h-1 bg-[#37B126]'></div>
             <p className='text-xl
-            '>Call : <span className='text-[#37B126]'>65 869 48390</span></p>
-            <a href="http://wa.me/6586948390" target='blank' rel='noopener noreferrer' className="flex items-center gap-1 text-xl hover:underline"><FaWhatsapp /> <span className='text-[#37B126]'>65 869 48390</span></a> 
+            '>Call : <span className='text-[#37B126]'>+65 869 48390</span></p>
+            <a href="http://wa.me/6586948390" target='blank' rel='noopener noreferrer' className="flex items-center gap-1 text-xl hover:underline"><FaWhatsapp /> <span className='text-[#37B126]'>+65 869 48390</span></a> 
             <a
           href="mailto:leo.engrg@gmail.com"
           className=" hover:underline flex items-center gap-2 text-xl"

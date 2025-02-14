@@ -14,7 +14,7 @@ const Header = () => {
     { id: 2, name: "Dishwasher Repair" },
 
     { id: 3, name: "CC TV Installation" },
-    { id: 4, name: "Install Your TV" },
+    { id: 4, name: "TV Installation Service" },
     
     { id: 5, name: "Plumbing Service" },
     { id: 6, name: "Air-Conditioning Service" },

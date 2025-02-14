@@ -56,7 +56,7 @@ import { HiOutlineMailOpen } from "react-icons/hi";
           <div className='border-2 p-4 rounded-full border-yellow-500 text-yellow-500 text-4xl'><HiOutlineMailOpen /></div>
           <div>
           <p className='text-[24px]'>24/7 Emergency Service</p>
-          <p className='text-[21px]'>leo.engrg@gmail.com</p>
+          <p className='text-[21px]'>homerepairssg1@gmail.com</p>
           </div>
         </div>
         

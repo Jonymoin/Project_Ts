@@ -50,7 +50,7 @@ const Header = () => {
       <div className=" bg-[#37B126] py-4 md:py-0 text-white flex justify-around items-center">
        <Link to="/">
        <div className='flex'>
-       <img src="/images/hero.png" alt="" className='w-10' />
+       <img src="/images/hero.png" alt="repair in singapore" className='w-10' />
        <h1 className="text-2xl font-roboto font-bold">HomeRepair Services</h1>
        </div>
        </Link>

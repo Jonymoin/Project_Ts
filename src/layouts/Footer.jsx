@@ -32,17 +32,17 @@ const Footer = () => {
       ];
   return (
    <>
-    <div className='flex flex-col md:flex-row md:justify-around bg-gray-800 text-white pt-10 items-center gap-10 md:gap-0'  style={{
-        width: '100%',
-        
-        backgroundImage: "url('/images/bg14.png')",
-        backgroundPosition: 'center',
-        
-       }}>
+    <div className='flex flex-col md:flex-row md:justify-around bg-gray-800 text-white pt-10 items-center gap-10 md:gap-0 w-full relative'>
+  <img 
+    src="/images/bg14.png" 
+    alt="Background of handyman services" 
+    className="absolute inset-0 w-full h-full object-cover -z-10" 
+    loading="lazy" 
+  />
         <div className='logo flex flex-col items-center gap-3'>
         <h3 className='text-[28px] font-semibold font-roboto'>LEO <span className='text-[#37B126]'>ENGINEERING</span> PTE. LTD.</h3>
 
-        <img src="/images/hero.png" alt="" className='w-14'/>
+        <img src="/images/hero.png" alt="repair service singapore" className='w-14'/>
         <p>18 BOON LAY WAY <br />
             TRADEHUB 21 <br />
             SINGAPORE (609966)</p>

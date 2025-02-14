@@ -10,7 +10,7 @@ const Hero4 = () => {
              <li>Professional service</li>
              <li>Local expertise</li>
         </div>
-        <img src="/images/man.png" alt=""  className='absolute hidden md:block left-[40%]'/>
+        <img src="/images/man.png" loading='lazy' alt="repair service singapore"  className='absolute hidden md:block left-[40%]'/>
         <div className='md:w-1/2 py-10 md:py-0 md:h-[520px] md:pl-[100px] gap-8 flex flex-col justify-center bg-[#37B126]'>
              <li>Worry-free experience</li>
              <li>Convenient scheduling</li>

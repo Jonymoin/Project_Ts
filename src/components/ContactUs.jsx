@@ -49,7 +49,7 @@ import { HiOutlineMailOpen } from "react-icons/hi";
     <div className='max-w-[90%] mx-auto py-12 mt-[50px] flex flex-col md:flex-row gap-4'>
       <div className='md:w-1/2 w-full rounded-xl relative'>
       <div>
-        <img src="/images/bg8.jpg" alt="" className='rounded-2xl grayscale' />
+        <img src="/images/bg8.jpg" alt="Washing machine repair service" className='rounded-2xl grayscale' />
       </div>
       
         <div className='flex items-center justify-center text-white absolute gap-4 right-0 left-0 bottom-0 md:bottom-5 pl-[3%] pb-6 bg-gradient-to-t from-black via-transparent  to-slate-700'>

@@ -78,19 +78,18 @@ const Hero3 = () => {
     ]
   return (
 
-    <div style={{
-        width: '100%',
-        
-        backgroundImage: "url('/images/bg15.jpg')",
-        backgroundSize: '',
-        backgroundPosition: '',
-        backgroundRepeat: '',
-       }}>
-         <div className='mt-[200px] md:mt-[100px] max-w-[90%] mx-auto' >
+    <div className='relative w-full'>
+        <img 
+    src="/images/bg15.jpg" 
+    alt="Professional handyman services background" 
+    loading="lazy" 
+    className="absolute inset-0 w-full h-full object-cover"
+  />
+         <div className='relative mt-[200px] md:mt-[100px] max-w-[90%] mx-auto' >
         <h2 className='text-center text-6xl font-bold md:py-24'>Our Services</h2>
           <div className='grid grid-cols-2 md:grid-cols-4 gap-6 p-4'>
             {services.map((service) => (
-                <Link to={`/service/${service.id}`}>
+                 <Link to={`/service/${encodeURIComponent(service.name.toLowerCase().replace(/\s+/g, '-'))}`}>
                 <div key={service.id} className='bg-[#37B126] flex flex-col items-center py-10 text-white rounded-lg shadow-lg cursor-pointer group hover:bg-black transition-all duration-500'>
                      <div className='bg-black p-4 rounded-full text-2xl group-hover:bg-[#37B126]'>
                      <service.icon />

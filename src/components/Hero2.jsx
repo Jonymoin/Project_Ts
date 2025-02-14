@@ -8,7 +8,7 @@ const Hero2 = () => {
       <div className='max-w-[90%] font-montserrat mx-auto flex flex-col-reverse md:flex-row font-mplus py-[50px] gap-[50px] md:gap-28'>
         <div className='md:w-[50%]  max-h-[500px]'>
            <div>
-           <img src="/images/wm3.jpg" alt="" className='md:w-[500px] h-[550px]'/>
+           <img src="/images/wm3.jpg" alt="Repairing washing machine singapore" className='md:w-[500px] h-[550px]'/>
            <div className=' bg-[#37B126] text-white px-16 py-8 text-4xl font-bold'>
                 <p>5+ Years of <br />Experience</p>
             </div>
@@ -18,7 +18,7 @@ const Hero2 = () => {
         <div className='md:w-[50%]'>
         <h3 className='text-[#37B126] font-bold text-xl'>Securing Everything</h3>
         <h2 className='text-4xl font-semibold mb-4 text-white'>Making Home Maintenance Hassle-Free</h2>
-        <img src="/images/wm2.jpg" alt="Washing Machine" className='max-h-[600px]' />
+        <img src="/images/wm2.jpg" alt="samsung Washing Machine repair" className='max-h-[600px]' />
         <p className='mt-5 font-roboto text-white'>
         At Leo Repair Service in Singapore, we are a team of skilled professionals devoted to delivering top-notch home services in Singapore. Backed by years of expertise and a commitment to excellence, we take pride in being your reliable partner for all your home maintenance and improvement needs.
         </p>

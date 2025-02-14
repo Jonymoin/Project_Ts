@@ -51,7 +51,7 @@ const Header = () => {
        <Link to="/">
        <div className='flex'>
        <img src="/images/hero.png" alt="" className='w-10' />
-       <h1 className="text-2xl font-roboto font-bold">Leo Repair Services</h1>
+       <h1 className="text-2xl font-roboto font-bold">HomeRepair Services</h1>
        </div>
        </Link>
 
@@ -84,8 +84,8 @@ const Header = () => {
             <ul className="absolute md:left-[-300px] mt-2 bg-[#37B126] rounded-lg shadow-lg md:w-[600px] opacity-0 md:grid md:grid-cols-4 group-hover:opacity-100 transition-opacity duration-300 z-50">
               {services.map((service) => (
                 <li key={service.id} className="py-2 px-4 hover:bg-gray-300">
-                  <Link to={`/service/${service.id}`}>
-                    {service.name}
+                   <Link to={`/service/${encodeURIComponent(service.name.toLowerCase().replace(/\s+/g, '-'))}`}>
+                      {service.name}
                   </Link>
                 </li>
               ))}
@@ -141,7 +141,7 @@ const Header = () => {
                   {services.map((service) => (
                     <li key={service.id} className="py-2 px-4 hover:bg-gray-300">
                       <Link
-                        to={`/service/${service.id}`}
+                        to={`/service/${encodeURIComponent(service.name.toLowerCase().replace(/\s+/g, '-'))}`}
                         onClick={() => {
                           setMenuOpen(false);
                           setDropdownOpen(false);

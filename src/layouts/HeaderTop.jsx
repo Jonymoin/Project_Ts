@@ -5,7 +5,7 @@ const HeaderTop = () => {
   return (
     <nav className='flex text-[#37B126] w-[90%] mx-auto md:justify-between gap-4 py-3'>
         <p className='text-xl font-semibold'>Need any Help?</p>
-        <div className='flex text-xl md:text-4xl items-center hover:scale-110 transition-all duration-300 font-semibold'>
+        <div className='flex text-base md:text-2xl items-center hover:scale-110 transition-all duration-300 font-semibold'>
                     <div className=''>
                                 <FaWhatsapp />
                     </div>

@@ -10,8 +10,8 @@ import { HiOutlineMailOpen } from "react-icons/hi";
     e.preventDefault();
 
     emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-        publicKey: 'YOUR_PUBLIC_KEY',
+      .sendForm('service_p0y1v9l', 'template_fnftg3o', form.current, {
+        publicKey: '0ul1oFyWS_YuJQplp',
       })
       .then(
         () => {

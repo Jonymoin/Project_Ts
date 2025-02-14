@@ -22,7 +22,7 @@ const Hero = () => {
         />
 
         {/* Hero Text */}
-        <h1 className="uppercase text-6xl text-white font-extrabold md:tracking-[30px] md:text-[140px] font-abril text-center z-50">
+        <h1 className="uppercase text-6xl text-white font-extrabold md:tracking-[30px] md:text-[140px] font-abril text-center z-10">
           Washing Machine Repair
         </h1>
       </div>

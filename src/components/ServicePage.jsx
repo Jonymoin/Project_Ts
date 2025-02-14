@@ -62,7 +62,8 @@ const ServicePage = () => {
         <h2 className="text-center text-4xl text-[#8f6c8c] font-extrabold">{service.name}</h2>
 
         <div className="max-w-[80%] shadow-2xl mx-auto bg-[#94c6c7] p-8 mt-6">
-          <p>{service.description}</p>
+          <h3 className='text-2xl text-center text-slate-700'>{service.description}</h3>
+          <p>{service.desc}</p>
           <div className="flex justify-center mt-6">
             <img
               src={service.images[0]}

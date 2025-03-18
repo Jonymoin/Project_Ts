@@ -17,10 +17,10 @@ const HeaderTop = () => {
             <div className='flex items-center gap-1 text-xl md:text-2xl'>
                         <MdEmail />
                         <a
-                      href="mailto:leo.engrg@gmail.com"
+                      href="mailto:homerepairsng@gmail.com"
                       className=" hover:underline"
                     >
-                      homerepairssg1@gmail.com
+                      homerepairsng@gmail.com
                     </a>
                         
                     </div>

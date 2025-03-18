@@ -51,7 +51,7 @@ const Header = () => {
        <Link to="/">
        <div className='flex'>
        <img src="/images/hero.png" alt="repair in singapore" className='w-10' />
-       <h1 className="text-2xl font-roboto font-bold">HomeRepair Services</h1>
+       <h2 className="text-2xl font-bold">HomeRepair</h2>
        </div>
        </Link>
 

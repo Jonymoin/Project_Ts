@@ -34,7 +34,9 @@ const ServicePage = () => {
     return <h2 className="text-center text-red-500 text-2xl mt-6">Service not found!</h2>;
   }
 
-  const backgroundImage = service.images?.[0];
+  const backgroundImage = `/images/service-${service.id}.jpg`; // Dynamic background image
+const contentImage = service.images?.[0]; // Content image
+
 
   return (
     <main>
@@ -66,7 +68,7 @@ const ServicePage = () => {
           <p>{service.desc}</p>
           <div className="flex justify-center mt-6">
             <img
-              src={service.images[0]}
+              src={contentImage}
               alt={service.name}
               className="w-full max-h-[400px] rounded-lg shadow-lg"
             />

@@ -20,7 +20,7 @@ const Hero2 = () => {
         <h2 className='text-4xl font-semibold mb-4 text-white'>Making Home Maintenance Hassle-Free</h2>
         <img src="/images/wm2.jpg" alt="samsung Washing Machine repair" className='max-h-[600px]' />
         <p className='mt-5 font-roboto text-white'>
-        At Leo Repair Service in Singapore, we are a team of skilled professionals devoted to delivering top-notch home services in Singapore. Backed by years of expertise and a commitment to excellence, we take pride in being your reliable partner for all your home maintenance and improvement needs.
+        At HomeRepair Service in Singapore, we are a team of skilled professionals devoted to delivering top-notch home services in Singapore. Backed by years of expertise and a commitment to excellence, we take pride in being your reliable partner for all your home maintenance and improvement needs.
         </p>
         </div>
     </div>

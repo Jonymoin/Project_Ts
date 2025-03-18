@@ -91,10 +91,10 @@ const Footer = () => {
             '>Call : <span className='text-[#37B126]'>+65 869 48390</span></p>
             <a href="http://wa.me/6586948390" target='blank' rel='noopener noreferrer' className="flex items-center gap-1 text-xl hover:underline"><FaWhatsapp /> <span className='text-[#37B126]'>+65 869 48390</span></a> 
             <a
-          href="mailto:leo.engrg@gmail.com"
+          href="mailto:homerepairsng@gmail.com"
           className=" hover:underline flex items-center gap-2 text-xl"
         ><MdEmail />
-          <span className='text-[#37B126]'>leo.engrg@gmail.com</span>
+          <span className='text-[#37B126]'>homerepairsng@gmail.com</span>
         </a>
         </div>
     </div>

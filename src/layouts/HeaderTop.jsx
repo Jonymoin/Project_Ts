@@ -10,7 +10,7 @@ const HeaderTop = () => {
                                 <FaWhatsapp />
                     </div>
                     <div className='flex items-center px-1'>
-                 <a href="http://wa.me/6586948390" target='blank' rel='noopener noreferrer'> +65 8694 8390</a> 
+                 <a href="http://wa.me/6581650541" target='blank' rel='noopener noreferrer'> +65 8165 0541</a> 
                 </div>
                 </div>
             <div className='hidden md:block'>

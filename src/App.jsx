@@ -15,6 +15,7 @@ import ScrollToTop from './ScroolToTop'
 import PrivacyPolicy from './components/PrivacyPolicy'
 import TermsnCon from './components/TermsnCon'
 import HeaderTop from './layouts/HeaderTop'
+import ReviewSection from './components/ReviewSection'
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
       <Hero2 />
       <Hero3 />
       <Hero4 />
+      <ReviewSection />
       <ContactUs />
      
           </>

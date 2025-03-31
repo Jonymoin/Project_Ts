@@ -53,8 +53,8 @@ const contentImage = service.images?.[0]; // Content image
           <h2 className="text-4xl font-bold font-montserrat">{service.name}</h2>
           <p className="text-2xl">
             Call Us Now: 
-            <a href="tel:+6568698390" className="text-[#37B126] hover:underline">
-              +65 8694 8390
+            <a href="tel:+6581650541" className="text-[#37B126] hover:underline">
+              +65 8165 0541
             </a>
           </p>
         </div>

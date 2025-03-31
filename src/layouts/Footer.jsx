@@ -89,7 +89,7 @@ const Footer = () => {
             , <br />SINGAPORE (609966) </p>
             <p className='text-xl
             '>Call : <span className='text-[#37B126]'>+65 8165 0541</span></p>
-            <a href="http://wa.me/6581650541" target='blank' rel='noopener noreferrer' className="flex items-center gap-1 text-xl hover:underline"><FaWhatsapp /> <span className='text-[#37B126]'>+65 869 48390</span></a> 
+            <a href="http://wa.me/6581650541" target='blank' rel='noopener noreferrer' className="flex items-center gap-1 text-xl hover:underline"><FaWhatsapp /> <span className='text-[#37B126]'>+65 8165 0541</span></a> 
             <a
           href="mailto:homerepairsng@gmail.com"
           className=" hover:underline flex items-center gap-2 text-xl"

@@ -15,15 +15,15 @@ const Hero = () => {
       {/* Overlay Image (Lazy Loaded) */}
       <div className="absolute flex flex-col items-center justify-center h-full w-full bg-cover bg-center">
         <img 
-          src="/images/plumber.png" 
+          src="/images/bg6.jpg" 
           alt="Dishwasher repair" 
           loading="lazy" 
           className="absolute inset-0 w-full h-full object-cover"
         />
 
         {/* Hero Text */}
-        <h1 className="uppercase text-6xl text-white font-extrabold md:tracking-[30px] md:text-[140px] font-abril text-center z-10">
-          Washing Machine Repair
+        <h1 className="uppercase text-6xl md:leading-[120px] text-white font-extrabold md:tracking-[10px] md:text-[120px] font-abril text-center z-10">
+          AIR CON SERVICE & PROFESSIONAL PAINTER
         </h1>
       </div>
       

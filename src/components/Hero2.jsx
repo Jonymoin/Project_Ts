@@ -17,8 +17,11 @@ const Hero2 = () => {
 
   return (
     <div className="p-4">
-      <h3 className='text-center text-[40px]'>See Our Work Before Hire us</h3>
-      <h3 className='text-center text-[32px]'>Choose Your Design From Anywhere in the World We will make it happen for you</h3>
+     <div className="w-full py-7 text-blue-500 mb-4 bg-cover bg-center flex flex-col items-center justify-center"
+      style={{ backgroundImage: "url('/images/hero3.png')" }}>
+     <h3 className='text-center text-[40px] font-bold'>See Our Work Before Hire us</h3>
+     <h3 className='text-center text-[32px]'>Choose Your Design From Anywhere in the World We will make it happen for you</h3>
+     </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {images.slice(0, visibleCount).map((src, idx) => (
           <img

@@ -23,7 +23,7 @@ const Footer = () => {
         <div className='logo flex flex-col items-center gap-3'>
         <h3 className='text-[28px] font-semibold font-roboto'>LEO <span className='text-[#37B126]'>ENGINEERING</span> PTE. LTD.</h3>
 
-        <img src="/images/hero.png" alt="repair service singapore" className='w-14'/>
+        <img src="/images/logo.png" alt="repair service singapore" className='w-14'/>
         <p>18 BOON LAY WAY <br />
             TRADEHUB 21 <br />
             SINGAPORE (609966)</p>

@@ -10,26 +10,7 @@ import { MdEmail } from "react-icons/md";
 
 
 const Footer = () => {
-    const services = [
-        { id: 1, name: "Washing Machine Repair" },
-        { id: 2, name: "Dishwasher Repair" },
-        { id: 3, name: "CC TV Installation" },
-        { id: 4, name: "TV Installation Service" },
-     
-
-        { id: 5, name: "Plumbing Service" },
-        { id: 6, name: "Air-Conditioning Service" },
-        { id: 7, name: "Painting" },
-        { id: 8, name: "Intercom Issues" },
-        { id: 9, name: "Carpenter" },
-        { id: 10, name: "Electrical Service" },
-        { id: 11, name: "Water Choke Troubleshoot" },
-        { id: 12, name: "Mover Service" },
-        { id: 13, name: "Automatic Door Issues" },
-        { id: 14, name: "Kitchen Exhaust Fan" },
-        { id: 15, name: "All Kinds of Ducting Work" },
-        { id: 16, name: "Automatic Gate Issues" }
-      ];
+    
   return (
    <>
     <div className='flex flex-col md:flex-row md:justify-around bg-gray-800 text-white pt-10 items-center gap-10 md:gap-0 w-full relative'>
@@ -65,23 +46,7 @@ const Footer = () => {
           </li>
           </ul>
         </div>
-        <div className='service'>
-            <p className='text-2xl text-center tracking-[10px]'>Our <span className='text-[#37B126]'>Services</span></p>
-            
-            <div className='w-36 h-1 bg-[#37B126] ml-36'></div>
-            <ul className='grid grid-cols-1 md:grid-cols-2 gap-3'>
-            {services.map((service) => (
-                <li key={service.id} className="py-2 px-4 hover:bg-[#37B126]">
-                  <Link to={`/service/${encodeURIComponent(service.name.toLowerCase().replace(/\s+/g, '-'))}`} className='flex items-center gap-2'>
-                  
-                  <IoIosArrowDroprightCircle />
-                    {service.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-       
-        </div>
+        
         <div className='contact space-y-5'>
             <h3 className='text-xl'>Contact <span className='text-[#37B126]'>Us</span></h3>
             <div className='w-36 h-1 bg-[#37B126]'></div>

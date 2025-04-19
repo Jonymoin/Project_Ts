@@ -31,32 +31,15 @@ const ContactUs = () => {
       );
   };
 
-  const services = [
-    "Washing Machine Repair",  
-    "Install Your TV",
-    "CC TV Installation", 
-    "Electrical Service",
-    "Plumbing Service",
-    "Air-Conditioning Service",
-    "Painting",
-    "Intercom Issues",
-    "Carpenter",
-    "Dishwasher Repair",
-    "Water Choke Troubleshoot",
-    "Mover Service",
-    "Automatic Door Issues",
-    "Kitchen Exhaust Fan",
-    "All Kinds of Ducting Work",
-    "Automatic Gate Issues",
-  ];
+  
 
   return (
     <>
-      <div className='bg-[#37B126]'>
+      <div className='bg-gradient-to-r from-red-700 via-violet-900 to-cyan-700'>
         <div className='max-w-[90%] mx-auto py-12 mt-[50px] flex flex-col md:flex-row gap-4'>
           <div className='md:w-1/2 w-full rounded-xl relative'>
             <div>
-              <img src="/images/bg8.jpg" alt="Washing machine repair service" className='rounded-2xl grayscale' />
+              <img src="/images/bg8.webp" alt="Washing machine repair service" className='rounded-2xl grayscale' />
             </div>
             <div className='flex items-center justify-center text-white absolute gap-4 right-0 left-0 bottom-0 md:bottom-5 pl-[3%] pb-6 bg-gradient-to-t from-black via-transparent to-slate-700'>
               <div className='border-2 p-4 rounded-full border-yellow-500 text-yellow-500 text-4xl'>
@@ -87,13 +70,8 @@ const ContactUs = () => {
 
               <input type="email" name="user_email" className='text-black py-3 px-2 rounded-lg' placeholder='Email*' required />
 
-              <label htmlFor="selected_service">Select Service</label>
-              <select className='bg-white text-black py-3 px-2 rounded-lg' name="selected_service" value={selectedService} onChange={(e) => setSelectedService(e.target.value)} required>
-                <option value="" disabled>-- Select a Service --</option>
-                {services.map((service, index) => (
-                  <option key={index} value={service}>{service}</option>
-                ))}
-              </select>
+              
+              
 
               <textarea name="message" className='text-black h-[100px] py-3 px-2 rounded-lg' placeholder='Write a message*' required />
 

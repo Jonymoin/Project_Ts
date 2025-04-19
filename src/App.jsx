@@ -38,7 +38,7 @@ const App = () => {
      
           </>
         }/>
-        <Route path='/service/:serviceName' element={<ServicePage />} />
+        
         <Route path='/about' element={<AboutUs />} />
         <Route path='/privacypolicy' element={<PrivacyPolicy />} />
         <Route path='/terms&conditions' element={<TermsnCon />} />

@@ -17,8 +17,7 @@ const Hero2 = () => {
 
   return (
     <div className="p-4">
-     <div className="w-full py-7 text-blue-500 mb-4 bg-cover bg-center flex flex-col items-center justify-center"
-      style={{ backgroundImage: "url('/images/hero3.png')" }}>
+     <div className="w-full py-7 text-white mb-4 bg-cover bg-center flex flex-col items-center justify-center bg-gradient-to-r from-orange-600  to-red-700">
      <h3 className='text-center text-[40px] font-bold'>See Our Work Before Hire us</h3>
      <h3 className='text-center text-[32px]'>Choose Your Design From Anywhere in the World We will make it happen for you</h3>
      </div>

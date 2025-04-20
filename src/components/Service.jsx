@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const policies = [
   {
@@ -33,6 +34,11 @@ const policies = [
   },
 ];
 
+const fadeInUp = {
+  hidden: { opacity: 0, y: 30 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+};
+
 const BusinessPolicies = () => {
   return (
     <div className="px-4 py-10 max-w-7xl mx-auto">
@@ -41,9 +47,13 @@ const BusinessPolicies = () => {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {policies.map((policy, index) => (
-          <div
+          <motion.div
             key={index}
             className="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center hover:shadow-lg transition-shadow"
+            variants={fadeInUp}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
           >
             <img
               src={policy.img}
@@ -54,7 +64,7 @@ const BusinessPolicies = () => {
               {policy.title}
             </h2>
             <p className="text-gray-600 text-sm">{policy.desc}</p>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>

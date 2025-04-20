@@ -6,7 +6,7 @@ const AboutUs = () => {
       <div className='h-[400px] bg-cover flex items-center justify-center' style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('/images/wm3.jpg')`,
       }}>
-            <h3 className='text-center text-4xl font-abril'>Leo Repair Services</h3>
+            <h3 className='text-center text-4xl '>EverFresh Painting</h3>
       </div>
         <div className='w-[90%] mx-auto space-y-4'>
         <h3 className='text-center text-4xl p-4'>LEO ENGINEERING PTE. LTD.</h3>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Hero2 = () => {
   const totalImages = 80;
-  const imagesPerPage = 20;
+  const imagesPerPage = 4;
   const [visibleCount, setVisibleCount] = useState(imagesPerPage);
   const [modalImage, setModalImage] = useState(null);
 

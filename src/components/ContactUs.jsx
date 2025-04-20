@@ -35,7 +35,7 @@ const ContactUs = () => {
 
   return (
     <>
-      <div className='bg-gradient-to-r from-red-700 via-violet-900 to-cyan-700'>
+      <div className='bg-gradient-to-r from-gray-700 via-violet-900 to-slate-500'>
         <div className='max-w-[90%] mx-auto py-12 mt-[50px] flex flex-col md:flex-row gap-4'>
           <div className='md:w-1/2 w-full rounded-xl relative'>
             <div>

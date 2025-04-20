@@ -21,7 +21,7 @@ const Footer = () => {
     loading="lazy" 
   />
         <div className='logo flex flex-col items-center gap-3'>
-        <h3 className='text-[28px] font-semibold font-roboto'>LEO <span className='text-[#37B126]'>ENGINEERING</span> PTE. LTD.</h3>
+        <h3 className='text-[28px] font-semibold font-roboto'>LEO <span className='text-red-600'>ENGINEERING</span> PTE. LTD.</h3>
 
         <img src="/images/logo.png" alt="repair service singapore" className='w-14'/>
         <p>18 BOON LAY WAY <br />
@@ -29,8 +29,8 @@ const Footer = () => {
             SINGAPORE (609966)</p>
         </div>
         <div>
-        <p className='text-2xl text-center tracking-[10px]'>Quick <span className='text-[#37B126]'>Links</span></p>
-        <div className='w-36 h-1 bg-[#37B126] ml-36'></div>
+        <p className='text-2xl text-center tracking-[10px]'>Quick <span className='text-red-600'>Links</span></p>
+        <div className='w-36 h-1 bg-red-600 ml-36'></div>
           <ul className='text-xl space-y-3 ml-6 mt-4'>
           <li>
             
@@ -48,18 +48,18 @@ const Footer = () => {
         </div>
         
         <div className='contact space-y-5'>
-            <h3 className='text-xl'>Contact <span className='text-[#37B126]'>Us</span></h3>
-            <div className='w-36 h-1 bg-[#37B126]'></div>
+            <h3 className='text-xl'>Contact <span className='text-red-600'>Us</span></h3>
+            <div className='w-36 h-1 bg-red-600'></div>
             <p className='flex items-center gap-2'> <FaMapMarkerAlt /  >Address : 18 BOON LAY WAY ,TRADEHUB 21
             , <br />SINGAPORE (609966) </p>
             <p className='text-xl
-            '>Call : <span className='text-[#37B126]'>+65 8165 0541</span></p>
-            <a href="http://wa.me/6581650541" target='blank' rel='noopener noreferrer' className="flex items-center gap-1 text-xl hover:underline"><FaWhatsapp /> <span className='text-[#37B126]'>+65 8165 0541</span></a> 
+            '>Call : <span className=''>+65 8165 0541</span></p>
+            <a href="http://wa.me/6581650541" target='blank' rel='noopener noreferrer' className="flex items-center gap-1 text-xl hover:underline"><FaWhatsapp /> <span className=''>+65 8165 0541</span></a> 
             <a
           href="mailto:homerepairsng@gmail.com"
           className=" hover:underline flex items-center gap-2 text-xl"
         ><MdEmail />
-          <span className='text-[#37B126]'>homerepairsng@gmail.com</span>
+          <span className=''>homerepairsng@gmail.com</span>
         </a>
         </div>
     </div>

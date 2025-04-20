@@ -19,7 +19,7 @@ const AccordionItem = ({ title, children, isOpen, onClick }) => (
 const basePackages = [
   {
     title: "Budget Package",
-    img: "/images/matex.png",
+    img: "/images/Matex.webp",
     description: (
       <>
         <strong>NIPPON MATEX WHITE.</strong> Our most Budget-Friendly package.
@@ -29,7 +29,7 @@ const basePackages = [
   },
   {
     title: "Value Package",
-    img: "/images/vinilex.png",
+    img: "/images/vinilex.webp",
     description: (
       <>
         <strong>NIPPON VINILEX 5000.</strong> Next in line for our economical
@@ -39,7 +39,7 @@ const basePackages = [
   },
   {
     title: "Premium Package",
-    img: "/images/odourless.png",
+    img: "/images/odorless.webp",
     description: (
       <>
         <strong>ODOURLESS ALL IN ONE.</strong> Close to 0% smell, increased
@@ -50,7 +50,7 @@ const basePackages = [
   },
   {
     title: "Luxury Package",
-    img: "/images/easywash.png",
+    img: "/images/odoreasy.webp",
     description: (
       <>
         <strong>ODOURLESS EASY WASH.</strong> Intended for home-owners who want

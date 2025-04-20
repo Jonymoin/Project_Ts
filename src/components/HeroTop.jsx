@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 
 const HeroTop = () => {
   return (
-    <div className='bg-[#48b2d7] flex flex-col'  style={{
+    <div className='bg-red-500 flex flex-col'  style={{
         width: '100%',
         
         backgroundImage: "url('/images/bg14.png')",

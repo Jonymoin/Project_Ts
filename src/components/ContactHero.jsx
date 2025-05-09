@@ -20,7 +20,7 @@ const ContactHero = () => {
         <p className="text-lg md:text-2xl text-black text-center">
           One call can fix it all. Quick appointments available!
         </p>
-          <img src="/images/washing-icon.png"  alt="washing machine service logo" className='w-32 rounded-xl'  />
+          <img src="/images/logo101.jpg"  alt="washing machine service logo" className='w-32 rounded-xl'  />
         <div className="flex flex-col md:flex-row items-center gap-10 md:ml-14 mt-8">
           
           {/* WhatsApp */}

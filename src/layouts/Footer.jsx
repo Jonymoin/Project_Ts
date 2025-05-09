@@ -33,7 +33,7 @@ const Footer = () => {
         <h3 className='text-[28px] font-semibold font-roboto'>LEO <span className='text-red-600'>ENGINEERING</span> PTE. LTD.</h3>
 
         <img
-  src={isWashingMachinePage ? "/images/washing-icon0.png" : "/images/logo.png"}
+  src={isWashingMachinePage ? "/images/logo101.jpg" : "/images/logo.png"}
   alt="repair service singapore"
   className="w-24"
 />

@@ -43,7 +43,7 @@ const Header = () => {
       <img
         src={
           location.pathname === "/washing-machine"
-            ? "/images/washing-icon.png"
+            ? "/images/logo101.jpg"
             : "/images/logo1.png"
         }
         alt="Logo"

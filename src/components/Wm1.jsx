@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion"; // Motion ঠিক আছে
 
-const WashHero1 = () => {
+const Wm1 = () => {
   return (
     <div className="h-[90vh] bg-cover bg-center relative" style={{ backgroundImage: "url('/images/wash0.jpg')" }}>
       <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center text-white">
@@ -12,4 +12,4 @@ const WashHero1 = () => {
   );
 };
 
-export default WashHero1;
+export default Wm1;

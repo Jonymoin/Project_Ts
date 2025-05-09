@@ -19,6 +19,8 @@ import Accordion from './components/Accordion'
 import Service from './components/Service'
 import Difference from './components/Difference'
 import OurProcess from './components/OurProcess'
+import WashingMachine from './components/WashingMachine';
+
 
 
 const App = () => {
@@ -48,6 +50,7 @@ const App = () => {
         }/>
         
         <Route path='/about' element={<AboutUs />} />
+        <Route path='/washing-machine' element={<WashingMachine />} />
         <Route path='/privacypolicy' element={<PrivacyPolicy />} />
         <Route path='/terms&conditions' element={<TermsnCon />} />
         

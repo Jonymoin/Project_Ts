@@ -27,15 +27,31 @@ const Header = () => {
 
       {/* Header */}
       <div
-      className="w-full h-[100px] bg-cover bg-center flex items-center justify-around"
-      style={{ backgroundImage: "url('/images/headerbg.jpg')" }}
-    >
-       <Link to="/">
-       <div className='flex'>
-       <img src="/images/logo1.png" alt="painting in singapore" className='w-20' />
-       <h2 className="text-2xl font-bold"></h2>
-       </div>
-       </Link>
+  className={`w-full h-[100px] bg-cover bg-center flex items-center justify-around ${
+    location.pathname === "/washing-machine" ? "" : "bg-cover bg-center"
+  }`}
+  style={
+    location.pathname === "/washing-machine"
+      ? { backgroundColor: "#3A59D1" } // dark slate color or any you want
+      : { backgroundImage: "url('/images/headerbg.jpg')" }
+  }
+>
+
+
+  <Link to="/">
+    <div className="flex">
+      <img
+        src={
+          location.pathname === "/washing-machine"
+            ? "/images/washing-icon.png"
+            : "/images/logo1.png"
+        }
+        alt="Logo"
+        className="w-20 rounded-xl"
+      />
+    </div>
+  </Link>
+
 
         {/* Large screen menu */}
         
@@ -61,6 +77,14 @@ const Header = () => {
             }`}
           >
             About Us
+          </Link>
+          <Link
+            to="/washing-machine"
+            className={`text-lg uppercase font-semibold py-10 px-2 z-50 hover:bg-black ${
+              location.pathname === "/washing-machine" ? "text-red-600" : "text-white"
+            }`}
+          >
+            Washing Machine
           </Link>
 
           {/* Dropdown for Services on Large Screen */}
@@ -93,6 +117,11 @@ const Header = () => {
             <li className="mb-4">
               <Link to="/" className="text-lg font-semibold" onClick={() => setMenuOpen(false)}>
                 Home
+              </Link>
+            </li>
+            <li className="mb-4">
+              <Link to="/washing-machine" className="text-lg font-semibold" onClick={() => setMenuOpen(false)}>
+                Washing Machine
               </Link>
             </li>
             <li className="mb-4">

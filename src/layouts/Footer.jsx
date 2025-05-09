@@ -6,11 +6,20 @@ import { TbArrowBigRightLinesFilled } from "react-icons/tb";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 import { MdEmail } from "react-icons/md";
+import { useLocation } from 'react-router-dom';
+
 
 
 
 const Footer = () => {
-    
+  const location = useLocation();
+
+  // 👉 Logic: Declare variables BEFORE return
+  const isWashingMachinePage = location.pathname === '/washing-machine';
+
+  const phoneNumber = isWashingMachinePage ? '+65 8466 1400' : '+65 8165 0541';
+  const whatsappNumber = isWashingMachinePage ? '+65 8466 1400' : '+65 8165 0541';
+  const whatsappLink = isWashingMachinePage ? 'https://wa.me/6584661400' : 'https://wa.me/6581650541';
   return (
    <>
     <div className='flex flex-col md:flex-row md:justify-around bg-gray-800 text-white pt-10 items-center gap-10 md:gap-0 w-full relative'>
@@ -23,7 +32,11 @@ const Footer = () => {
         <div className='logo flex flex-col items-center gap-3'>
         <h3 className='text-[28px] font-semibold font-roboto'>LEO <span className='text-red-600'>ENGINEERING</span> PTE. LTD.</h3>
 
-        <img src="/images/logo.png" alt="repair service singapore" className='w-14'/>
+        <img
+  src={isWashingMachinePage ? "/images/washing-icon0.png" : "/images/logo.png"}
+  alt="repair service singapore"
+  className="w-24"
+/>
         <p>18 BOON LAY WAY <br />
             TRADEHUB 21 <br />
             SINGAPORE (609966)</p>
@@ -53,8 +66,8 @@ const Footer = () => {
             <p className='flex items-center gap-2'> <FaMapMarkerAlt /  >Address : 18 BOON LAY WAY ,TRADEHUB 21
             , <br />SINGAPORE (609966) </p>
             <p className='text-xl
-            '>Call : <span className=''>+65 8165 0541</span></p>
-            <a href="http://wa.me/6581650541" target='blank' rel='noopener noreferrer' className="flex items-center gap-1 text-xl hover:underline"><FaWhatsapp /> <span className=''>+65 8165 0541</span></a> 
+            '>Call : <span className=''>{phoneNumber}</span></p>
+            <a href="{whatsappLink}" target='blank' rel='noopener noreferrer' className="flex items-center gap-1 text-xl hover:underline"><FaWhatsapp /> <span className=''>{whatsappNumber}</span></a> 
             <a
           href="mailto:homerepairsng@gmail.com"
           className=" hover:underline flex items-center gap-2 text-xl"

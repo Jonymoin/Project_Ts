@@ -127,11 +127,17 @@ const ReviewComponent = () => {
             key={i}
             className="flex items-start space-x-3 border p-3 rounded shadow-sm"
           >
-            <img
-              src={r.photo || "https://via.placeholder.com/50"}
-              alt={r.name}
-              className="w-20 h-16 rounded-lg object-cover"
-            />
+            {r.photo ? (
+  <img
+    src={r.photo}
+    alt={r.name}
+    className="w-16 h-16 rounded-full object-cover"
+  />
+) : (
+  <div className="w-16 h-16 rounded-full bg-gray-300 flex items-center justify-center text-xl font-bold text-white">
+    {r.name.charAt(0).toUpperCase()}
+  </div>
+)}
             <div>
               <p className="font-semibold">{r.name}</p>
               <StarRating rating={r.rating} onSelect={() => {}} />

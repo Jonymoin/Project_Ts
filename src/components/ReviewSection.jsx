@@ -130,7 +130,7 @@ const ReviewComponent = () => {
             <img
               src={r.photo || "https://via.placeholder.com/50"}
               alt={r.name}
-              className="w-22 h-19 rounded-full object-cover"
+              className="w-20 h-16 rounded-lg object-cover"
             />
             <div>
               <p className="font-semibold">{r.name}</p>

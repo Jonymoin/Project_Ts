@@ -15,7 +15,7 @@ const WashingMachine = () => {
       <Helmet>
         <title>Washing Machine Repair</title>
         <link rel="icon" href="/washing-icon1.png" />
-        <!-- Google tag (gtag.js) -->
+       
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17068345803">
 </script>
 <script>

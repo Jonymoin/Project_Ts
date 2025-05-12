@@ -14,7 +14,7 @@ import ScrollToTop from './ScroolToTop'
 import PrivacyPolicy from './components/PrivacyPolicy'
 import TermsnCon from './components/TermsnCon'
 import HeaderTop from './layouts/HeaderTop'
-import ReviewSection from './components/ReviewSection'
+
 import Accordion from './components/Accordion'
 import Service from './components/Service'
 import Difference from './components/Difference'
@@ -43,7 +43,7 @@ const App = () => {
       <Accordion />
       <OurProcess />
       <Hero4 />
-      <ReviewSection />
+      
       <ContactUs />
      
           </>

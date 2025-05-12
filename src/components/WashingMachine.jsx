@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet";
 import WhyChooseUs from "./WhyChooseUs";
 import ContactHero from "./ContactHero";
 import OurServices from "./Oursevices";
-import ReviewSection from "./ReviewSection";
+
 import WashingMachineWorkGallery from "./WashingMachineWorkGallery ";
 import Wm1 from "./Wm1";
 
@@ -34,7 +34,7 @@ const WashingMachine = () => {
       <WhyChooseUs />
       <OurServices />
       <WashingMachineWorkGallery />
-      <ReviewSection />
+      
     </>
   );
 };

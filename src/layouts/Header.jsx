@@ -4,15 +4,32 @@ import { HiMenuAlt3 } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
 
 
+
+
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const location = useLocation();
+   const location = useLocation();
  
 
   const handleOutsideClick = () => {
     setMenuOpen(false);
     setDropdownOpen(false);
+  };
+  
+const getLogoSrc = () => {
+    switch (location.pathname) {
+      case "/":
+        return "/images/logo5.jpg";
+      case "/painting":
+        return "/images/logo1.png";
+      case "/washing-machine":
+        return "/images/logo6.jpg";
+      case "/false-ceiling":
+        return "/images/logo1.png";
+      default:
+        return "/images/logo1.png"; // fallback logo
+    }
   };
 
   return (   
@@ -31,26 +48,22 @@ const Header = () => {
     location.pathname === "/washing-machine" ? "" : "bg-cover bg-center"
   }`}
   style={
-    location.pathname === "/washing-machine"
-      ? { backgroundColor: "#3A59D1" } // dark slate color or any you want
-      : { backgroundImage: "url('/images/headerbg.jpg')" }
+    location.pathname === "/painting"
+      ? { backgroundImage: "url('/images/headerbg.jpg')" } // dark slate color or any you want
+      :{ backgroundColor: "#3A59D1" } 
   }
 >
 
 
-  <Link to="/">
-    <div className="flex">
-      <img
-        src={
-          location.pathname === "/washing-machine"
-            ? "/images/logo101.jpg"
-            : "/images/logo1.png"
-        }
-        alt="Logo"
-        className="w-20 rounded-xl"
-      />
-    </div>
-  </Link>
+ <Link to="/">
+      <div className="flex">
+        <img
+          src={getLogoSrc()}
+          alt="Logo"
+          className="w-20 rounded-xl"
+        />
+      </div>
+    </Link>
 
 
         {/* Large screen menu */}
@@ -85,6 +98,14 @@ const Header = () => {
             }`}
           >
             Washing Machine
+          </Link>
+          <Link
+            to="/painting"
+            className={`text-lg uppercase font-semibold py-10 px-2 z-50 hover:bg-black ${
+              location.pathname === "/painting" ? "text-red-600" : "text-white"
+            }`}
+          >
+            Painting
           </Link>
 
           {/* Dropdown for Services on Large Screen */}
@@ -122,6 +143,11 @@ const Header = () => {
             <li className="mb-4">
               <Link to="/washing-machine" className="text-lg font-semibold" onClick={() => setMenuOpen(false)}>
                 Washing Machine
+              </Link>
+            </li>
+            <li className="mb-4">
+              <Link to="/painting" className="text-lg font-semibold" onClick={() => setMenuOpen(false)}>
+                Painting
               </Link>
             </li>
             <li className="mb-4">

@@ -17,9 +17,9 @@ const Footer = () => {
   // 👉 Logic: Declare variables BEFORE return
   const isWashingMachinePage = location.pathname === '/washing-machine';
 
-  const phoneNumber = isWashingMachinePage ? '+65 8165 0541' : '+65 8165 0541';
-  const whatsappNumber = isWashingMachinePage ? '+65 8165 0541' : '+65 8165 0541';
-  const whatsappLink = isWashingMachinePage ? 'https://wa.me/6581650541' : 'https://wa.me/6581650541';
+  const phoneNumber = isWashingMachinePage ? '+65 8466 1400' : '+65 8165 0541';
+  const whatsappNumber = isWashingMachinePage ? '+65 8466 1400' : '+65 8165 0541';
+  const whatsappLink = isWashingMachinePage ? 'https://wa.me/6584661400' : 'https://wa.me/6581650541';
   const getLogoSrc = () => {
     switch (location.pathname) {
       case "/":
@@ -44,16 +44,15 @@ const Footer = () => {
     loading="lazy" 
   />
         <div className='logo flex flex-col items-center gap-3'>
-        <h3 className='text-[28px] font-semibold font-roboto'>HOMEREPAIR<span className='text-red-600'> SG</span></h3>
+        <h3 className='text-[28px] font-semibold font-roboto'>SARIMON <span className='text-red-600'>ENGINEERING</span> PTE. LTD</h3>
 
         <img
       src={getLogoSrc()}
       alt="repair service singapore"
       className="w-24"
     />
-        <p>18 BOON LAY WAY <br />
-            TRADEHUB 21 <br />
-            SINGAPORE (609966)</p>
+                 <p>362A CHANGI ROAD <br />  KENG YEE GARDEN <br />SINGAPORE (419823)     </p>
+
         </div>
         <div>
         <p className='text-2xl text-center tracking-[10px]'>Quick <span className='text-red-600'>Links</span></p>
@@ -77,8 +76,8 @@ const Footer = () => {
         <div className='contact space-y-5'>
             <h3 className='text-xl'>Contact <span className='text-red-600'>Us</span></h3>
             <div className='w-36 h-1 bg-red-600'></div>
-            <p className='flex items-center gap-2'> <FaMapMarkerAlt /  >Address : 18 BOON LAY WAY ,TRADEHUB 21
-            , <br />SINGAPORE (609966) </p>
+            <p className='flex items-center gap-2'> <FaMapMarkerAlt /  >362A CHANGI ROAD <br />  KENG YEE GARDEN <br />SINGAPORE (419823)    
+ </p>
             <p className='text-xl
             '>Call : <span className=''>{phoneNumber}</span></p>
             <a href={whatsappLink} target='blank' rel='noopener noreferrer' className="flex items-center gap-1 text-xl hover:underline"> <FaWhatsapp /> <span className=''>{whatsappNumber}</span></a> 

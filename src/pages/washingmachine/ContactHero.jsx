@@ -25,13 +25,13 @@ const ContactHero = () => {
           
           {/* WhatsApp */}
           <a 
-            href="http://wa.me/6584661400" 
+            href="http://wa.me/6581650541" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center gap-3 bg-black text-white hover:bg-green-600 px-6 py-3 rounded-full text-xl transition"
           >
             <FaWhatsapp className="text-2xl" />
-            +65 8466 1400
+            +65 8165 0541
           </a>
 
           {/* Middle Image */}

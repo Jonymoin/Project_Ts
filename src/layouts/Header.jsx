@@ -50,7 +50,7 @@ const getLogoSrc = () => {
   style={
     location.pathname === "/painting"
       ? { backgroundImage: "url('/images/headerbg.jpg')" } // dark slate color or any you want
-      :{ backgroundColor: "#3A59D1" } 
+      :{ backgroundColor: "#e53935" } 
   }
 >
 
@@ -69,40 +69,35 @@ const getLogoSrc = () => {
         {/* Large screen menu */}
         
         <div className="hidden lg:flex gap-8">
-        <img 
-    src="/images/header.png" 
-    alt="Professional painting service" 
-    loading="lazy" 
-    className="w-[120px] object-cover z-0"
-  />
+        
         <Link
             to="/"
-            className={`text-lg uppercase font-semibold py-10 px-2 z-50 hover:bg-black ${
-              location.pathname === "/" ? "text-red-600" : "text-white"
+            className={`text-lg uppercase font-semibold py-10 px-2 z-50 hover:bg-blue-500 ${
+              location.pathname === "/" ? "text-black" : "text-white"
             }`}
           >
             Home
           </Link>
           <Link
             to="/about"
-            className={`text-lg uppercase font-semibold py-10 px-2 z-50 hover:bg-black ${
-              location.pathname === "/about" ? "text-red-600" : "text-white"
+            className={`text-lg uppercase font-semibold py-10 px-2 z-50 hover:bg-blue-500 ${
+              location.pathname === "/about" ? "text-black" : "text-white"
             }`}
           >
             About Us
           </Link>
           <Link
             to="/washing-machine"
-            className={`text-lg uppercase font-semibold py-10 px-2 z-50 hover:bg-black ${
-              location.pathname === "/washing-machine" ? "text-red-600" : "text-white"
+            className={`text-lg uppercase font-semibold py-10 px-2 z-50 hover:bg-blue-500 ${
+              location.pathname === "/washing-machine" ? "text-black" : "text-white"
             }`}
           >
             Washing Machine
           </Link>
           <Link
             to="/painting"
-            className={`text-lg uppercase font-semibold py-10 px-2 z-50 hover:bg-black ${
-              location.pathname === "/painting" ? "text-red-600" : "text-white"
+            className={`text-lg uppercase font-semibold py-10 px-2 z-50 hover:bg-blue-500 ${
+              location.pathname === "/painting" ? "text-black" : "text-white"
             }`}
           >
             Painting

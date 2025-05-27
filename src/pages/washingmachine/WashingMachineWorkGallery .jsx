@@ -9,6 +9,13 @@ const images = [
   'images/wash6.jpg',
   'images/wash7.jpg',
   'images/wash8.jpg',
+  'images/wash9.jpg',
+  'images/wash10.jpg',
+  'images/wash11.jpg',
+  'images/wash12.jpg',
+  'images/wash13.jpg',
+  'images/wash14.jpg',
+  
 ];
 
 const WashingMachineWorkGallery = () => {

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './layouts/Header'
 import Footer from './layouts/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
+import CallButton from './components/CallButton'
 import AboutUs from './components/AboutUs'
 import HeroLinks from './components/HeroLinks'
 import ScrollToTop from './ScroolToTop'
@@ -41,7 +42,7 @@ const App = () => {
         
       </Routes>
       <Footer />
-
+      <CallButton />
       <WhatsAppButton />
     </Router>
   )

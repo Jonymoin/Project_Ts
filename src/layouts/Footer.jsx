@@ -27,7 +27,7 @@ const Footer = () => {
       case "/painting":
         return "/images/logo1.png";
       case "/washing-machine":
-        return "/images/logo-101.jpg";
+        return "/images/logo6.jpg";
       case "/false-ceiling":
         return "/images/logo1.png";
       default:

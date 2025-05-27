@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 
 const ContactHero = () => {
   return (
-    <div className='bg-[#3A59D1] flex flex-col'  style={{
+    <div className='bg-red-600 flex flex-col'  style={{
         width: '100%',
         
         backgroundImage: "url('/images/bg14.png')",
@@ -20,7 +20,7 @@ const ContactHero = () => {
         <p className="text-lg md:text-2xl text-black text-center">
           One call can fix it all. Quick appointments available!
         </p>
-          <img src="/images/logo101.jpg"  alt="washing machine service logo" className='w-32 rounded-xl'  />
+          <img src="/images/logo6.jpg"  alt="washing machine service logo" className='w-32 rounded-xl'  />
         <div className="flex flex-col md:flex-row items-center gap-10 md:ml-14 mt-8">
           
           {/* WhatsApp */}
@@ -28,7 +28,7 @@ const ContactHero = () => {
             href="http://wa.me/6584661400" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="flex items-center gap-3 bg-green-500 hover:bg-green-600 px-6 py-3 rounded-full text-xl transition"
+            className="flex items-center gap-3 bg-black text-white hover:bg-green-600 px-6 py-3 rounded-full text-xl transition"
           >
             <FaWhatsapp className="text-2xl" />
             +65 8466 1400
@@ -40,7 +40,7 @@ const ContactHero = () => {
           {/* Email */}
           <a 
             href="mailto:homerepairsng@gmail.com" 
-            className="flex items-center gap-3 bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-full text-xl transition"
+            className="flex items-center gap-3 bg-black text-white hover:bg-blue-600 px-6 py-3 rounded-full text-xl transition"
           >
             <MdEmail className="text-2xl" />
             homerepairsng@gmail.com

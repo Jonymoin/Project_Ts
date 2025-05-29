@@ -1,49 +1,81 @@
-import React from 'react'
+import React from 'react';
+import { motion } from 'framer-motion';
 
 const AboutUs = () => {
   return (
-    <main className='bg-gradient-to-r  from-lime-600 to-gray-400 text-white flex flex-col'>
-      <div className='h-[400px] bg-cover flex items-center justify-center' style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('/images/wm3.jpg')`,
-      }}>
-            <h3 className='text-center text-4xl '> SARIMON ENGINEERING PTE. LTD</h3>
+    <motion.section
+      className="min-h-screen px-6 py-12 bg-gradient-to-br from-sky-50 to-blue-100"
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+    >
+      <div className="max-w-5xl mx-auto text-center mb-10">
+        <h1 className="text-4xl font-bold text-blue-800 mb-2">
+          About Us
+        </h1>
+        <p className="text-lg text-gray-700">
+          Learn more about <strong>SARIMON ENGINEERING PTE. LTD.</strong>, our mission, and corporate details.
+        </p>
       </div>
-        <div className='w-[90%] mx-auto space-y-4'>
-        <h3 className='text-center text-4xl p-4'>SARIMON ENGINEERING PTE. LTD.</h3>
-        <p>Registration No. / Unique Entity Number: 202404071H <small> issued by Accounting And Corporate Regulatory Authority</small></p>
-         <hr />
-        <p>
-        SARIMON ENGINEERING PTE. LTD. (the "Company") is a Exempt Private Company Limited by Shares, incorporated in Singapore . The address of the Company's registered office is at the TRADEHUB 21 building. The Company current operating status is live. This Company's principal activity is renovation contractors.
-         </p>
-         <hr />
 
-         <h3>Corporate Profile of SARIMON ENGINEERING PTE. LTD.</h3>
-         <p>UEN</p>
-         <p>202231424N</p>
-          <hr />
-         <p>Company Name</p>
-         <p>SARIMON ENGINEERING PTE. LTD.</p>
-         <hr />
-         <p>Operating Status         </p>
-         <p>Live Company as on 5 September 2022 (Monday)</p>
-         <hr />
-         <p>Registration Type</p>
-         <p>EXEMPT PRIVATE COMPANY LIMITED BY SHARES</p>
-         <hr />
-         <h4>Contact Information         </h4>
-         <p>Registered Address         </p>
-         <p>362A CHANGI ROAD <br />  KENG YEE GARDEN <br />SINGAPORE (419823)     </p>
-          <hr />
-          <h4>Company Industry <br />Singapore Standard Industrial Classification (SSIC)</h4>
-          <p></p>
-          <p>Principal Activity SSIC Code  <br />43210        </p>
-          <p></p>
-          <p>Principal Activity  <br />ELECTRICAL WORK        </p>
-          <p></p>
-        </div>
+      <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        {/* Overview */}
+        <motion.div
+          className="bg-white shadow-lg rounded-2xl p-6"
+          whileHover={{ scale: 1.02 }}
+        >
+          <h2 className="text-2xl font-semibold text-blue-700 mb-4">Company Overview</h2>
+          <p className="text-gray-700 leading-relaxed">
+            <strong>SARIMON ENGINEERING PTE. LTD.</strong> is an Exempt Private Company Limited by Shares, incorporated in Singapore.
+            The company is currently <span className="text-green-600 font-semibold">Live</span> and operates primarily as a renovation contractor. 
+            Our registered office is located at the <strong>TRADEHUB 21</strong> building.
+          </p>
+        </motion.div>
 
-    </main>
-  )
-}
+        {/* Corporate Profile */}
+        <motion.div
+          className="bg-white shadow-lg rounded-2xl p-6"
+          whileHover={{ scale: 1.02 }}
+        >
+          <h2 className="text-2xl font-semibold text-blue-700 mb-4">Corporate Profile</h2>
+          <ul className="text-gray-700 space-y-2">
+            <li><strong>UEN:</strong> 202404071H</li>
+            <li><strong>Company Name:</strong> SARIMON ENGINEERING PTE. LTD.</li>
+            <li><strong>Status:</strong> Live Company</li>
+            <li><strong>Registration Type:</strong> Exempt Private Company Limited by Shares</li>
+            <li><strong>Incorporated On:</strong> 5 September 2022</li>
+          </ul>
+        </motion.div>
 
-export default AboutUs
+        {/* Contact Info */}
+        <motion.div
+          className="bg-white shadow-lg rounded-2xl p-6"
+          whileHover={{ scale: 1.02 }}
+        >
+          <h2 className="text-2xl font-semibold text-blue-700 mb-4">Contact Information</h2>
+          <p className="text-gray-700">
+            <strong>Registered Address:</strong><br />
+            362A Changi Road,<br />
+            Keng Yee Garden,<br />
+            Singapore 419823
+          </p>
+        </motion.div>
+
+        {/* Industry Info */}
+        <motion.div
+          className="bg-white shadow-lg rounded-2xl p-6"
+          whileHover={{ scale: 1.02 }}
+        >
+          <h2 className="text-2xl font-semibold text-blue-700 mb-4">Industry Classification</h2>
+          <ul className="text-gray-700 space-y-2">
+            <li><strong>SSIC Code:</strong> 43210</li>
+            <li><strong>Principal Activity:</strong> Electrical Work</li>
+            <li><strong>Industry:</strong> Renovation Contractors</li>
+          </ul>
+        </motion.div>
+      </div>
+    </motion.section>
+  );
+};
+
+export default AboutUs;

@@ -28,12 +28,12 @@ const getLogoSrc = () => {
       case "/false-ceiling":
         return "/images/logo1.png";
       default:
-        return "/images/logo1.png"; // fallback logo
+        return "/images/logo5.jpg"; // fallback logo
     }
   };
 
   return (   
-    <div className="relative">
+    <div className="relative pt-[50px]">
       {/* Overlay to close the menu */}
       {menuOpen && (
         <div
@@ -50,7 +50,7 @@ const getLogoSrc = () => {
   style={
     location.pathname === "/painting"
       ? { backgroundImage: "url('/images/headerbg.jpg')" } // dark slate color or any you want
-      :{ backgroundColor: "#e53935" } 
+      :{ backgroundColor: "#d00000" } 
   }
 >
 

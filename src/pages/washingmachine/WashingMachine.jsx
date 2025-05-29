@@ -5,6 +5,8 @@ import OurServices from "./Oursevices";
 
 import WashingMachineWorkGallery from "./WashingMachineWorkGallery ";
 import Wm1 from "./Wm1";
+import Experience from "./Experience";
+import ReviewSection from "./ReviewCard";
 
 const WashingMachine = () => {
   return (
@@ -30,9 +32,11 @@ const WashingMachine = () => {
 
       {/* Rest of your page content */}
       <Wm1 />
+      <Experience />
       <ContactHero />
       <WhyChooseUs />
       <OurServices />
+      <ReviewSection />
       <WashingMachineWorkGallery />
       
     </>

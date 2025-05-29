@@ -16,8 +16,8 @@ const HeaderTop = () => {
       : 'https://wa.me/6581650541';
 
   return (
-    <nav className="flex bg-black text-[#48b2d7] mx-auto md:justify-between gap-4 py-3">
-      <p className="text-xl font-semibold">Need any Help?</p>
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-black text-[#48b2d7] flex mx-auto md:justify-between gap-4 py-3 px-4 shadow-md">
+      <p className="text-xl font-semibold">Call Us Now</p>
       <div className="flex text-base md:text-2xl items-center hover:scale-110 transition-all duration-300 font-semibold">
         <div>
           <FaWhatsapp />

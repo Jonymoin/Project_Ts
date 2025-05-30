@@ -33,7 +33,7 @@ const Footer = () => {
   const location = useLocation();
 
   // 👉 Logic: Declare variables BEFORE return
-  const isWashingMachinePage = location.pathname === '/washing-machine';
+  const isWashingMachinePage = location.pathname === '/service/washing-machine';
 
   const phoneNumber = isWashingMachinePage ? '+65 8466 1400' : '+65 8165 0541';
   const whatsappNumber = isWashingMachinePage ? '+65 8466 1400' : '+65 8165 0541';

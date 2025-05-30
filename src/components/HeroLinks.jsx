@@ -10,7 +10,7 @@ const HeroLinks = () => {
         whileTap={{ scale: 0.95 }}
         className="bg-blue-100 hover:bg-blue-200 rounded-2xl p-6 w-64 shadow-lg cursor-pointer transition"
       >
-        <Link to="/washing-machine" className="flex items-center gap-4 text-xl font-semibold text-blue-700">
+        <Link to="/service/washing-machine" className="flex items-center gap-4 text-xl font-semibold text-blue-700">
           <Wrench size={32} />
           Washing Machine Repair
         </Link>
@@ -21,7 +21,7 @@ const HeroLinks = () => {
         whileTap={{ scale: 0.95 }}
         className="bg-yellow-100 hover:bg-yellow-200 rounded-2xl p-6 w-64 shadow-lg cursor-pointer transition"
       >
-        <Link to="/painting" className="flex items-center gap-4 text-xl font-semibold text-yellow-800">
+        <Link to="/service/painting" className="flex items-center gap-4 text-xl font-semibold text-yellow-800">
           <Paintbrush size={32} />
           Painting Service
         </Link>

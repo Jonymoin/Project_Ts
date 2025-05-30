@@ -12,6 +12,24 @@ import { useLocation } from 'react-router-dom';
 
 
 const Footer = () => {
+    const services = [
+       { id: 1, name: "Washing Machine", slug: "washing-machine"},
+       { id: 2, name: "Dishwasher Repair", slug: "dishwasher-repair"},
+       { id: 3, name: "CC TV Installation", slug: "cctv-installation"},
+       { id: 4, name: "Install Your TV", slug: "tv-installation"},
+       { id: 5, name: "Plumbing Service", slug: "plumbing-service"},
+       { id: 6, name: "Air-Conditioning Service", slug: "air-conditioning-service" },
+       { id: 7, name: "Painting", slug: "painting" },
+       { id: 8, name: "Intercom Issues", slug: "intercom-system-service" },
+       { id: 9, name: "Carpenter", slug: "carpentry-service" },
+       { id: 10, name: "Electrical Service", slug: "electrical-service" },
+       { id: 11, name: "Water Choke Troubleshoot", slug: "water-troubleshooting" },
+       { id: 12, name: "Mover Service", slug: "mover-service" },
+       { id: 13, name: " Door Lock", slug: "door-lock" },
+       { id: 14, name: "Kitchen Exhaust Fan", slug: "kitchen-exhaust-fan" },
+       { id: 15, name: "All Kinds of Ducting Work", slug: "ducting-work" },
+       { id: 16, name: " Window Repair", slug: "Window-repair" }
+     ];
   const location = useLocation();
 
   // 👉 Logic: Declare variables BEFORE return
@@ -24,9 +42,9 @@ const Footer = () => {
     switch (location.pathname) {
       case "/":
         return "/images/logo5.jpg";
-      case "/painting":
+      case "/service/painting":
         return "/images/logo1.png";
-      case "/washing-machine":
+      case "/service/washing-machine":
         return "/images/logo6.jpg";
       case "/false-ceiling":
         return "/images/logo1.png";
@@ -72,7 +90,21 @@ const Footer = () => {
           </li>
           </ul>
         </div>
-        
+        <div className='service'>
+            <p className='text-2xl text-center '>Our <span className='text-red-600'>Services</span></p>
+            
+            <div className='w-36 h-1 bg-red-600 ml-36'></div>
+            <ul className='grid grid-cols-2 gap-3'>
+            {services.map((service) => (
+                <li key={service.id} className="py-2 px-4 hover:bg-red-600">
+                  <Link to={`/service/${service.slug}`}>
+                    {service.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+       
+        </div>
         <div className='contact space-y-5'>
             <h3 className='text-xl'>Contact <span className='text-red-600'>Us</span></h3>
             <div className='w-36 h-1 bg-red-600'></div>

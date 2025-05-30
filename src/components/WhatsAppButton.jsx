@@ -5,7 +5,7 @@ const WhatsAppButton = () => {
   const location = useLocation();
 
   // Fix: use correct path name
-  const isWashingPage = location.pathname === '/washing-machine';
+  const isWashingPage = location.pathname === '/service/washing-machine';
   const whatsappNumber = isWashingPage ? '6584661400' : '6581650541';
 
   return (

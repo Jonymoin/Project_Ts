@@ -2,20 +2,20 @@ import { div } from 'framer-motion/client';
 import React from 'react';
 
 const images = [
-  'images/wash1.jpg',
-  'images/wash2.jpg',
-  'images/wash3.jpg',
-  'images/wash4.jpg',
-  'images/wash5.jpg',
-  'images/wash6.jpg',
-  'images/wash7.jpg',
-  'images/wash8.jpg',
-  'images/wash9.jpg',
-  'images/wash10.jpg',
-  'images/wash11.jpg',
-  'images/wash12.jpg',
-  'images/wash13.jpg',
-  'images/wash14.jpg',
+  
+  '/images/wash2.jpg',
+  '/images/wash3.jpg',
+  '/images/wash4.jpg',
+  '/images/wash5.jpg',
+  '/images/wash6.jpg',
+  '/images/wash7.jpg',
+  '/images/wash8.jpg',
+  '/images/wash9.jpg',
+  '/images/wash10.jpg',
+  '/images/wash11.jpg',
+  '/images/wash12.jpg',
+  '/images/wash13.jpg',
+  '/images/wash14.jpg',
   
 ];
 

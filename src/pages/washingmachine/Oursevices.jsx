@@ -6,7 +6,7 @@ const OurServices = () => {
     <div className="bg-gray-100 py-20 px-5">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-10">
-          Our Services
+           Services We Cover
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
           

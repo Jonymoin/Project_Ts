@@ -7,6 +7,9 @@ import WashingMachineWorkGallery from "./WashingMachineWorkGallery ";
 import Wm1 from "./Wm1";
 import Experience from "./Experience";
 import ReviewSection from "./ReviewCard";
+import WashingMachineCleaning from "./WashingMachineCleaning";
+import Hero3 from "./Hero3";
+import ContactUs from "../../components/ContactUs";
 
 const WashingMachine = () => {
   return (
@@ -34,8 +37,11 @@ const WashingMachine = () => {
       <Wm1 />
       <Experience />
       <ContactHero />
+      <WashingMachineCleaning />
+      <Hero3 />
       <WhyChooseUs />
       <OurServices />
+      <ContactUs />
       <ReviewSection />
       <WashingMachineWorkGallery />
       

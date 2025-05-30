@@ -9,7 +9,7 @@ import Difference from './Difference'
 import Accordion from './Accordion'
 import OurProcess from './OurProcess'
 import Hero4 from './Hero4'
-import ContactUs from './ContactUs'
+import ContactUs from '../../components/ContactUs'
 import Landing from './Landing'
 
 

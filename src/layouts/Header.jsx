@@ -21,11 +21,11 @@ const getLogoSrc = () => {
     switch (location.pathname) {
       case "/":
         return "/images/logo5.jpg";
-      case "/painting":
+      case "/service/painting":
         return "/images/logo1.png";
-      case "/washing-machine":
+      case "/service/washing-machine":
         return "/images/logo6.jpg";
-      case "/false-ceiling":
+      case "/service/false-ceiling":
         return "/images/logo1.png";
       default:
         return "/images/logo5.jpg"; // fallback logo
@@ -45,12 +45,12 @@ const getLogoSrc = () => {
       {/* Header */}
       <div
   className={`w-full h-[100px] bg-cover bg-center flex items-center justify-around ${
-    location.pathname === "/washing-machine" ? "" : "bg-cover bg-center"
+    location.pathname === "/service/washing-machine" ? "" : "bg-cover bg-center"
   }`}
   style={
-    location.pathname === "/painting"
+    location.pathname === "/service/painting"
       ? { backgroundImage: "url('/images/headerbg.jpg')" } // dark slate color or any you want
-      :{ backgroundColor: "#d00000" } 
+      :{ backgroundColor: "#51BD41" } 
   }
 >
 
@@ -87,17 +87,17 @@ const getLogoSrc = () => {
             About Us
           </Link>
           <Link
-            to="/washing-machine"
+            to="/service/washing-machine"
             className={`text-lg uppercase font-semibold py-10 px-2 z-50 hover:bg-blue-500 ${
-              location.pathname === "/washing-machine" ? "text-black" : "text-white"
+              location.pathname === "/service/washing-machine" ? "text-black" : "text-white"
             }`}
           >
             Washing Machine
           </Link>
           <Link
-            to="/painting"
+            to="/service/painting"
             className={`text-lg uppercase font-semibold py-10 px-2 z-50 hover:bg-blue-500 ${
-              location.pathname === "/painting" ? "text-black" : "text-white"
+              location.pathname === "/service/painting" ? "text-black" : "text-white"
             }`}
           >
             Painting
@@ -136,12 +136,12 @@ const getLogoSrc = () => {
               </Link>
             </li>
             <li className="mb-4">
-              <Link to="/washing-machine" className="text-lg font-semibold" onClick={() => setMenuOpen(false)}>
+              <Link to="/service/washing-machine" className="text-lg font-semibold" onClick={() => setMenuOpen(false)}>
                 Washing Machine
               </Link>
             </li>
             <li className="mb-4">
-              <Link to="/painting" className="text-lg font-semibold" onClick={() => setMenuOpen(false)}>
+              <Link to="/service/painting" className="text-lg font-semibold" onClick={() => setMenuOpen(false)}>
                 Painting
               </Link>
             </li>

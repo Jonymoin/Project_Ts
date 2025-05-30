@@ -55,9 +55,9 @@ const Footer = () => {
 
         </div>
         <div>
-        <p className='text-2xl text-center tracking-[10px]'>Quick <span className='text-red-600'>Links</span></p>
-        <div className='w-36 h-1 bg-red-600 ml-36'></div>
-          <ul className='text-xl space-y-3 ml-6 mt-4'>
+        <p className='text-2xl text-center'>Quick <span className='text-red-600'>Links</span></p>
+        <div className='w-36 h-1 bg-red-600 ml-3'></div>
+          <ul className='text-xl space-y-3 ml-46 mt-4'>
           <li>
             
             <Link to="/about" className='flex items-center gap-2 hover:text-[#37B126]'><TbArrowBigRightLinesFilled /> About Us</Link>

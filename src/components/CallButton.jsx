@@ -6,7 +6,7 @@ const CallButton = () => {
   const location = useLocation();
 
   // Identify which page we are on
-  const isWashingPage = location.pathname === '/washing-machine';
+  const isWashingPage = location.pathname === '/service/washing-machine';
   const phoneNumber = isWashingPage ? 'tel:6584661400' : 'tel:6581650541';
 
   return (

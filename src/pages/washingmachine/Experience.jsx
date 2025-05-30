@@ -15,7 +15,7 @@ export default function Experience() {
           className="text-center"
         >
           <img
-            src="images/wash11.jpg"
+            src="/images/wash11.jpg"
             alt="Washing machine repair"
             className="rounded-xl shadow-md mx-auto mb-4"
           />
@@ -35,7 +35,7 @@ export default function Experience() {
           className="text-center"
         >
           <img
-            src="images/wash12.jpg"
+            src="/images/wash12.jpg"
             alt="Technician repairing washing machine"
             className="rounded-xl shadow-md mx-auto mb-4"
           />

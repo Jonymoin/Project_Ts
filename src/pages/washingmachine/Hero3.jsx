@@ -34,7 +34,7 @@ const Hero3 = () => {
     <div>
       <div className='mt-[200px] md:mt-[100px] max-w-[90%] mx-auto'>
         <h2 className='text-center text-6xl font-bold md:py-24 text-black'>Our Services</h2>
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-6 p-4'>
+        <div className='grid grid-cols-1 md:grid-cols-4 gap-6 p-4'>
           {services.map((service, index) => (
             <div
               key={service.id}

@@ -21,7 +21,7 @@ const images = [
 
 const WashingMachineWorkGallery = () => {
   return (
-    <div className='bg-[#d00000]'>
+    <div className='bg-[#37B126]'>
       <div className="max-w-6xl mx-auto px-4 py-10 ">
       <h2 className="text-3xl font-bold mb-4 text-center">Our Washing Machine Repair Work</h2>
       <p className="text-black mb-8 text-center max-w-2xl mx-auto">

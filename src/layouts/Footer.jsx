@@ -93,12 +93,12 @@ const Footer = () => {
         <div className='service'>
             <p className='text-2xl text-center '>Our <span className='text-red-600'>Services</span></p>
             
-            <div className='w-36 h-1 bg-red-600 ml-36'></div>
-            <ul className='grid grid-cols-2 gap-3'>
+            <div className='w-36 h-1 bg-red-600 ml-10 md:ml-36'></div>
+            <ul className='grid grid-cols-1 md:grid-cols-2 gap-3'>
             {services.map((service) => (
                 <li key={service.id} className="py-2 px-4 hover:bg-red-600">
-                  <Link to={`/service/${service.slug}`}>
-                    {service.name}
+                  <Link to={`/service/${service.slug}`} className='flex items-center'>
+                    <TbArrowBigRightLinesFilled/>{service.name}
                   </Link>
                 </li>
               ))}

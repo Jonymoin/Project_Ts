@@ -9,7 +9,7 @@ const Wm1 = () => {
     style={{
       width: '100%',
       
-      backgroundImage: "url('/images/wash2.jpg')",
+      backgroundImage: "url('/images/wash3.jpg')",
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',

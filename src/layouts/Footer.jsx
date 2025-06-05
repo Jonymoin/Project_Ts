@@ -112,7 +112,8 @@ const Footer = () => {
  </p>
             <p className='text-xl
             '>Call : <span className=''>{phoneNumber}</span></p>
-            <a href={whatsappLink} target='blank' rel='noopener noreferrer' className="flex items-center gap-1 text-xl hover:underline"> <FaWhatsapp /> <span className=''>{whatsappNumber}</span></a> 
+            <a href={whatsappLink} target='blank' rel='noopener noreferrer' className="flex items-center gap-1 text-xl hover:underline"
+            data-clarity-label="whatsapp-footer"> <FaWhatsapp /> <span className=''>{whatsappNumber}</span></a> 
             <a
           href="mailto:homerepairsng@gmail.com"
           className=" hover:underline flex items-center gap-2 text-xl"

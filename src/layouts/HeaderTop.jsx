@@ -23,7 +23,9 @@ const HeaderTop = () => {
           <FaWhatsapp />
         </div>
         <div className="flex items-center px-1">
-          <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+          <a href={whatsappLink} target="_blank" rel="noopener noreferrer"
+          data-clarity-label="whatsapp-header"
+>
             {whatsappNumber}
           </a>
         </div>

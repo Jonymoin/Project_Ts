@@ -14,6 +14,8 @@ const WhatsAppButton = () => {
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-5 right-5 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg flex items-center justify-center z-50"
+      data-clarity-label="whatsapp-floating"
+
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

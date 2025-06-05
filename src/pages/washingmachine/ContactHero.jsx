@@ -29,6 +29,8 @@ const ContactHero = () => {
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center gap-3 bg-black text-white hover:bg-green-600 px-6 py-3 rounded-full text-xl transition"
+            data-clarity-label="whatsapp-hero"
+
           >
             <FaWhatsapp className="text-2xl" />
             +65 8466 1400

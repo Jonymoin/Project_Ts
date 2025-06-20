@@ -61,9 +61,11 @@ const Hero3 = () => {
               className="h-[180px] bg-cover bg-center relative"
               style={{ backgroundImage: `url(/images/service${index + 1}.jpg)` }}
             >
+              <Link to={`/service/${service.slug}`}>
               <div className="absolute top-2 left-2 bg-white p-2 rounded-full text-[#37B126] text-2xl shadow">
                 <service.icon />
               </div>
+              </Link>
             </div>
             <div className="p-4 text-center">
               <h3 className="text-xl font-bold mb-2">{service.name}</h3>

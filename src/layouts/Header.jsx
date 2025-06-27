@@ -72,7 +72,7 @@ const getLogoSrc = () => {
         
         <Link
             to="/"
-            className={`text-lg uppercase font-semibold py-10 px-2 z-50 hover:bg-blue-500 ${
+            className={`text-lg uppercase font-semibold px-4 py-2 rounded-md transition-all duration-300 hover:bg-blue-500 ${
               location.pathname === "/" ? "text-black" : "text-white"
             }`}
           >
@@ -80,7 +80,7 @@ const getLogoSrc = () => {
           </Link>
           <Link
             to="/about"
-            className={`text-lg uppercase font-semibold py-10 px-2 z-50 hover:bg-blue-500 ${
+            className={`text-lg uppercase font-semibold px-4 py-2 rounded-md transition-all duration-300 hover:bg-blue-500  ${
               location.pathname === "/about" ? "text-black" : "text-white"
             }`}
           >
@@ -88,7 +88,7 @@ const getLogoSrc = () => {
           </Link>
           <Link
             to="/service/washing-machine"
-            className={`text-lg uppercase font-semibold py-10 px-2 z-50 hover:bg-blue-500 ${
+            className={`text-lg uppercase font-semibold px-4 py-2 rounded-md transition-all duration-300 hover:bg-blue-500  ${
               location.pathname === "/service/washing-machine" ? "text-black" : "text-white"
             }`}
           >
@@ -96,7 +96,7 @@ const getLogoSrc = () => {
           </Link>
           <Link
             to="/service/painting"
-            className={`text-lg uppercase font-semibold py-10 px-2 z-50 hover:bg-blue-500 ${
+            className={`text-lg uppercase font-semibold px-4 py-2 rounded-md transition-all duration-300 hover:bg-blue-500  ${
               location.pathname === "/service/painting" ? "text-black" : "text-white"
             }`}
           >

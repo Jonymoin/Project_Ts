@@ -39,7 +39,7 @@ const ContactUs = () => {
   return (
     <>
       <div className='bg-gradient-to-r from-gray-700 via-violet-900 to-slate-500'>
-        <div className='max-w-[90%] mx-auto py-12 flex flex-col md:flex-row gap-4'>
+        <div className='max-w-[90%] mx-auto py-12 flex flex-col md:flex-row gap-20 md:gap-4'>
           {/* Left side: image & text */}
           <div className='md:w-1/2 w-full rounded-xl relative'>
             <div>
@@ -48,7 +48,7 @@ const ContactUs = () => {
             <div className='flex items-center justify-center text-white absolute gap-6 right-0 left-0 top-0 md:bottom-5 pl-[3%] pb-6 bg-gradient-to-t from-black via-transparent to-slate-700'>
               <div className=' text-center space-y-4'>
                 <h1>Washing Machine Repair Service</h1>
-                <h2 className='text-[24px] text-red-500'>Having issues with your washing machine?</h2>
+                <h2 className='text-[24px] text-[#51BD41] font-semibold'>Having issues with your washing machine?</h2>
                 <p className='text-[21px]'>We offer fast, affordable, and professional washing machine repair services in Singapore.</p>
                 <p className='text-[21px] text-amber-500'>👉 Fill out the form or 📞 call us now for a quick booking!</p>
               </div>

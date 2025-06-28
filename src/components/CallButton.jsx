@@ -7,7 +7,7 @@ const CallButton = () => {
   const location = useLocation();
 
   const isWashingPage = location.pathname === '/service/washing-machine';
-  const phoneNumber = isWashingPage ? '84661400' : '81650541';
+  const phoneNumber = isWashingPage ? '84608380' : '81650541';
   const telLink = `tel:+65${phoneNumber}`;
 
   const handleClick = (e) => {

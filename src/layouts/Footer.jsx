@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import { FaWhatsapp } from "react-icons/fa";
-import { IoIosArrowDroprightCircle } from "react-icons/io";
+
 import { TbArrowBigRightLinesFilled } from "react-icons/tb";
 import { FaMapMarkerAlt } from "react-icons/fa";
 

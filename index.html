@@ -46,5 +46,20 @@
 
   gtag('config', 'AW-16964414558');
 </script>
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16964414558/Km3xCLuc8uMaEN7YoZk_',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
   </body>
 </html>

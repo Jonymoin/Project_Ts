@@ -6,30 +6,37 @@ import { MdEmail } from "react-icons/md";
 const HeaderTop = () => {
   const location = useLocation();
 
-  // Set WhatsApp number based on current route
-  const whatsappNumber =
-  location.pathname === '/service/washing-machine' ||
-  location.pathname === '/service/dishwasher-repair'
-    ? '+65 8466 1400'
-    : '+65 8165 0541';
-
-const whatsappLink =
-  location.pathname === '/service/washing-machine' ||
-  location.pathname === '/service/dishwasher-repair'
-    ? 'https://wa.me/6584661400'
+  const isWashingPage = location.pathname === '/service/washing-machine';
+  const whatsappNumber = isWashingPage ? '+65 8460 8380' : '+65 8165 0541';
+  const whatsappLink = isWashingPage
+    ? 'https://wa.me/6584608380'
     : 'https://wa.me/6581650541';
 
+  const handleWhatsAppClick = (e) => {
+    e.preventDefault(); // Prevent default navigation
+
+    if (window.gtag_report_conversion) {
+      window.gtag_report_conversion(whatsappLink); // Track & redirect
+    } else {
+      window.location.href = whatsappLink; // Fallback redirect
+    }
+  };
+
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-black text-[#48b2d7] flex mx-auto md:justify-between gap-4 py-3 px-4 shadow-md">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-black text-[#51BD41] flex mx-auto md:justify-between gap-4 py-3 px-4 shadow-md">
       <p className="text-xl font-semibold">Call Us Now</p>
-      <div className="flex text-base md:text-2xl items-center hover:scale-110 transition-all duration-300 font-semibold">
+      <div className="flex text-2xl items-center hover:scale-110 transition-all duration-300 font-semibold">
         <div>
           <FaWhatsapp />
         </div>
         <div className="flex items-center px-1">
-          <a href={whatsappLink} target="_blank" rel="noopener noreferrer"
-          data-clarity-label="whatsapp-header"
->
+          <a
+            href={whatsappLink}
+            onClick={handleWhatsAppClick}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-clarity-label="whatsapp-header"
+          >
             {whatsappNumber}
           </a>
         </div>

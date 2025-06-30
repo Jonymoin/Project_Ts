@@ -4,11 +4,9 @@ import Header from './layouts/Header'
 import Footer from './layouts/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
 import AboutUs from './components/AboutUs'
-import HeroLinks from './components/HeroLinks'
 import ScrollToTop from './ScroolToTop'
 import PrivacyPolicy from './components/PrivacyPolicy'
 import TermsnCon from './components/TermsnCon'
-import Landing from './pages/painting/Landing'
 import HeaderTop from './layouts/HeaderTop'
 
 
@@ -17,6 +15,9 @@ import Dishwasher from './pages/dishwasher/Dishwasher';
 import Painting from './pages/painting/Painting'
 import ServicePage from './components/ServicePage'
 import Hero3 from './pages/washingmachine/Hero3'
+import CallButton from './components/CallButton'
+import WhyChooseUs from './pages/washingmachine/WhyChooseUs'
+import ContactUs from './components/ContactUs'
 
 
 
@@ -30,9 +31,10 @@ const App = () => {
       <Routes>
         <Route path='/' element={
           <>
-      <HeroLinks />
-      <Landing />
-      <Hero3 />
+        <Hero3 />
+        <WhyChooseUs />
+        <ContactUs />
+      
           </>
         }/>
         
@@ -47,6 +49,7 @@ const App = () => {
 
       </Routes>
       <Footer />
+      <CallButton />
       <WhatsAppButton />
     </Router>
   )

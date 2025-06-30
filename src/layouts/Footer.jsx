@@ -62,7 +62,7 @@ const Footer = () => {
     loading="lazy" 
   />
         <div className='logo flex flex-col items-center gap-3'>
-        <h3 className='text-[28px] font-semibold font-roboto'>SARIMON <span className='text-red-600'>ENGINEERING</span> PTE. LTD</h3>
+        <h3 className='text-[28px] font-semibold font-roboto'>SARIMON <span className='text-[#51BD41]'>ENGINEERING</span> PTE. LTD</h3>
 
         <img
       src={getLogoSrc()}
@@ -73,8 +73,8 @@ const Footer = () => {
 
         </div>
         <div>
-        <p className='text-2xl text-center'>Quick <span className='text-red-600'>Links</span></p>
-        <div className='w-36 h-1 bg-red-600 ml-3'></div>
+        <p className='text-2xl text-center'>Quick <span className='text-[#51BD41]'>Links</span></p>
+        <div className='w-36 h-1 bg-[#51BD41] ml-3'></div>
           <ul className='text-xl space-y-3 ml-46 mt-4'>
           <li>
             
@@ -91,12 +91,12 @@ const Footer = () => {
           </ul>
         </div>
         <div className='service'>
-            <p className='text-2xl text-center '>Our <span className='text-red-600'>Services</span></p>
+            <p className='text-2xl text-center '>Our <span className='text-[#51BD41]'>Services</span></p>
             
-            <div className='w-36 h-1 bg-red-600 ml-10 md:ml-36'></div>
-            <ul className='grid grid-cols-1 md:grid-cols-2 gap-3'>
+            <div className='w-36 h-1 bg-[#51BD41] ml-10 md:ml-36'></div>
+            <ul className='grid grid-cols-1 md:grid-cols-2 gap-3 mt-5'>
             {services.map((service) => (
-                <li key={service.id} className="py-2 px-4 hover:bg-red-600">
+                <li key={service.id} className="py-2 px-4 hover:bg-[#51BD41] transition-all duration-100 rounded-xl">
                   <Link to={`/service/${service.slug}`} className='flex items-center'>
                     <TbArrowBigRightLinesFilled/>{service.name}
                   </Link>
@@ -106,8 +106,8 @@ const Footer = () => {
        
         </div>
         <div className='contact space-y-5'>
-            <h3 className='text-xl'>Contact <span className='text-red-600'>Us</span></h3>
-            <div className='w-36 h-1 bg-red-600'></div>
+            <h3 className='text-xl'>Contact <span className='text-[#51BD41]'>Us</span></h3>
+            <div className='w-36 h-1 bg-[#51BD41]'></div>
             <p className='flex items-center gap-2'> <FaMapMarkerAlt /  >362A CHANGI ROAD <br />  KENG YEE GARDEN <br />SINGAPORE (419823)    
  </p>
             <p className='text-xl

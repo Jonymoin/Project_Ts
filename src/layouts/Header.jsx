@@ -42,7 +42,7 @@ const Header = () => {
   };
 
   return (
-    <div className="relative pt-[50px]">
+    <div className="relative pt-[50px] mt-3">
       {/* Overlay */}
       {menuOpen && (
         <div

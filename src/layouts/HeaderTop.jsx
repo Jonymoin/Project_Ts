@@ -8,12 +8,16 @@ const HeaderTop = () => {
 
   // Set WhatsApp number based on current route
   const whatsappNumber =
-    location.pathname === '/service/washing-machine' ? '+65 8466 1400' : '+65 8165 0541';
+  location.pathname === '/service/washing-machine' ||
+  location.pathname === '/service/dishwasher-repair'
+    ? '+65 8466 1400'
+    : '+65 8165 0541';
 
-  const whatsappLink =
-    location.pathname === '/service/washing-machine'
-      ? 'https://wa.me/6584661400'
-      : 'https://wa.me/6581650541';
+const whatsappLink =
+  location.pathname === '/service/washing-machine' ||
+  location.pathname === '/service/dishwasher-repair'
+    ? 'https://wa.me/6584661400'
+    : 'https://wa.me/6581650541';
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black text-[#48b2d7] flex mx-auto md:justify-between gap-4 py-3 px-4 shadow-md">

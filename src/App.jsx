@@ -13,6 +13,7 @@ import HeaderTop from './layouts/HeaderTop'
 
 
 import WashingMachine from './pages/washingmachine/WashingMachine';
+import Dishwasher from './pages/dishwasher/Dishwasher';
 import Painting from './pages/painting/Painting'
 import ServicePage from './components/ServicePage'
 import Hero3 from './pages/washingmachine/Hero3'
@@ -37,6 +38,8 @@ const App = () => {
         
         <Route path='/about' element={<AboutUs />} />
         <Route path='/service/painting' element={<Painting />} />
+        <Route path='/service/dishwasher-repair' element={<Dishwasher />} />
+        
         <Route path='/service/washing-machine' element={<WashingMachine />} />
         <Route path='/privacypolicy' element={<PrivacyPolicy />} />
         <Route path='/terms&conditions' element={<TermsnCon />} />

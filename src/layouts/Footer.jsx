@@ -49,7 +49,7 @@ const Footer = () => {
       case "/false-ceiling":
         return "/images/logo1.png";
       default:
-        return "/images/logo1.png"; // fallback logo
+        return "/images/logo5.jpg"; // fallback logo
     }
   };
   return (

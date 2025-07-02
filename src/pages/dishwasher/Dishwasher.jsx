@@ -2,6 +2,8 @@ import React from 'react';
 import WhyChooseUs from '../washingmachine/WhyChooseUs';
 import DishwasherServices from './DishwasherServices';
 import DishwasherFAQs from './DishwasherFAQs';
+import DishwasherCare from './DishwasherCare';
+import ContactUs from '../../components/ContactUs';
 
 const Dishwasher = () => {
   return (
@@ -32,8 +34,10 @@ const Dishwasher = () => {
 
         <div>
             <DishwasherServices />
+            <DishwasherCare />
             <DishwasherFAQs />
           <WhyChooseUs />
+          <ContactUs />
         </div>
       </section>
 

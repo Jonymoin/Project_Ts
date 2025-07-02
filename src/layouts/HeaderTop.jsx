@@ -26,7 +26,7 @@ const HeaderTop = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black  text-[#51BD41] flex mx-auto md:justify-between gap-4 py-3 px-4 shadow-md">
       <a
       href="tel:+6584608380"
-      className="inline-block bg-[#51BD41] hover:bg-red-700 text-white text-[18px] font-bold px-6 py-1 rounded-xl shadow-md transition duration-300"
+      className="inline-block bg-[#51BD41] hover:bg-red-700 text-white text-[15px] font-bold px-4 py-1 rounded-xl shadow-md transition duration-300"
     >
       📞 Call Us Now
     </a>
@@ -34,7 +34,7 @@ const HeaderTop = () => {
         <div>
           
         </div>
-        <div className="inline-block bg-[#51BD41] hover:bg-red-700 text-white text-[18px] font-bold px-6 py-1 rounded-xl shadow-md transition duration-300">
+        <div className="inline-block bg-[#51BD41] hover:bg-red-700 text-white text-[15px] font-bold px-6 py-1 rounded-xl shadow-md transition duration-300">
           <a
             href={whatsappLink}
             onClick={handleWhatsAppClick}

@@ -38,9 +38,10 @@ const WashingMachine = () => {
       <Experience />
       <ContactHero />
       <WashingMachineCleaning />
-      <Hero3 />
       <WhyChooseUs />
       <OurServices />
+      <Hero3 />
+
       <ContactUs />
       <ReviewSection />
       <WashingMachineWorkGallery />

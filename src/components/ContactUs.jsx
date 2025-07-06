@@ -46,7 +46,7 @@ const ContactUs = () => {
                 <HiOutlineMailOpen />
               </div>
               <div>
-                <p className='text-[24px]'>24/7 Emergency Service</p>
+                <p className='text-[21px]'>24/7 Emergency Service</p>
                 <p className='text-[21px]'>homerepairsng@gmail.com</p>
               </div>
             </div>

@@ -1,40 +1,35 @@
 import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
+
 import { HiOutlineMailOpen } from "react-icons/hi";
 
 const ContactUs = () => {
   const form = useRef();
-  const [selectedService, setSelectedService] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
-  const [errorMessage, setErrorMessage] = useState(""); // ❗️ New error state
-
-  const sendEmail = (e) => {
+const handleSubmit = async (e) => {
     e.preventDefault();
+    const formData = new FormData(e.target);
 
-    emailjs
-      .sendForm('service_pvhjqpe', 'template_vpxorak', form.current, {
-        publicKey: 'tIp9OJwHrRrvZ8dq-',
-      })
-      .then(
-        () => {
-          setSuccessMessage("✅ Your message has been sent successfully!");
-          form.current.reset();
-          setSelectedService("");
+    const response = await fetch("https://formspree.io/f/xdkzrenn", {
+      method: "POST",
+      body: formData,
+      headers: {
+        Accept: "application/json",
+      },
+    });
 
-          setTimeout(() => {
-            setSuccessMessage("");
-          }, 3000);
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-          setErrorMessage("❌ Mail pathate problem hocche. Please call us instead.");
+    if (response.ok) {
+      setSuccessMessage("Your message has been sent successfully!");
+      e.target.reset();
 
-          setTimeout(() => {
-            setErrorMessage("");
-          }, 4000);
-        }
-      );
+      // Hide success message after 3 seconds
+      setTimeout(() => {
+        setSuccessMessage("");
+      }, 3000);
+    } else {
+      setSuccessMessage("Something went wrong. Please try again.");
+    }
   };
+  
 
   return (
     <>
@@ -73,19 +68,36 @@ const ContactUs = () => {
               </div>
             )}
 
-            {/* ❌ Error Message */}
-            {errorMessage && (
-              <div className="bg-red-600 text-white p-3 rounded-md text-center mb-3">
-                {errorMessage}
-              </div>
-            )}
+            
 
-            <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-3'>
-              <input type="text" name="user_name" className='text-black py-3 px-2 rounded-lg' placeholder='Name*' required />
-              <input type="number" name="user_number" className='text-black py-3 px-2 rounded-lg' placeholder='Phone*' required />
-              <input type="email" name="user_email" className='text-black py-3 px-2 rounded-lg' placeholder='Email*' required />
-              <textarea name="message" className='text-black h-[100px] py-3 px-2 rounded-lg' placeholder='Write a message*' required />
-              <button type='submit' className='bg-gradient-to-r from-[#51BD41] to-cyan-500 hover:bg-white hover:text-red-500 text-white font-bold w-[150px] mt-4 py-3 mx-auto rounded-lg'>
+            <form onSubmit={handleSubmit} className='flex flex-col gap-3'>
+              <input
+                type="text"
+                name="name"
+                className='text-black py-3 px-2 rounded-lg'
+                placeholder='Name*'
+                required
+              />
+
+              <input
+                type="tel"
+                name="phone"
+                className='text-black py-3 px-2 rounded-lg'
+                placeholder='Phone*'
+                required
+              />
+
+              <textarea
+                name="message"
+                className='text-black h-[100px] py-3 px-2 rounded-lg'
+                placeholder='Describe your problem*'
+                required
+              />
+
+              <button
+                type='submit'
+                className='bg-gradient-to-r from-black to-blue-800 hover:bg-white hover:text-red-500 text-white font-bold w-[150px] mt-4 py-3 mx-auto rounded-lg'
+              >
                 Send Mail
               </button>
             </form>

@@ -26,6 +26,7 @@ const CallButton = () => {
       onClick={handleClick}
       className="whatsapp-glow fixed bottom-5 left-5 bg-white p-4 rounded-full shadow-lg flex items-center justify-center z-50 hover:scale-105 transition-transform"
       data-clarity-label="call-floating"
+      data-gtm-event="call_float"
     >
       <FaPhoneAlt className="text-red-500 w-6 h-6" />
     </a>

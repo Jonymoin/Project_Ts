@@ -26,6 +26,7 @@ const HeaderTop = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black  text-[#51BD41] flex mx-auto md:justify-between gap-4 py-3 px-4 shadow-md">
       <a
       href="tel:+6584608380"
+      data-gtm-event="call_top"
       className="inline-block bg-[#51BD41] hover:bg-red-700 text-white text-[15px] font-bold px-4 py-1 rounded-xl shadow-md transition duration-300"
     >
       📞 Call Us Now
@@ -40,6 +41,7 @@ const HeaderTop = () => {
             onClick={handleWhatsAppClick}
             target="_blank"
             rel="noopener noreferrer"
+            data-gtm-event="whatsapp_top"
             data-clarity-label="whatsapp-header"
             className='flex items-center'
           > 

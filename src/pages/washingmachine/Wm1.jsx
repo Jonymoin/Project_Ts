@@ -48,6 +48,7 @@ const handleSubmit = async (e) => {
                 <p className='text-[21px] text-'>👉 Fill out the form or 📞 call us now for a quick booking!</p>
                 <a
       href="tel:+6584608380"
+      data-gtm-event="call_middle"
       className="inline-block bg-cyan-500 hover:bg-red-700 text-white text-[18px] font-bold px-6 py-3 rounded-xl shadow-md transition duration-300"
     >
       📞 Call Us Now

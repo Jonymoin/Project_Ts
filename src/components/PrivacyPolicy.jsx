@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
         <p className='text-[22px] mt-8'>Privacy Policy</p>
         <div className='flex flex-col gap-4'>
         <h4 className='mt-5 text-[21px] font-semibold'>**Privacy Policy**</h4>
-        <p>This Privacy Policy (“Policy”) explains how LEO ENGINEERING PTE. LTD. (“Company,” “we,” “us,” or “our”) collects, uses, and protects the personal information of users (“you” or “your”) of our services. By accessing or using our services, you consent to the collection and use of your personal information as described in this Policy. If you do not agree with this Policy, please refrain from using our services.</p>
+        <p>This Privacy Policy (“Policy”) explains how SARIMON ENGINEERING PTE. LTD. (“Company,” “we,” “us,” or “our”) collects, uses, and protects the personal information of users (“you” or “your”) of our services. By accessing or using our services, you consent to the collection and use of your personal information as described in this Policy. If you do not agree with this Policy, please refrain from using our services.</p>
         </div>
 
        <div className='space-y-3'>

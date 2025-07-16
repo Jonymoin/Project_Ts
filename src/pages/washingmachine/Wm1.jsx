@@ -87,6 +87,13 @@ const handleSubmit = async (e) => {
                 placeholder='Phone*'
                 required
               />
+              <input
+                type="tel"
+                name="email"
+                className='text-black py-3 px-2 rounded-lg'
+                placeholder='Email*'
+                required
+              />
 
               <textarea
                 name="message"

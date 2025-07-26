@@ -15,7 +15,6 @@ import Dishwasher from './pages/dishwasher/Dishwasher';
 import Painting from './pages/painting/Painting'
 import ServicePage from './components/ServicePage'
 import Hero3 from './pages/washingmachine/Hero3'
-import CallButton from './components/CallButton'
 import WhyChooseUs from './pages/washingmachine/WhyChooseUs'
 import ContactUs from './components/ContactUs'
 
@@ -49,7 +48,7 @@ const App = () => {
 
       </Routes>
       <Footer />
-      <CallButton />
+      
       <WhatsAppButton />
     </Router>
   )

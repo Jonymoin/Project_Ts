@@ -9,7 +9,7 @@ const TermsnCon = () => {
 
       <h5 className='text-lg'>**Terms & Conditions**</h5>
       
-      <p>Please read these Terms & Conditions carefully before using the services provided by LEO ENGINEERING PTE. LTD. By accessing or using our services, you agree to be bound by these Terms. If you do not agree to these Terms, please refrain from using our services.</p>
+      <p>Please read these Terms & Conditions carefully before using the services provided by SARIMON ENGINEERING PTE. LTD. By accessing or using our services, you agree to be bound by these Terms. If you do not agree to these Terms, please refrain from using our services.</p>
         <div className='space-y-3'>
            <h4 className='text-lg'>**1. General**</h4>  
            <p>1.1. These Terms apply to all users and visitors of our website and services.</p>
@@ -35,7 +35,7 @@ const TermsnCon = () => {
         </div>
         <div className='space-y-3'>
           <h4 className='text-lg'>**5. Intellectual Property**</h4>
-          <p>5.1. All content on our website, including but not limited to text, graphics, logos, images, videos, and software, is the property of LEO ENGINEERING PTE. LTD. LTD and is protected by intellectual property laws. You may not use, reproduce, modify, distribute, or display our content without our prior written consent.</p>
+          <p>5.1. All content on our website, including but not limited to text, graphics, logos, images, videos, and software, is the property of SARIMON ENGINEERING PTE. LTD. LTD and is protected by intellectual property laws. You may not use, reproduce, modify, distribute, or display our content without our prior written consent.</p>
         </div>
         <div className='space-y-3'>
           <h4 className='text-lg'>**6. Disclaimer of Warranties**</h4>
@@ -49,7 +49,7 @@ const TermsnCon = () => {
         </div>
         <div className='space-y-3'>
           <h4 className='text-lg'>**8. Indemnification**</h4>
-          <p>8.1. You agree to indemnify and hold harmless LEO ENGINEERING PTE. LTD. and its officers, directors, employees, and agents from any and all claims, damages, liabilities, losses, costs, or expenses (including legal fees) arising from your use of our services or any violation of these Terms.</p>
+          <p>8.1. You agree to indemnify and hold harmless SARIMON ENGINEERING PTE. LTD. and its officers, directors, employees, and agents from any and all claims, damages, liabilities, losses, costs, or expenses (including legal fees) arising from your use of our services or any violation of these Terms.</p>
         </div>
         <div className='space-y-3'>
           <h4 className='text-lg'>**9. Governing Law and Jurisdiction**</h4>

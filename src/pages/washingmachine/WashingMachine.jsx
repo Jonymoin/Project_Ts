@@ -3,12 +3,8 @@ import WhyChooseUs from "./WhyChooseUs";
 import ContactHero from "./ContactHero";
 import OurServices from "./Oursevices";
 
-import WashingMachineWorkGallery from "./WashingMachineWorkGallery ";
 import Wm1 from "./Wm1";
-import Experience from "./Experience";
 import ReviewSection from "./ReviewCard";
-import WashingMachineCleaning from "./WashingMachineCleaning";
-import Hero3 from "./Hero3";
 import ContactUs from "../../components/ContactUs";
 
 const WashingMachine = () => {
@@ -35,16 +31,13 @@ const WashingMachine = () => {
 
       {/* Rest of your page content */}
       <Wm1 />
-      <Experience />
       <ContactHero />
-      <WashingMachineCleaning />
+      
       <WhyChooseUs />
       <OurServices />
-      <Hero3 />
 
       <ContactUs />
       <ReviewSection />
-      <WashingMachineWorkGallery />
       
     </>
   );

@@ -3,7 +3,6 @@ import { Helmet } from "react-helmet";
 
 import Hero from './Hero'
 import HeroTop from './HeroTop'
-import Hero2 from './Hero2'
 import Service from './Service'
 import Difference from './Difference'
 import Accordion from './Accordion'
@@ -23,7 +22,6 @@ const Painting = () => {
 
               <Hero />
               <HeroTop />
-              <Hero2 />
               <Service />
               <Difference />
               <Accordion />

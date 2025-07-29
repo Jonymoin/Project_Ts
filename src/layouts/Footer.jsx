@@ -17,18 +17,12 @@ const Footer = () => {
        { id: 2, name: "Dishwasher Repair", slug: "dishwasher-repair"},
        { id: 3, name: "CC TV Installation", slug: "cctv-installation"},
        { id: 4, name: "Install Your TV", slug: "tv-installation"},
-       { id: 5, name: "Plumbing Service", slug: "plumbing-service"},
+       
        { id: 6, name: "Air-Conditioning Service", slug: "air-conditioning-service" },
        { id: 7, name: "Painting", slug: "painting" },
-       { id: 8, name: "Intercom Issues", slug: "intercom-system-service" },
-       { id: 9, name: "Carpenter", slug: "carpentry-service" },
+       
        { id: 10, name: "Electrical Service", slug: "electrical-service" },
-       { id: 11, name: "Water Choke Troubleshoot", slug: "water-troubleshooting" },
-       { id: 12, name: "Mover Service", slug: "mover-service" },
-       { id: 13, name: " Door Lock", slug: "door-lock" },
-       { id: 14, name: "Kitchen Exhaust Fan", slug: "kitchen-exhaust-fan" },
-       { id: 15, name: "All Kinds of Ducting Work", slug: "ducting-work" },
-       { id: 16, name: " Window Repair", slug: "Window-repair" }
+     
      ];
   const location = useLocation();
 
@@ -62,7 +56,7 @@ const Footer = () => {
     loading="lazy" 
   />
         <div className='logo flex flex-col items-center gap-3'>
-        <h3 className='text-[28px] font-semibold font-roboto'>SARIMON <span className='text-[#51BD41]'>ENGINEERING</span> PTE. LTD</h3>
+        <h3 className='text-[28px] font-semibold font-roboto'>SARIMON <span className='text-[#0070f7]'>ENGINEERING</span> PTE. LTD</h3>
 
         <img
       src={getLogoSrc()}
@@ -73,30 +67,30 @@ const Footer = () => {
 
         </div>
         <div>
-        <p className='text-2xl text-center'>Quick <span className='text-[#51BD41]'>Links</span></p>
-        <div className='w-36 h-1 bg-[#51BD41] ml-3'></div>
+        <p className='text-2xl text-center'>Quick <span className='text-[#0070f7]'>Links</span></p>
+        <div className='w-36 h-1 bg-[#0070f7] ml-3'></div>
           <ul className='text-xl space-y-3 ml-46 mt-4'>
           <li>
             
-            <Link to="/about" className='flex items-center gap-2 hover:text-[#37B126]'><TbArrowBigRightLinesFilled /> About Us</Link>
+            <Link to="/about" className='flex items-center gap-2 hover:text-[#0070f7]'><TbArrowBigRightLinesFilled /> About Us</Link>
           </li>
           <li>
             
-            <Link to="/privacypolicy" className='flex items-center gap-2 hover:text-[#37B126]'><TbArrowBigRightLinesFilled/> Privacy Policy</Link>
+            <Link to="/privacypolicy" className='flex items-center gap-2 hover:text-[#0070f7]'><TbArrowBigRightLinesFilled/> Privacy Policy</Link>
           </li>
           <li>
             
-            <Link to="/terms&conditions" className='flex items-center gap-2 hover:text-[#37B126]'><TbArrowBigRightLinesFilled/> Terms & Conditions</Link>
+            <Link to="/terms&conditions" className='flex items-center gap-2 hover:text-[#0070f7]'><TbArrowBigRightLinesFilled/> Terms & Conditions</Link>
           </li>
           </ul>
         </div>
         <div className='service'>
-            <p className='text-2xl text-center '>Our <span className='text-[#51BD41]'>Services</span></p>
+            <p className='text-2xl text-center '>Our <span className='text-[#0070f7]'>Services</span></p>
             
-            <div className='w-36 h-1 bg-[#51BD41] ml-10 md:ml-36'></div>
+            <div className='w-36 h-1 bg-[#0070f7] ml-10 md:ml-36'></div>
             <ul className='grid grid-cols-1 md:grid-cols-2 gap-3 mt-5'>
             {services.map((service) => (
-                <li key={service.id} className="py-2 px-4 hover:bg-[#51BD41] transition-all duration-100 rounded-xl">
+                <li key={service.id} className="py-2 px-4 hover:bg-[#0070f7] transition-all duration-100 rounded-xl">
                   <Link to={`/service/${service.slug}`} className='flex items-center'>
                     <TbArrowBigRightLinesFilled/>{service.name}
                   </Link>
@@ -106,8 +100,8 @@ const Footer = () => {
        
         </div>
         <div className='contact space-y-5'>
-            <h3 className='text-xl'>Contact <span className='text-[#51BD41]'>Us</span></h3>
-            <div className='w-36 h-1 bg-[#51BD41]'></div>
+            <h3 className='text-xl'>Contact <span className='text-[#0070f7]'>Us</span></h3>
+            <div className='w-36 h-1 bg-[#0070f7]'></div>
             <p className='flex items-center gap-2'> <FaMapMarkerAlt /  >362A CHANGI ROAD <br />  KENG YEE GARDEN <br />SINGAPORE (419823)    
  </p>
             <p className='text-xl

@@ -8,18 +8,10 @@ const serviceLinks = [
   { name: "Dishwasher Repair", slug: "dishwasher-repair" },
   { name: "CC TV Installation", slug: "cctv-installation" },
   { name: "Install Your TV", slug: "tv-installation" },
-  { name: "Plumbing Service", slug: "plumbing-service" },
   { name: "Air-Conditioning Service", slug: "air-conditioning-service" },
   { name: "Painting", slug: "painting" },
-  { name: "Intercom Issues", slug: "intercom-system-service" },
-  { name: "Carpenter", slug: "carpentry-service" },
   { name: "Electrical Service", slug: "electrical-service" },
-  { name: "Water Choke Troubleshoot", slug: "water-troubleshooting" },
-  { name: "Mover Service", slug: "mover-service" },
-  { name: "Door Lock", slug: "door-lock" },
-  { name: "Kitchen Exhaust Fan", slug: "kitchen-exhaust-fan" },
-  { name: "All Kinds of Ducting Work", slug: "ducting-work" },
-  { name: "Window Repair", slug: "window-repair" }
+  
 ];
 
 const Header = () => {
@@ -59,7 +51,7 @@ const Header = () => {
         className={`w-full h-[100px] bg-cover bg-center flex items-center justify-between px-6 lg:px-16 z-50 ${
           location.pathname === "/service/painting"
             ? ""
-            : "bg-[#51BD41]"
+            : "bg-[#0070f7]"
         }`}
         style={
           location.pathname === "/service/painting"

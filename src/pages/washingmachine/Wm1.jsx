@@ -1,10 +1,9 @@
 import React, { useRef, useState } from 'react';
 
-import { HiOutlineMailOpen } from "react-icons/hi";
 
 const ContactUs = () => {
   const form = useRef();
-  const [successMessage, setSuccessMessage] = useState("");
+const [successMessage, setSuccessMessage] = useState("");
 const handleSubmit = async (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
@@ -38,18 +37,18 @@ const handleSubmit = async (e) => {
           {/* Left side: image & text */}
           <div className='md:w-1/2 w-full rounded-xl relative'>
             <div>
-              <img src="/images/wash3.jpg" alt="Washing machine repair service" className='rounded-2xl grayscale' />
+              <img src="/images/wm2.jpg" alt="Washing machine repair service" className='rounded-2xl grayscale' />
             </div>
             <div className='flex items-center justify-center text-white absolute gap-6 right-0 left-0 bottom-0 md:bottom-5 pl-[3%] pb-6 bg-gradient-to-t from-black via-transparent to-slate-700'>
               <div className=' text-center space-y-4'>
                 <h1>Washing Machine Repair Service</h1>
                 <h2 className='text-[24px] text-cyan-500 font-semibold'>Having issues with your washing machine?</h2>
                 
-                <p className='text-[21px] text-'>👉 Fill out the form or 📞 call us now for a quick booking!</p>
+                
                 <a
       href="tel:+6584608380"
       data-gtm-event="call_middle"
-      className="inline-block bg-cyan-500 hover:bg-red-700 text-white text-[18px] font-bold px-6 py-3 rounded-xl shadow-md transition duration-300"
+      className="inline-block bg-[#0070F7] hover:bg-red-700 text-white text-[18px] font-bold px-6 py-3 rounded-xl shadow-md transition duration-300"
     >
       📞 Call Us Now
     </a>
@@ -58,7 +57,7 @@ const handleSubmit = async (e) => {
           </div>
 
           {/* Right side: form */}
-          <div className='md:w-1/2'>
+          <div className='md:w-1/2 hidden md:block'>
             <h3 className='text-center uppercase text-cyan-500 font-bold tracking-widest'>Get in Touch</h3>
             <h3 className='text-center text-[28px] font-montserrat'>Effortless Booking with Us</h3>
 

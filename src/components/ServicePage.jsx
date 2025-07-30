@@ -17,10 +17,7 @@ const Hero3 = () => {
   ];
 
   return (
-    <div style={{
-      width: '100%',
-      backgroundImage: "url('/images/bg15.jpg')",
-    }}>
+    <div>
       <div className='mt-[200px] md:mt-[100px] max-w-[90%] mx-auto'>
         <h2 className='text-center text-6xl font-bold md:py-24'>Our Services</h2>
         <div className='grid grid-cols-2 md:grid-cols-4 gap-6 p-4'>

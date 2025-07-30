@@ -31,13 +31,13 @@ const Footer = () => {
   const getLogoSrc = () => {
     switch (location.pathname) {
       case "/":
-        return "/images/logo5.jpg";
+        return "/images/logo5.webp";
       
       case "/service/washing-machine":
         return "/images/logo6.webp";
       
       default:
-        return "/images/logo5.jpg"; // fallback logo
+        return "/images/logo5.webp"; // fallback logo
     }
   };
   return (

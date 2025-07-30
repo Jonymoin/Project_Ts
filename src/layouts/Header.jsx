@@ -20,7 +20,7 @@ const Header = () => {
       case "/service/washing-machine":
         return "/images/logo6.webp";
       default:
-        return "/images/logo5.jpg";
+        return "/images/logo5.webp";
     }
   };
 

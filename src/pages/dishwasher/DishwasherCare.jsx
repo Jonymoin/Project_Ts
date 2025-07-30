@@ -6,25 +6,22 @@ const reasons = [
     title: '1. Save Money on Repairs',
     description:
       'A well-maintained dishwasher prevents unexpected breakdowns and costly repairs. Regular cleaning and servicing help you avoid major issues before they happen.',
-    image: '/images/dishwash1.jpg',
   },
   {
     title: '2. Improve Cleaning Performance',
     description:
       'A trouble-free dishwasher ensures your dishes come out spotless every time. No more residue, cloudiness, or double washing.',
-    image: '/images/dishwash2.jpg',
+    
   },
   {
     title: '3. Extend Appliance Lifespan',
     description:
       'Just like any machine, dishwashers last longer when cared for. Simple steps like checking filters and running vinegar cycles can add years to its life.',
-    image: '/images/dishwasher3.webp',
   },
   {
     title: '4. Save Water & Electricity',
     description:
       'A clean and smooth-running dishwasher uses less water and energy per load. This makes it not only eco-friendly but also lighter on your monthly bills.',
-    image: '/images/dishwash4.jpg',
   },
 ];
 
@@ -56,11 +53,7 @@ const DishwasherCare = () => {
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
           >
-            <img
-              src={reason.image}
-              alt={reason.title}
-              className="w-full md:w-40 h-40 object-cover rounded-xl"
-            />
+           
             <div>
               <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 {reason.title}

@@ -9,8 +9,6 @@ export default {
       fontFamily: {
         montserrat: ["Montserrat", "serif"],
         roboto:["Roboto Mono", "serif"],
-        abril:[ "Abril Fatface", "serif"]
-
       }
     },
   },

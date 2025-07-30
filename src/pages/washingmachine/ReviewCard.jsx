@@ -106,7 +106,7 @@ export default function ReviewSection() {
         What Our Customers Say
       </h2>
 
-      <div className="absolute inset-0 opacity-5 bg-[url('/review-bg.jpg')] bg-cover bg-center rounded-2xl pointer-events-none"></div>
+      <div className="absolute inset-0 opacity-5 bg-cover bg-center rounded-2xl pointer-events-none"></div>
 
       {/* Add Review Form */}
       <form

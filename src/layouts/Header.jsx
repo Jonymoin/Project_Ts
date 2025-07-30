@@ -6,12 +6,7 @@ import { IoClose } from 'react-icons/io5';
 const serviceLinks = [
   { name: "Washing Machine", slug: "washing-machine" },
   { name: "Dishwasher Repair", slug: "dishwasher-repair" },
-  { name: "CC TV Installation", slug: "cctv-installation" },
-  { name: "Install Your TV", slug: "tv-installation" },
   { name: "Air-Conditioning Service", slug: "air-conditioning-service" },
-  { name: "Painting", slug: "painting" },
-  { name: "Electrical Service", slug: "electrical-service" },
-  
 ];
 
 const Header = () => {
@@ -22,12 +17,8 @@ const Header = () => {
 
   const getLogoSrc = () => {
     switch (location.pathname) {
-      case "/service/painting":
-        return "/images/logo1.png";
       case "/service/washing-machine":
-        return "/images/logo6.jpg";
-      case "/service/false-ceiling":
-        return "/images/logo1.png";
+        return "/images/logo6.webp";
       default:
         return "/images/logo5.jpg";
     }
@@ -48,16 +39,7 @@ const Header = () => {
 
       {/* Header */}
       <div
-        className={`w-full h-[100px] bg-cover bg-center flex items-center justify-between px-6 lg:px-16 z-50 ${
-          location.pathname === "/service/painting"
-            ? ""
-            : "bg-[#0070f7]"
-        }`}
-        style={
-          location.pathname === "/service/painting"
-            ? { backgroundImage: "url('/images/headerbg.jpg')" }
-            : {}
-        }
+        className="w-full h-[100px] bg-[#0070f7] bg-cover bg-center flex items-center justify-between px-6 lg:px-16 z-50"
       >
         <Link to="/">
           <img src={getLogoSrc()} alt="Logo" className="w-20 rounded-xl" />
@@ -86,6 +68,7 @@ const Header = () => {
                   ? "text-black bg-white"
                   : "text-white"
               }`}
+              aria-label="Toggle navigation menu"
             >
               Services
             </button>

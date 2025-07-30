@@ -15,13 +15,9 @@ const Footer = () => {
     const services = [
        { id: 1, name: "Washing Machine", slug: "washing-machine"},
        { id: 2, name: "Dishwasher Repair", slug: "dishwasher-repair"},
-       { id: 3, name: "CC TV Installation", slug: "cctv-installation"},
-       { id: 4, name: "Install Your TV", slug: "tv-installation"},
        
        { id: 6, name: "Air-Conditioning Service", slug: "air-conditioning-service" },
-       { id: 7, name: "Painting", slug: "painting" },
        
-       { id: 10, name: "Electrical Service", slug: "electrical-service" },
      
      ];
   const location = useLocation();
@@ -36,12 +32,10 @@ const Footer = () => {
     switch (location.pathname) {
       case "/":
         return "/images/logo5.jpg";
-      case "/service/painting":
-        return "/images/logo1.png";
+      
       case "/service/washing-machine":
-        return "/images/logo6.jpg";
-      case "/false-ceiling":
-        return "/images/logo1.png";
+        return "/images/logo6.webp";
+      
       default:
         return "/images/logo5.jpg"; // fallback logo
     }
@@ -50,7 +44,7 @@ const Footer = () => {
    <>
     <div className='flex flex-col md:flex-row md:justify-around bg-gray-800 text-white pt-10 items-center gap-10 md:gap-0 w-full relative'>
   <img 
-    src="/images/bg14.png" 
+    src="/images/bg14.webp" 
     alt="Background of handyman services" 
     className="absolute inset-0 w-full h-full object-cover -z-10" 
     loading="lazy" 

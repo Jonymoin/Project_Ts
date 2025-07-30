@@ -1,8 +1,6 @@
 import React from 'react'
 import { LuWashingMachine } from 'react-icons/lu';
-import { BiDish, BiCctv } from 'react-icons/bi';
-import { MdOutlineResetTv, MdElectricBolt,  } from 'react-icons/md';
-import { FaPaintRoller } from 'react-icons/fa6';
+import { BiDish } from 'react-icons/bi';
 import { TbAirConditioning } from 'react-icons/tb';
 import { Link } from 'react-router-dom';
 
@@ -10,13 +8,11 @@ const Hero3 = () => {
   const services = [
     { name: "Washing Machine", slug: "washing-machine", icon: LuWashingMachine },
     { name: "Dishwasher Repair", slug: "dishwasher-repair", icon: BiDish },
-    { name: "CC TV Installation", slug: "cctv-installation", icon: BiCctv },
-    { name: "Install Your TV", slug: "tv-installation", icon: MdOutlineResetTv },
+   
     
     { name: "Air-Conditioning Service", slug: "air-conditioning", icon: TbAirConditioning },
-    { name: "Painting", slug: "painting", icon: FaPaintRoller },
+    
    
-    { name: "Electrical Service", slug: "electrical-service", icon: MdElectricBolt },
     
   ];
 

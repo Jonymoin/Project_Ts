@@ -25,12 +25,8 @@ const Hero3 = () => {
   const services = [
     { id: 1, name: "Washing Machine", slug: "washing-machine", icon: LuWashingMachine },
     { id: 2, name: "Dishwasher Repair", slug: "dishwasher-repair", icon: BiDish },
-    { id: 3, name: "CC TV Installation", slug: "cctv-installation", icon: BiCctv },
-    { id: 4, name: "Install Your TV", slug: "tv-installation", icon: MdOutlineResetTv },
-    { id: 5, name: "Air-Conditioning Service", slug: "air-conditioning-service", icon: TbAirConditioning },
-    { id: 6, name: "Painting", slug: "painting", icon: FaPaintRoller },
+    { id: 3, name: "Air-Conditioning Service", slug: "air-conditioning-service", icon: TbAirConditioning },
    
-    { id: 7, name: "Electrical Service", slug: "electrical-service", icon: MdElectricBolt },
     
   ];
 

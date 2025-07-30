@@ -7,7 +7,7 @@ const ContactHero = () => {
     <div className='bg-[#0070f7] flex flex-col'  style={{
         width: '100%',
         
-        backgroundImage: "url('/images/bg14.png')",
+        backgroundImage: "url('/images/bg14.webp')",
         backgroundPosition: 'center',
         
        }}>
@@ -20,7 +20,7 @@ const ContactHero = () => {
         <p className="text-lg md:text-2xl text-black text-center">
           One call can fix it all. Quick appointments available!
         </p>
-          <img src="/images/logo6.jpg"  alt="washing machine service logo" className='w-32 rounded-xl'  />
+          <img src="/images/logo6.webp"  alt="washing machine service logo" className='w-32 rounded-xl'  />
         <div className="flex flex-col md:flex-row items-center gap-10 md:ml-14 mt-8">
           
           {/* WhatsApp */}

@@ -37,7 +37,7 @@ const ContactUs = () => {
           {/* Left image + contact info */}
           <div className='md:w-1/2 w-full rounded-xl relative'>
             <div>
-              <img src="/images/handyman5.webp" alt="Washing machine repair service" className='rounded-2xl grayscale' />
+              <img src="/images/handyman5.webp" loading='lazy' alt="Washing machine repair service" className='rounded-2xl grayscale' />
             </div>
             <div className='flex items-center justify-center text-white absolute gap-4 right-0 left-0 bottom-0 md:bottom-5 pl-[3%] pb-6 bg-gradient-to-t from-black via-transparent to-slate-700'>
               <div className='border-2 p-4 rounded-full border-yellow-500 text-yellow-500 text-4xl'>

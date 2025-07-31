@@ -5,12 +5,7 @@ import {
 import {
   BiDish, BiCctv
 } from 'react-icons/bi';
-import {
-  MdOutlineResetTv,  MdElectricBolt,
-} from 'react-icons/md';
-import {
-   FaPaintRoller
-} from 'react-icons/fa6';
+
 
 import {
   TbAirConditioning

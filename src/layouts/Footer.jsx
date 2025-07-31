@@ -56,6 +56,7 @@ const Footer = () => {
       src={getLogoSrc()}
       alt="repair service singapore"
       className="w-24"
+      loading='lazy'
     />
                  <p>362A CHANGI ROAD <br />  KENG YEE GARDEN <br />SINGAPORE (419823)     </p>
 
@@ -81,8 +82,8 @@ const Footer = () => {
         <div className='service'>
             <p className='text-2xl text-center '>Our <span className='text-[#0070f7]'>Services</span></p>
             
-            <div className='w-36 h-1 bg-[#0070f7] ml-10 md:ml-36'></div>
-            <ul className='grid grid-cols-1 md:grid-cols-2 gap-3 mt-5'>
+            <div className='w-36 h-1 bg-[#0070f7] ml-10'></div>
+            <ul className='grid grid-cols-1 gap-3 mt-5'>
             {services.map((service) => (
                 <li key={service.id} className="py-2 px-4 hover:bg-[#0070f7] transition-all duration-100 rounded-xl">
                   <Link to={`/service/${service.slug}`} className='flex items-center'>

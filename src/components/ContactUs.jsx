@@ -52,8 +52,8 @@ const ContactUs = () => {
 
           {/* Form section */}
           <div className='md:w-1/2'>
-            <h3 className='text-center uppercase text-slate-700 font-bold tracking-widest'>Get in Touch</h3>
-            <h3 className='text-center text-[28px] font-montserrat'>Effortless Booking with Us</h3>
+            <h3 className='text-center uppercase text-white font-bold tracking-widest'>Get in Touch</h3>
+            <h3 className='text-center text-[28px] text-yellow-50'>Effortless Booking with Us</h3>
 
             {successMessage && (
               <div className="bg-green-500 text-white p-3 rounded-md text-center mb-3">

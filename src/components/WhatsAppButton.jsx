@@ -28,6 +28,7 @@ const WhatsAppButton = () => {
       target="_blank"
       data-gtm-event="whatsapp_float"
       rel="noopener noreferrer"
+      aria-label="Chat with us on WhatsApp"
       className="whatsapp-glow fixed bottom-5 right-5 bg-white p-4 rounded-full shadow-lg flex items-center justify-center z-50 hover:scale-105 transition-transform"
       data-clarity-label="whatsapp-floating"
     >

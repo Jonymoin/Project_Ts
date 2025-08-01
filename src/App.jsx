@@ -42,7 +42,6 @@ const App = () => {
         <Route path='/service/washing-machine' element={<WashingMachine />} />
         <Route path='/privacypolicy' element={<PrivacyPolicy />} />
         <Route path='/terms&conditions' element={<TermsnCon />} />
-        <Route path='/:slug' element={<ServicePage />} />
 
       </Routes>
       <Footer />

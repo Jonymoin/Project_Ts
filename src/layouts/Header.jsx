@@ -104,6 +104,7 @@ const Header = () => {
           className="lg:hidden text-4xl text-white"
           onClick={() => setMenuOpen(!menuOpen)}
         >
+          <span class="sr-only">Open Menu</span>
           <HiMenuAlt3 />
         </button>
       </div>
@@ -116,10 +117,11 @@ const Header = () => {
       >
         <div className="p-4">
           <button
-            className="text-xl mb-4"
-            onClick={() => setMenuOpen(false)}
+           className="text-xl mb-4"
+           onClick={() => setMenuOpen(false)}
+           aria-label="Close menu"
           >
-            <IoClose />
+    <IoClose />
           </button>
 
           <ul className="space-y-4 text-lg font-semibold">

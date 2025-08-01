@@ -50,7 +50,7 @@ const Footer = () => {
     loading="lazy" 
   />
         <div className='logo flex flex-col items-center gap-3'>
-        <h3 className='text-[28px] font-semibold font-roboto'>SARIMON <span className='text-[#0070f7]'>ENGINEERING</span> PTE. LTD</h3>
+        <h3 className='text-[28px] font-semibold font-roboto'>SARIMON ENGINEERING PTE. LTD</h3>
 
         <img
       src={getLogoSrc()}
@@ -62,7 +62,7 @@ const Footer = () => {
 
         </div>
         <div>
-        <p className='text-2xl text-center'>Quick <span className='text-[#0070f7]'>Links</span></p>
+        <p className='text-2xl text-center'>Quick Links</p>
         <div className='w-36 h-1 bg-[#0070f7] ml-3'></div>
           <ul className='text-xl space-y-3 ml-46 mt-4'>
           <li>
@@ -80,7 +80,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className='service'>
-            <p className='text-2xl text-center '>Our <span className='text-[#0070f7]'>Services</span></p>
+            <p className='text-2xl text-center '>Our Services</p>
             
             <div className='w-36 h-1 bg-[#0070f7] ml-10'></div>
             <ul className='grid grid-cols-1 gap-3 mt-5'>
@@ -95,7 +95,7 @@ const Footer = () => {
        
         </div>
         <div className='contact space-y-5'>
-            <h3 className='text-xl'>Contact <span className='text-[#0070f7]'>Us</span></h3>
+            <h3 className='text-xl'>Contact Us</h3>
             <div className='w-36 h-1 bg-[#0070f7]'></div>
             <p className='flex items-center gap-2'> <FaMapMarkerAlt /  >362A CHANGI ROAD <br />  KENG YEE GARDEN <br />SINGAPORE (419823)    
  </p>

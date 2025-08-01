@@ -121,7 +121,7 @@ const Header = () => {
            onClick={() => setMenuOpen(false)}
            aria-label="Close menu"
           >
-    <IoClose />
+         <IoClose />
           </button>
 
           <ul className="space-y-4 text-lg font-semibold">

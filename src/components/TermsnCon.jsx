@@ -5,7 +5,6 @@ const TermsnCon = () => {
     <div className='flex flex-col gap-5 w-[90%] md:w-[80%] mx-auto'>
       <h3 className='text-4xl font-bold'>Terms & Conditions</h3>
 
-      <h4 className='text-xl'>Terms & Conditions</h4>
 
       <h5 className='text-lg'>**Terms & Conditions**</h5>
       

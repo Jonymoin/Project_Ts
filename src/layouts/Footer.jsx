@@ -27,7 +27,7 @@ const Footer = () => {
 
   const phoneNumber = isWashingMachinePage ? '+65 8460 8380' : '+65 8165 0541';
   const whatsappNumber = isWashingMachinePage ? '+65 8460 8380' : '+65 8165 0541';
-  const whatsappLink = isWashingMachinePage ? 'https://wa.me/6584608380' : 'https://wa.me/6581650541';
+  const whatsappLink = isWashingMachinePage ? 'https://wa.me/6584608380' : 'https://wa.me/6584608380';
   const getLogoSrc = () => {
     switch (location.pathname) {
       case "/":

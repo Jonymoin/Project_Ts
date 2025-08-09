@@ -7,10 +7,10 @@ const HeaderTop = () => {
   const location = useLocation();
 
   const isWashingPage = location.pathname === '/service/washing-machine';
-  const whatsappNumber = isWashingPage ? '+65 84608380' : '+65 81650541';
+  const whatsappNumber = isWashingPage ? '+65 84608380' : '+65 84608380';
   const whatsappLink = isWashingPage
     ? 'https://wa.me/6584608380'
-    : 'https://wa.me/6581650541';
+    : 'https://wa.me/6584608380';
 
   const handleWhatsAppClick = (e) => {
     e.preventDefault(); // Prevent default navigation

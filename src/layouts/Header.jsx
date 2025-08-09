@@ -104,7 +104,7 @@ const Header = () => {
           className="lg:hidden text-4xl text-white"
           onClick={() => setMenuOpen(!menuOpen)}
         >
-          <span class="sr-only">Open Menu</span>
+          <span className="sr-only">Open Menu</span>
           <HiMenuAlt3 />
         </button>
       </div>

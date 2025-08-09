@@ -66,7 +66,7 @@ const AboutUs = () => {
           className="bg-white shadow-lg rounded-2xl p-6"
           whileHover={{ scale: 1.02 }}
         >
-          <h2 className="text-2xl font-semibold text-blue-700 mb-4">Industry Classification</h2>
+          <h2 className="text-2xl font-semibold text-blue-700 mb-4">Industry classNameification</h2>
           <ul className="text-gray-700 space-y-2">
             <li><strong>SSIC Code:</strong> 43210</li>
             <li><strong>Principal Activity:</strong> Electrical Work</li>

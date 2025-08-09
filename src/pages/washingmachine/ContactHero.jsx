@@ -15,6 +15,9 @@ const ContactHero = () => {
         <h2 className="text-lg md:text-xl text-white text-center font-medium">
           Best Services All Over Singapore
         </h2>
+        <h2 className="text-lg md:text-xl text-white text-center font-medium">
+          Washer Repair
+        </h2>
         <p className="text-base md:text-2xl text-black text-center max-w-2xl leading-relaxed">
           One call can fix it all. Quick appointments available!
         </p>

@@ -6,6 +6,8 @@ import OurServices from "./Oursevices";
 import Wm1 from "./Wm1";
 import ReviewSection from "./ReviewCard";
 import ContactUs from "../../components/ContactUs";
+import CommonProblemsList from "./CommonProblemsList";
+import WashingMachineRepairCard from "./WashingMachineRepairCard";
 
 const WashingMachine = () => {
   return (
@@ -30,6 +32,7 @@ const WashingMachine = () => {
       </Helmet>
 
       {/* Rest of your page content */}
+      <WashingMachineRepairCard />
       <Wm1 />
       <ContactHero />
       
@@ -37,6 +40,8 @@ const WashingMachine = () => {
       <OurServices />
 
       <ContactUs />
+      <CommonProblemsList />
+
       <ReviewSection />
       
     </>

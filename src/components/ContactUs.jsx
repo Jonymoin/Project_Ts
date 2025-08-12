@@ -31,7 +31,7 @@ const ContactUs = () => {
 
   return (
     <>
-      <div className='bg-gradient-to-r from-gray-700 via-violet-900 to-slate-500'>
+      <div id="contact-us" className='bg-gradient-to-r from-gray-700 via-violet-900 to-slate-500'>
         <div className='max-w-[90%] mx-auto py-12 mt-[50px] flex flex-col md:flex-row gap-4'>
           
           {/* Left image + contact info */}
@@ -39,13 +39,13 @@ const ContactUs = () => {
             <div>
               <img src="/images/handyman5.webp" loading='lazy' alt="Washing machine repair service" className='rounded-2xl grayscale' />
             </div>
-            <div className='flex items-center justify-center text-white absolute gap-4 right-0 left-0 bottom-0 md:bottom-5 pl-[3%] pb-6 bg-gradient-to-t from-black via-transparent to-slate-700'>
-              <div className='border-2 p-4 rounded-full border-yellow-500 text-yellow-500 text-4xl'>
+            <div className='flex items-center justify-center text-black absolute gap-4 right-0 left-0 bottom-0 md:bottom-5 pl-[3%] pb-6 bg-gradient-to-t from-black via-transparent to-slate-700'>
+              <div className='border-2 p-2 rounded-full border-yellow-500 text-yellow-500 text-4xl'>
                 <HiOutlineMailOpen />
               </div>
               <div>
-                <p className='text-[21px]'>24/7 Emergency Service</p>
-                <p className='text-[21px]'>homerepairsng@gmail.com</p>
+                <p className='text-[18px] text-white'>24/7 Emergency Service</p>
+                <p className='text-[18px] text-white'>homerepairsng@gmail.com</p>
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@ const ContactUs = () => {
             <h3 className='text-center text-[28px] text-yellow-50'>Effortless Booking with Us</h3>
 
             {successMessage && (
-              <div className="bg-green-500 text-white p-3 rounded-md text-center mb-3">
+              <div className="bg-green-500 text-black p-3 rounded-md text-center mb-3">
                 {successMessage}
               </div>
             )}
@@ -87,7 +87,7 @@ const ContactUs = () => {
 
               <button
                 type='submit'
-                className='bg-gradient-to-r from-black to-blue-800 hover:bg-white hover:text-red-500 text-white font-bold w-[150px] mt-4 py-3 mx-auto rounded-lg'
+                className='bg-orange-500 hover:bg-white hover:text-red-500 text-black font-bold w-[150px] mt-4 py-3 mx-auto rounded-lg'
               >
                 Send Mail
               </button>

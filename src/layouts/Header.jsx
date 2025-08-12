@@ -39,7 +39,7 @@ const Header = () => {
 
       {/* Header */}
       <div
-        className="w-full h-[100px] bg-[#0070f7] bg-cover bg-center flex items-center justify-between px-6 lg:px-16 z-50"
+        className="w-full h-[100px] bg-[#cf0] bg-cover bg-center flex items-center justify-between px-6 lg:px-16 z-50"
       >
         <Link to="/">
           <img src={getLogoSrc()} alt="Logo" className="w-20 rounded-xl" loading='lazy'/>
@@ -50,7 +50,7 @@ const Header = () => {
           <Link
             to="/"
             className={`text-lg uppercase font-semibold px-4 py-2 rounded-md transition-all duration-300 hover:bg-blue-500 ${
-              location.pathname === "/" ? "text-black bg-white" : "text-white"
+              location.pathname === "/" ? "text-black bg-white" : "text-black"
             }`}
           >
             Home
@@ -66,7 +66,7 @@ const Header = () => {
               className={`text-lg uppercase font-semibold px-4 py-2 rounded-md transition-all duration-300 hover:bg-blue-500 ${
                 location.pathname.includes("/service")
                   ? "text-black bg-white"
-                  : "text-white"
+                  : "text-black"
               }`}
               aria-label="Toggle navigation menu"
             >
@@ -92,7 +92,7 @@ const Header = () => {
           <Link
             to="/about"
             className={`text-lg uppercase font-semibold px-4 py-2 rounded-md transition-all duration-300 hover:bg-blue-500 ${
-              location.pathname === "/about" ? "text-black bg-white" : "text-white"
+              location.pathname === "/about" ? "text-black bg-white" : "text-black"
             }`}
           >
             About Us
@@ -101,7 +101,7 @@ const Header = () => {
 
         {/* Mobile toggle */}
         <button
-          className="lg:hidden text-4xl text-white"
+          className="lg:hidden text-4xl text-black"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <span className="sr-only">Open Menu</span>

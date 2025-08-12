@@ -18,7 +18,7 @@ const Dishwasher = () => {
 
       {/* Service Details */}
       <section className="py-10 px-6 md:px-20 grid md:grid-cols-1 gap-10">
-         <section className="bg-cyan-400 text-white py-10 text-center">
+         <section className="bg-cyan-400 text-black py-10 text-center">
   <h3 className="text-3xl font-bold mb-4">Need Fast Dishwasher Repair?</h3>
   <p className="mb-6 text-lg">Message us now and get your dishwasher fixed by Singapore’s top appliance experts.</p>
   

@@ -54,7 +54,7 @@ const ReviewCard = ({ name, rating, comment }) => (
     className="bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-all"
   >
     <div className="flex items-center mb-2">
-      <div className="bg-indigo-500 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center text-lg mr-3">
+      <div className="bg-indigo-500 text-black font-bold rounded-full w-10 h-10 flex items-center justify-center text-lg mr-3">
         {name.charAt(0)}
       </div>
       <div>
@@ -148,7 +148,7 @@ export default function ReviewSection() {
         </div>
         <button
           type="submit"
-          className="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition"
+          className="bg-indigo-600 text-black px-4 py-2 rounded hover:bg-indigo-700 transition"
         >
           Submit Review
         </button>
@@ -165,7 +165,7 @@ export default function ReviewSection() {
         <div className="text-center mt-8 relative z-10">
           <button
             onClick={() => setVisibleCount((prev) => prev + 5)}
-            className="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition"
+            className="bg-indigo-600 text-black px-6 py-2 rounded-full hover:bg-indigo-700 transition"
           >
             See more reviews
           </button>

@@ -39,16 +39,16 @@ const handleSubmit = async (e) => {
             <div>
               <img src="/images/wm2.webp" fetchpriority="high" width="500" height="500" alt="Washing machine repair service" className='rounded-2xl grayscale' />
             </div>
-            <div className='flex items-center justify-center text-white absolute gap-6 right-0 left-0 bottom-0 md:bottom-5 pl-[3%] pb-6 bg-gradient-to-t from-black via-transparent to-slate-700'>
+            <div className='flex items-center justify-center text-black absolute gap-6 right-0 left-0 bottom-0 md:bottom-5 pl-[3%] pb-6 bg-gradient-to-t from-black via-transparent to-slate-700'>
               <div className=' text-center space-y-4'>
-                <h1>Washing Machine Repair Service</h1>
+                <h1 className='font-bold text-white'>Washing Machine Repair Service</h1>
                 <h2 className='text-[24px] text-cyan-500 font-semibold'>Having issues with your washing machine?</h2>
                 
                 
                 <a
       href="tel:+6584608380"
       data-gtm-event="call_middle"
-      className="inline-block bg-[#0070F7] hover:bg-red-700 text-white text-[18px] font-bold px-6 py-3 rounded-xl shadow-md transition duration-300"
+      className="inline-block bg-[#cf0] hover:bg-red-700 text-black text-[18px] font-bold px-6 py-3 rounded-xl shadow-md transition duration-300"
     >
       📞 Call Us Now
     </a>
@@ -63,7 +63,7 @@ const handleSubmit = async (e) => {
 
             {/* ✅ Success Message */}
             {successMessage && (
-              <div className="bg-green-500 text-white p-3 rounded-md text-center mb-3">
+              <div className="bg-green-500 text-black p-3 rounded-md text-center mb-3">
                 {successMessage}
               </div>
             )}
@@ -103,7 +103,7 @@ const handleSubmit = async (e) => {
 
               <button
                 type='submit'
-                className='bg-gradient-to-r from-black to-blue-800 hover:bg-white hover:text-red-500 text-white font-bold w-[150px] mt-4 py-3 mx-auto rounded-lg'
+                className='bg-gradient-to-r from-black to-blue-800 hover:bg-white hover:text-red-500 text-black font-bold w-[150px] mt-4 py-3 mx-auto rounded-lg'
               >
                 Send Mail
               </button>

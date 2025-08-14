@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 const ContactHero = () => {
   return (
     <div
-      className="bg-[#cf0] flex flex-col h-[800px] md:h-[600px] bg-cover bg-center"
+      className="bg-[#00FF00] flex flex-col h-[800px] md:h-[600px] bg-cover bg-center"
     >
       <div className="max-w-6xl py-16 mx-auto flex flex-col items-center gap-6 px-4">
         

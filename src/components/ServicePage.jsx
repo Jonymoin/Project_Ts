@@ -23,8 +23,8 @@ const Hero3 = () => {
         <div className='grid grid-cols-2 md:grid-cols-4 gap-6 p-4'>
           {services.map(service => (
             <Link key={service.slug} to={`/service/${service.slug}`}>
-              <div className='bg-[#cf0] flex flex-col items-center py-10 text-black rounded-lg shadow-lg cursor-pointer group hover:bg-black transition-all duration-500'>
-                <div className='bg-black p-4 rounded-full text-2xl group-hover:bg-[#cf0]'>
+              <div className='bg-[#00FF00] flex flex-col items-center py-10 text-black rounded-lg shadow-lg cursor-pointer group hover:bg-black transition-all duration-500'>
+                <div className='bg-black p-4 rounded-full text-2xl group-hover:bg-[#00FF00]'>
                   <service.icon />
                 </div>
                 <h3 className='text-xl font-semibold text-center'>{service.name}</h3>

@@ -6,7 +6,6 @@ import OurServices from "./Oursevices";
 import Wm1 from "./Wm1";
 import ReviewSection from "./ReviewCard";
 import ContactUs from "../../components/ContactUs";
-import CommonProblemsList from "./CommonProblemsList";
 import WashingMachineRepairCard from "./WashingMachineRepairCard";
 
 const WashingMachine = () => {
@@ -40,7 +39,6 @@ const WashingMachine = () => {
       <OurServices />
 
       <ContactUs />
-      <CommonProblemsList />
 
       <ReviewSection />
       

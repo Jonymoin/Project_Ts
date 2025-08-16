@@ -63,29 +63,29 @@ const Footer = () => {
         </div>
         <div>
         <p className='text-2xl text-center'>Quick Links</p>
-        <div className='w-36 h-1 bg-[#00FF00] ml-3'></div>
+        <div className='w-36 h-1 bg-[#00FFFF] ml-3'></div>
           <ul className='text-xl space-y-3 ml-46 mt-4'>
           <li>
             
-            <Link to="/about" className='flex items-center gap-2 hover:text-[#00FF00]'><TbArrowBigRightLinesFilled /> About Us</Link>
+            <Link to="/about" className='flex items-center gap-2 hover:text-[#00FFFF]'><TbArrowBigRightLinesFilled /> About Us</Link>
           </li>
           <li>
             
-            <Link to="/privacypolicy" className='flex items-center gap-2 hover:text-[#00FF00]'><TbArrowBigRightLinesFilled/> Privacy Policy</Link>
+            <Link to="/privacypolicy" className='flex items-center gap-2 hover:text-[#00FFFF]'><TbArrowBigRightLinesFilled/> Privacy Policy</Link>
           </li>
           <li>
             
-            <Link to="/terms&conditions" className='flex items-center gap-2 hover:text-[#00FF00]'><TbArrowBigRightLinesFilled/> Terms & Conditions</Link>
+            <Link to="/terms&conditions" className='flex items-center gap-2 hover:text-[#00FFFF]'><TbArrowBigRightLinesFilled/> Terms & Conditions</Link>
           </li>
           </ul>
         </div>
         <div className='service'>
             <p className='text-2xl text-center '>Our Services</p>
             
-            <div className='w-36 h-1 bg-[#00FF00] ml-10'></div>
+            <div className='w-36 h-1 bg-[#00FFFF] ml-10'></div>
             <ul className='grid grid-cols-1 gap-3 mt-5'>
             {services.map((service) => (
-                <li key={service.id} className="py-2 px-4 hover:bg-[#00FF00] transition-all duration-100 rounded-xl">
+                <li key={service.id} className="py-2 px-4 hover:bg-[#00FFFF] transition-all duration-100 rounded-xl">
                   <Link to={`/service/${service.slug}`} className='flex items-center'>
                     <TbArrowBigRightLinesFilled/>{service.name}
                   </Link>
@@ -96,7 +96,7 @@ const Footer = () => {
         </div>
         <div className='contact space-y-5'>
             <h3 className='text-xl'>Contact Us</h3>
-            <div className='w-36 h-1 bg-[#00FF00]'></div>
+            <div className='w-36 h-1 bg-[#00FFFF]'></div>
             <p className='flex items-center gap-2'> <FaMapMarkerAlt /  >362A CHANGI ROAD <br />  KENG YEE GARDEN <br />SINGAPORE (419823)    
  </p>
             <p className='text-xl

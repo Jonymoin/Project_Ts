@@ -3,12 +3,12 @@ import { FaWhatsapp, FaStar, FaTools, FaClock, FaPhoneAlt } from "react-icons/fa
 
 const WashingMachineRepairCard = () => {
   return (
-    <div className="bg-gradient-to-r from-black to-gray-800 shadow-lg rounded-xl p-6 max-w-4xl mx-auto text-white">
+    <div className=" shadow-lg rounded-xl p-6 max-w-4xl mx-auto text-black">
       {/* Title */}
       <h2 className="text-2xl font-bold">
         Washing Machine Repair — <span className="text-red-500">Fast & Reliable</span>
       </h2>
-      <p className="mt-1 text-gray-300">
+      <p className="mt-1 text-gray-600">
         Certified technicians • Affordable pricing • Parts replacement available
       </p>
 
@@ -34,12 +34,12 @@ const WashingMachineRepairCard = () => {
       </div>
 
       {/* Small note */}
-      <p className="text-sm text-gray-400 mt-2">
+      <p className=" text-gray-600 mt-2">
         Technician at your door within 60 minutes in most locations. 7 days a week.
       </p>
 
-      <h3 className="text-3xl">We Repair Washing Machines All Kinds Of Problem</h3>
-      <h3 className="text-3xl">Got any <span className="text-red-500">ERROR CODE</span>? No Problem!</h3>
+      <h3 className="text-3xl">• We Repair Washing Machines All Kinds Of Problem</h3>
+      <h3 className="text-3xl">• Got any <span className="text-red-500">ERROR CODE</span>? No Problem!</h3>
 
       {/* Stats */}
       <div className="grid grid-cols-3 gap-4 mt-6">

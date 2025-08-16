@@ -39,7 +39,7 @@ const Header = () => {
 
       {/* Header */}
       <div
-        className="w-full h-[100px] bg-[#00FF00] bg-cover bg-center flex items-center justify-between px-6 lg:px-16 z-50"
+        className="w-full h-[100px] bg-[#00FFFF] bg-cover bg-center flex items-center justify-between px-6 lg:px-16 z-50"
       >
         <Link to="/">
           <img src={getLogoSrc()} alt="Logo" className="w-20 rounded-xl" loading='lazy'/>

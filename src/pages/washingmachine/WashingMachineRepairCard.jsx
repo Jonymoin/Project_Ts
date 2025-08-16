@@ -38,6 +38,9 @@ const WashingMachineRepairCard = () => {
         Technician at your door within 60 minutes in most locations. 7 days a week.
       </p>
 
+      <h3 className="text-3xl">We Repair Washing Machines All Kinds Of Problem</h3>
+      <h3 className="text-3xl">Got any <span className="text-red-500">ERROR CODE</span>? No Problem!</h3>
+
       {/* Stats */}
       <div className="grid grid-cols-3 gap-4 mt-6">
         <div className="flex flex-col items-center">

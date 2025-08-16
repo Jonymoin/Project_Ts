@@ -27,7 +27,7 @@ const HeaderTop = () => {
       <a
       href="tel:+6584608380"
       data-gtm-event="call_top"
-      className="inline-block bg-[#00FF00] hover:bg-red-700 text-black text-[15px] font-bold px-4 py-1 rounded-xl shadow-md transition duration-300"
+      className="inline-block bg-[#00FF00] hover:bg-red-700 text-black/- text-[15px] font-bold px-4 py-1 rounded-xl shadow-md transition duration-300"
     >
       📞 Call Us Now
     </a>

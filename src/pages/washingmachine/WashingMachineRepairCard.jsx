@@ -1,12 +1,42 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { FaWhatsapp, FaStar, FaTools, FaClock, FaPhoneAlt } from "react-icons/fa";
+
+const textVariant = {
+  hidden: { y: "100%", opacity: 0 },
+  visible: (i) => ({
+    y: 0,
+    opacity: 1,
+    transition: { delay: i * 0.05, duration: 0.4, ease: "easeOut" },
+  }),
+};
+
+const AnimatedText = ({ text }) => {
+  return (
+    <h3 className="text-3xl font-semibold flex flex-wrap overflow-hidden">
+      {text.split("").map((char, i) => (
+        <motion.span
+          key={i}
+          variants={textVariant}
+          initial="hidden"
+          animate="visible"
+          custom={i}
+          className="inline-block"
+        >
+          {char === " " ? "\u00A0" : char}
+        </motion.span>
+      ))}
+    </h3>
+  );
+};
 
 const WashingMachineRepairCard = () => {
   return (
-    <div className=" shadow-lg rounded-xl p-6 max-w-4xl mx-auto text-black">
+    <div className="shadow-lg rounded-xl p-6 max-w-4xl mx-auto text-black">
       {/* Title */}
       <h2 className="text-2xl font-bold">
-        Washing Machine Repair — <span className="text-red-500">Fast & Reliable</span>
+        Washing Machine Repair —{" "}
+        <span className="text-red-500">Fast & Reliable</span>
       </h2>
       <p className="mt-1 text-gray-600">
         Certified technicians • Affordable pricing • Parts replacement available
@@ -38,8 +68,11 @@ const WashingMachineRepairCard = () => {
         Technician at your door within 60 minutes in most locations. 7 days a week.
       </p>
 
-      <h3 className="text-3xl">• We Repair Washing Machines All Kinds Of Problem</h3>
-      <h3 className="text-3xl">• Got any <span className="text-red-500">ERROR CODE</span>? No Problem!</h3>
+      {/* Animated Headings */}
+      <div className="space-y-2 mt-4">
+        <AnimatedText text="• We Repair Washing Machines All Kinds Of Problem" />
+        <AnimatedText text="• Got any ERROR CODE? No Problem!" />
+      </div>
 
       {/* Stats */}
       <div className="grid grid-cols-3 gap-4 mt-6">

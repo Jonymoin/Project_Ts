@@ -32,13 +32,13 @@ const AnimatedText = ({ text }) => {
 
 const WashingMachineRepairCard = () => {
   return (
-    <div className="shadow-lg rounded-xl p-6 max-w-4xl mx-auto text-black">
+    <div className="shadow-lg rounded-xl p-6 max-w-4xl mx-auto text-white bg-gradient-to-r from-gray-700 via-violet-900 to-slate-500">
       {/* Title */}
       <h2 className="text-2xl font-bold">
         Washing Machine Repair —{" "}
         <span className="text-red-500">Fast & Reliable</span>
       </h2>
-      <p className="mt-1 text-gray-600">
+      <p className="mt-1 text-gray-200">
         Certified technicians • Affordable pricing • Parts replacement available
       </p>
 
@@ -64,12 +64,12 @@ const WashingMachineRepairCard = () => {
       </div>
 
       {/* Small note */}
-      <p className=" text-gray-600 mt-2">
+      <p className=" text-gray-200 mt-2">
         Technician at your door within 60 minutes in most locations. 7 days a week.
       </p>
 
       {/* Animated Headings */}
-      <div className="space-y-2 mt-4">
+      <div className="space-y-2 mt-4 ">
         <AnimatedText text="• We Repair Washing Machines All Kinds Of Problem" />
         <AnimatedText text="• Got any ERROR CODE? No Problem!" />
       </div>

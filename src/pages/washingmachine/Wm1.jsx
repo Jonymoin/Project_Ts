@@ -32,7 +32,7 @@ const handleSubmit = async (e) => {
 
   return (
     <>
-      <div className='bg-gradient-to-r from-gray-700 via-violet-900 to-slate-500'>
+      <div className='bg-[#ACC8E5]'>
         <div className='max-w-[90%] mx-auto py-12 flex flex-col md:flex-row gap-20 md:gap-4'>
           {/* Left side: image & text */}
           <div className='md:w-1/2 w-full rounded-xl relative'>
@@ -59,7 +59,7 @@ const handleSubmit = async (e) => {
           {/* Right side: form */}
           <div className='md:w-1/2 hidden md:block'>
             <h3 className='text-center uppercase text-cyan-500 font-bold tracking-widest'>Get in Touch</h3>
-            <h3 className='text-center text-[28px] font-montserrat'>Effortless Booking with Us</h3>
+            <h3 className='text-center text-[28px] text-white'>Effortless Booking with Us</h3>
 
             {/* ✅ Success Message */}
             {successMessage && (
@@ -103,7 +103,7 @@ const handleSubmit = async (e) => {
 
               <button
                 type='submit'
-                className='bg-gradient-to-r from-black to-blue-800 hover:bg-white hover:text-red-500 text-black font-bold w-[150px] mt-4 py-3 mx-auto rounded-lg'
+                className='bg-blue-600 text-yellow-100 hover:bg-white hover:text-red-500 font-bold w-[150px] mt-4 py-3 mx-auto rounded-lg'
               >
                 Send Mail
               </button>

@@ -48,7 +48,7 @@ const Pricing = () => {
       <motion.p className="text-gray-700 mb-6 text-lg leading-relaxed" variants={item}>
         We repair almost all types of washing machines. The cost depends on the condition
         and the type of issue, but most problems fall within the range of{" "}
-        <span className="font-semibold">$100 to $200</span>.
+        <span className="font-semibold">$70 to $200</span>.
       </motion.p>
 
       <motion.h3

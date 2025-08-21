@@ -32,7 +32,7 @@ const AnimatedText = ({ text, className }) => {
 
 const WashingMachineRepairCard = () => {
   return (
-    <div className="shadow-lg p-6 max-w-4xl mx-auto text-white bg-violet-700 space-y-7 rounded-2xl">
+    <div className="shadow-lg p-6 max-w-4xl mx-auto text-white bg-slate-700 space-y-7">
       {/* Title */}
       <h2 className="text-2xl font-bold">
         Washing Machine Repair —{" "}

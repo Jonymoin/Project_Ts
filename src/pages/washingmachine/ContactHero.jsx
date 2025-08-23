@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 const ContactHero = () => {
   return (
     <div
-      className="bg-[#00FFFF] flex flex-col h-[800px] md:h-[600px] bg-cover bg-center"
+      className="bg-[#00FFFF] flex flex-col h-[800px] md:h-[700px] bg-cover bg-center"
     >
       <div className="max-w-6xl py-16 mx-auto flex flex-col items-center gap-6 px-4">
         
@@ -40,7 +40,7 @@ const ContactHero = () => {
             href="http://wa.me/6584608380"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-black text-white hover:bg-green-600 px-5 py-3 rounded-full text-lg transition"
+            className="flex items-center gap-2 bg-blue-600 text-white hover:bg-green-600 px-5 py-3 rounded-full text-lg transition-all duration-500 font-semibold"
             data-clarity-label="whatsapp-hero"
           >
             <FaWhatsapp className="w-6 h-6" />
@@ -52,15 +52,15 @@ const ContactHero = () => {
             src="/images/telephone.webp"
             alt="Telephone"
             className="w-20 h-20 md:w-28 md:h-28 object-contain"
-            width="112"
-            height="112"
+            width="100"
+            height="100"
             loading="lazy"
           />
 
           {/* Email */}
           <a
             href="mailto:homerepairsng@gmail.com"
-            className="flex items-center gap-2 bg-black text-white hover:bg-blue-600 px-5 py-3 rounded-full text-lg transition"
+            className="flex items-center gap-2 bg-blue-600 text-white font-semibold hover:bg-black px-5 py-3 rounded-full text-lg transition-all duration-500"
           >
             <MdEmail className="w-6 h-6" />
             homerepairsng@gmail.com

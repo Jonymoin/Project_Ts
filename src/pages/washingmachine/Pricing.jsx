@@ -21,12 +21,13 @@ const Pricing = () => {
   };
 
   const problems = [
-    "Error codes & electronic faults",
+    "Any ERROR codes",
     "Water leakage issues",
+    "Water not draining properly",
+    "Door Lock Problem",
     "General cleaning & deep cleaning",
     "Broken door latch",
     "Drum not spinning or making noise",
-    "Water not draining properly",
     "Power or wiring problems",
     "Strange vibrations during wash cycle",
   ];
@@ -36,7 +37,10 @@ const Pricing = () => {
       className="max-w-3xl mx-auto bg-white shadow-lg rounded-2xl p-8 mt-10"
       variants={container}
       initial="hidden"
-      animate="visible"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.2 }} 
+      // once:true → animate only first time, 
+      // amount:0.2 → starts animating when 20% of the component is visible
     >
       <motion.h2
         className="text-3xl font-bold text-indigo-600 mb-4 text-center"
@@ -59,7 +63,7 @@ const Pricing = () => {
       </motion.h3>
 
       <motion.ul
-        className="list-disc pl-6 space-y-2 text-gray-700"
+        className="list-disc pl-6 space-y-2 text-gray-700 text-[18px] font-semibold"
         variants={container}
       >
         {problems.map((problem, index) => (

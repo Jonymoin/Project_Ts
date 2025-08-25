@@ -45,7 +45,7 @@ const WhyChooseUs = () => {
             <h3 className="text-2xl font-bold mb-4 text-indigo-600">Affordable Pricing Details</h3>
             <p className="text-gray-700 mb-4">
               We repair almost all types of washing machines. The cost depends on the condition and 
-              the type of issue, but most problems fall within the range of <span className="font-semibold">$70 to $200</span>.
+              the type of issue, but most problems fall within the range of <span className="font-semibold">$70 to $180</span>.
             </p>
             <p className="font-semibold mb-2">Some common problems we fix:</p>
             <ul className="list-disc pl-6 text-gray-700 space-y-1">

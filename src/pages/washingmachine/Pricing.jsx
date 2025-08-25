@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineCheckCircle } from "react-icons/ai";
 
 const Pricing = () => {
   const problems = [
@@ -23,16 +24,19 @@ const Pricing = () => {
         We repair almost all types of washing machines. The cost depends on the
         condition and the type of issue, but most problems fall within the range
         of{" "}
-        <span className="font-semibold">$70 to $200</span>.
+        <span className="font-semibold">$70 to $180</span>.
       </p>
 
       <h3 className="text-xl font-semibold text-gray-800 mb-3">
         Some common problems we fix:
       </h3>
 
-      <ul className="list-disc pl-6 space-y-2 text-gray-700 text-[18px] font-semibold">
+      <ul className="space-y-3 text-gray-700 text-[18px] font-semibold">
         {problems.map((problem, index) => (
-          <li key={index}>{problem}</li>
+          <li key={index} className="flex items-start gap-2">
+            <AiOutlineCheckCircle className="text-green-600 text-2xl mt-1" />
+            <span>{problem}</span>
+          </li>
         ))}
       </ul>
     </div>

@@ -34,9 +34,9 @@ const WashingMachine = () => {
       {/* Rest of your page content */}
       <WashingMachineRepairCard />
       <Wm1 />
+      <Pricing />
 
       <ContactHero />
-      <Pricing />
 
       <WhyChooseUs />
       <OurServices />

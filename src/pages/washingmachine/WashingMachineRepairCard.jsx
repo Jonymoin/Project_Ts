@@ -34,7 +34,7 @@ const AnimatedText = ({ text, className }) => {
 
 const WashingMachineRepairCard = () => {
   return (
-    <div className="relative shadow-lg p-6 max-w-4xl mx-auto text-white rounded-xl overflow-hidden">
+    <div className="relative shadow-lg p-6 max-w-4xl mx-auto text-white overflow-hidden">
       {/* Background Image with Gradient Overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center"
@@ -54,7 +54,7 @@ const WashingMachineRepairCard = () => {
         <div className="space-y-1">
           <AnimatedText text="Certified technician" className="text-gray-200" />
           <AnimatedText text="Affordable pricing" className="text-gray-200" />
-          <AnimatedText text="Parts available" className="text-gray-200" />
+          <AnimatedText text="Replacement Parts available" className="text-gray-200" />
         </div>
 
         {/* Buttons */}
@@ -63,7 +63,7 @@ const WashingMachineRepairCard = () => {
             href="https://wa.me/6584608380"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-5 py-3 rounded-lg text-lg font-semibold transition"
+            className="flex items-center gap-2 bg-green-500 hover:bg-green-700 text-white px-5 py-3 rounded-lg text-lg font-semibold transition"
           >
             <FaWhatsapp className="text-xl" />
             WhatsApp Us

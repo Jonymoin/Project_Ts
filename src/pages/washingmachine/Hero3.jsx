@@ -26,7 +26,7 @@ const Hero3 = () => {
                 className="h-[180px] bg-cover bg-center relative"
                 style={{ backgroundImage: `url(/images/service${index + 1}.webp)` }}
               >
-                <div className="absolute top-2 left-2 bg-white p-2 rounded-full text-[#00FFFF] text-2xl shadow">
+                <div className="absolute top-2 left-2 bg-white p-2 rounded-full text-[#1598FF] text-2xl shadow">
                   <service.icon />
                 </div>
               </div>
@@ -36,7 +36,7 @@ const Hero3 = () => {
               <h3 className="text-xl font-bold mb-2">{service.name}</h3>
               <Link
                 to={`/service/${service.slug}`}
-                className="inline-block bg-[#00FFFF] text-black px-4 py-2 rounded-full hover:bg-white hover:text-[#00FFFF] border border-[#00FFFF] transition-all duration-300"
+                className="inline-block bg-[#1598FF] text-black px-4 py-2 rounded-full hover:bg-white hover:text-[#1598FF] border border-[#1598FF] transition-all duration-300"
               >
                 View Details
               </Link>

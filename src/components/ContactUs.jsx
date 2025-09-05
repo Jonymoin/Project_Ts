@@ -87,7 +87,7 @@ const ContactUs = () => {
 
               <button
                 type='submit'
-                className='bg-[#00FFFF] hover:bg-white hover:text-red-500 text-black font-bold w-[150px] mt-4 py-3 mx-auto rounded-lg'
+                className='bg-[#1598FF] hover:bg-white hover:text-red-500 text-black font-bold w-[150px] mt-4 py-3 mx-auto rounded-lg'
               >
                 Send Mail
               </button>

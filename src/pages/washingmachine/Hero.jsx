@@ -9,7 +9,7 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Homerepair <span className="text-blue-200">SG</span>
           </h1>
-          <p className="text-2xl md:text-4xl mb-2 font-bold"><span className='uppercase'>Singapore's</span> Number #1 Washing Machine Repair Services</p>
+          <p className="text-2xl md:text-4xl mb-2 font-bold"><span className='uppercase'>Singapore's</span> Best Washing Machine Repair Services</p>
           <p className="text-lg opacity-90 mb-8">Fast, Reliable & Affordable Solutions in Singapore</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a 

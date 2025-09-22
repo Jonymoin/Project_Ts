@@ -6,6 +6,7 @@ import { IoClose } from 'react-icons/io5';
 const serviceLinks = [
   { name: "Washing Machine", slug: "washing-machine" },
   { name: "Dishwasher Repair", slug: "dishwasher-repair" },
+  { name: "Plumbing Service", slug: "plumbing-service" },
   { name: "Air-Conditioning Service", slug: "air-conditioning-service" },
 ];
 

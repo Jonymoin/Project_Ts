@@ -16,6 +16,7 @@ import Hero3 from './pages/washingmachine/Hero3'
 import WhyChooseUs from './pages/washingmachine/WhyChooseUs'
 import ContactUs from './components/ContactUs'
 import Aircon from './pages/aircon/Aircon'
+import PlumbingSG from './pages/Plumbing/PlumbingSG'
 
 
 
@@ -38,6 +39,7 @@ const App = () => {
         
         <Route path='/about' element={<AboutUs />} />
         <Route path='/service/dishwasher-repair' element={<Dishwasher />} />
+        <Route path='/service/plumbing-service' element={<PlumbingSG />} />
         
         <Route path='/service/washing-machine' element={<WashingMachine />} />
         <Route path='/service/air-conditioning-service' element={<Aircon />} />

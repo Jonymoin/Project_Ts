@@ -2,6 +2,8 @@ import React from 'react';
 import { LuWashingMachine } from 'react-icons/lu';
 import { BiDish } from 'react-icons/bi';
 import { TbAirConditioning } from 'react-icons/tb';
+import { PiPipeLight } from "react-icons/pi"; // Pipe icon
+
 import { Link } from 'react-router-dom';
 
 const Hero3 = () => {
@@ -9,6 +11,7 @@ const Hero3 = () => {
     { id: 1, name: "Washing Machine", slug: "washing-machine", icon: LuWashingMachine },
     { id: 2, name: "Dishwasher Repair", slug: "dishwasher-repair", icon: BiDish },
     { id: 3, name: "Air-Conditioning Service", slug: "air-conditioning-service", icon: TbAirConditioning },
+    { id: 4, name: "Plumbing Service", slug: "plumbing-service", icon: PiPipeLight },
   ];
 
   return (

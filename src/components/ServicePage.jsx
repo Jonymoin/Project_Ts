@@ -8,6 +8,7 @@ const Hero3 = () => {
   const services = [
     { name: "Washing Machine", slug: "washing-machine", icon: LuWashingMachine },
     { name: "Dishwasher Repair", slug: "dishwasher-repair", icon: BiDish },
+    { name: "Plumbing Service", slug: "plumbing-service", icon: BiDish },
    
     
     { name: "Air-Conditioning Service", slug: "air-conditioning", icon: TbAirConditioning },

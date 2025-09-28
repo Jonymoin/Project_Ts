@@ -14,7 +14,8 @@ import { useLocation } from 'react-router-dom';
 const Footer = () => {
     const services = [
        { id: 1, name: "Washing Machine", slug: "washing-machine"},
-       { id: 2, name: "Dishwasher Repair", slug: "dishwasher-repair"},
+       { id: 2, name: "electrical service", slug: "electrical-service"},
+       { id: 3, name: "plumbing service", slug: "plumbing-service"},
        
        { id: 6, name: "Air-Conditioning Service", slug: "air-conditioning-service" },
        

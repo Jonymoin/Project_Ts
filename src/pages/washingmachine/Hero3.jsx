@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const Hero3 = () => {
   const services = [
     { id: 1, name: "Washing Machine", slug: "washing-machine", icon: LuWashingMachine },
-    { id: 2, name: "Dishwasher Repair", slug: "dishwasher-repair", icon: BiDish },
+    { id: 2, name: "electrical service", slug: "electrical-service", icon: BiDish },
     { id: 3, name: "Air-Conditioning Service", slug: "air-conditioning-service", icon: TbAirConditioning },
     { id: 4, name: "Plumbing Service", slug: "plumbing-service", icon: PiPipeLight },
   ];

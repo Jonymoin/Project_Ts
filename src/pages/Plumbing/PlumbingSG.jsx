@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { Phone, MessageCircle, Wrench, Clock, Shield, CheckCircle, Star, MapPin, Mail, ChevronDown, ChevronUp, Droplets, Zap } from 'lucide-react';
+import HeroSection from './HeroSection';
 
 const PlumbingSG = () => {
   const [openFaq, setOpenFaq] = useState(null);
 
-  const phoneNumber = "+6584608380";
-  const whatsappLink = `https://wa.me/6584608380?text=Hello,%20I%20need%20plumbing%20service%20assistance.`;
+  const phoneNumber = "+6581650541";
+  const whatsappLink = `https://wa.me/6581650541?text=Hello,%20I%20need%20plumbing%20service%20assistance.`;
 
   const plumbingServices = [
     'Pipe leak repairs',
@@ -84,7 +85,7 @@ const PlumbingSG = () => {
           </div>
         </div>
       </header>
-
+       <HeroSection />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-900 to-slate-900 py-20 border-b border-slate-700">
         <div className="container mx-auto px-4 text-center">

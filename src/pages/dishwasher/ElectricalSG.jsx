@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Phone, MessageCircle, Mail, Zap, Home, Shield, Clock, Star, CheckCircle, Menu, X, ArrowRight, Users, Award, Wrench, Lightbulb, Power, Settings, MapPin } from 'lucide-react';
+import HeroSectionElectro from './HeroSectionElectro';
 
 const ElectricalSG = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -179,7 +180,7 @@ const galleryImages = [
           )}
         </div>
       </header>
-
+       <HeroSectionElectro />
       {/* Hero Section */}
       <section id="home" className="relative py-20 lg:py-32 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-indigo-600/10"></div>

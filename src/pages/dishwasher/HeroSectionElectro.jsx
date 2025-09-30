@@ -1,24 +1,30 @@
 import React, { useState, useEffect } from "react";
 
-const HeroSection = () => {
+const HeroSectionElectro = () => {
   const slides = [
     {
-      image: "/images/plumbing1.jpg",
-      headline: "Best Plumber in Singapore",
-      subtitle: "Cheapest Rates • Professional Service • 24/7 Emergency Support",
-      description: "Looking for reliable plumbing services in Singapore? We provide expert repairs, installations, and emergency plumbing solutions at the most affordable prices. From leaking taps to major pipe issues – we've got you covered!"
+      image: "/images/electro1.jpg",
+      headline: "Trusted Electrician in Singapore",
+      subtitle: "Safe • Affordable • Professional Electrical Services",
+      description: "Need reliable electrical services in Singapore? Our certified electricians provide expert installations, repairs, and emergency support. From power trips and lighting setups to full wiring projects – we ensure safe and professional solutions at the best prices."
     },
     {
-      image: "/images/plumbing2.jpg",
-      headline: "Emergency Plumbing Services",
-      subtitle: "Fast Response • Licensed Plumbers • Available 24/7",
-      description: "Burst pipes or blocked drains? Our emergency plumbing team is ready to respond immediately. We arrive quickly with the right tools to fix urgent plumbing problems and prevent further damage to your property."
+      image: "/images/electro2.jpg",
+      headline: "24/7 Emergency Electrical Services",
+      subtitle: "Fast Response • Licensed Experts • Same Day Service",
+      description: "Experiencing a power outage or electrical emergency? Our team is available round the clock to handle urgent electrical issues. We respond quickly to ensure your safety and restore power efficiently."
     },
     {
-      image: "/images/plumbing3.jpg",
-      headline: "Complete Bathroom & Kitchen Solutions",
-      subtitle: "Quality Fixtures • Expert Installation • Warranty Backed",
-      description: "Transform your bathroom or kitchen with our comprehensive plumbing services. From new fixture installations to complete renovations, we ensure proper water flow, drainage, and long-lasting results at competitive prices."
+      image: "/images/electro3.jpg",
+      headline: "Complete Home Rewiring Solutions",
+      subtitle: "Modern • Safe • Energy Efficient",
+      description: "Upgrade your home's electrical system with our comprehensive rewiring services. We use the latest standards and quality materials to ensure your property is safe, compliant, and ready for modern electrical demands."
+    },
+    {
+      image: "/images/electro4.jpg",
+      headline: "Commercial Electrical Installations",
+      subtitle: "Reliable • Scalable • Code Compliant",
+      description: "Power your business with our professional commercial electrical services. From office fit-outs to industrial installations, we deliver reliable solutions that meet safety regulations and support your operations."
     }
   ];
 
@@ -42,7 +48,7 @@ const HeroSection = () => {
         transition: "background-image 1s ease-in-out",
       }}
     >
-      {/* Overlay for readability */}
+      {/* Overlay */}
       <div className="absolute inset-0 bg-black/50"></div>
 
       {/* Text content */}
@@ -75,4 +81,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default HeroSectionElectro;

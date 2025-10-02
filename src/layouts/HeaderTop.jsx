@@ -9,7 +9,7 @@ const HeaderTop = () => {
   const location = useLocation();
 
   const isWashingPage = location.pathname === '/service/washing-machine';
-  const isPlumbingPage = location.pathname === '/service/plumbing-service';
+  const isPlumbingPage = location.pathname === '/service/electrical-service';
 
   // WhatsApp number & link conditionally set
   const whatsappNumber = isPlumbingPage 

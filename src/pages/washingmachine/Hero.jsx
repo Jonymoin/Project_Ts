@@ -13,14 +13,14 @@ const Hero = () => {
           <p className="text-lg opacity-90 mb-8">Fast, Reliable & Affordable Solutions in Singapore</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a 
-              href="tel:+6584608380"
+              href="tel:+6581313085"
               className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-blue-50 transform hover:scale-105 transition-all duration-200 shadow-lg flex items-center gap-2"
             >
               <Phone className="w-5 h-5" />
               Call Now: +65 8460 8380
             </a>
             <a 
-              href="https://wa.me/6584608380"
+              href="https://wa.me/6581313085"
               className="bg-green-500 text-white px-8 py-4 rounded-full font-semibold hover:bg-green-600 transform hover:scale-105 transition-all duration-200 shadow-lg flex items-center gap-2"
             >
               <MessageCircle className="w-5 h-5" />

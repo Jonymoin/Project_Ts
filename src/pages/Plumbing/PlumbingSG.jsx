@@ -5,8 +5,8 @@ import HeroSection from './HeroSection';
 const PlumbingSG = () => {
   const [openFaq, setOpenFaq] = useState(null);
 
-  const phoneNumber = "+6581650541";
-  const whatsappLink = `https://wa.me/6581650541?text=Hello,%20I%20need%20plumbing%20service%20assistance.`;
+  const phoneNumber = "+6581313085";
+  const whatsappLink = `https://wa.me/6581313085?text=Hello,%20I%20need%20plumbing%20service%20assistance.`;
 
   const plumbingServices = [
     'Pipe leak repairs',

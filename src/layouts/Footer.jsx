@@ -26,9 +26,9 @@ const Footer = () => {
   // 👉 Logic: Declare variables BEFORE return
   const isWashingMachinePage = location.pathname === '/service/washing-machine';
 
-  const phoneNumber = isWashingMachinePage ? '+65 8460 8380' : '+65 8165 0541';
-  const whatsappNumber = isWashingMachinePage ? '+65 8460 8380' : '+65 8165 0541';
-  const whatsappLink = isWashingMachinePage ? 'https://wa.me/6584608380' : 'https://wa.me/6584608380';
+  const phoneNumber = isWashingMachinePage ? '+6581313085 ' : '+6581313085';
+  const whatsappNumber = isWashingMachinePage ? '+656581313085' : '+6581313085';
+  const whatsappLink = isWashingMachinePage ? 'https://wa.me/6581313085' : 'https://wa.me/6581313085';
   const getLogoSrc = () => {
     switch (location.pathname) {
       case "/":
@@ -43,7 +43,7 @@ const Footer = () => {
   };
   return (
    <>
-    <div className='flex flex-col md:flex-row md:justify-around bg-gray-800 text-white pt-10 items-center gap-10 md:gap-0 w-full relative'>
+    <div className='flex flex-col md:flex-row md:justify-around bg-gray-900 text-white pt-10 items-center gap-10 md:gap-0 w-full relative'>
   <img 
     src="/images/bg14.webp" 
     alt="Background of handyman services" 

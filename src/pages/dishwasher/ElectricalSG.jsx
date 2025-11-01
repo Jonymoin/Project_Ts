@@ -6,8 +6,8 @@ const ElectricalSG = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
 
-  const phoneNumber = "+6581650541";
-  const whatsappLink = `https://wa.me/6581650541?text=Hello,%20I%20need%20electrical%20service%20assistance.`;
+  const phoneNumber = "+6581313085";
+  const whatsappLink = `https://wa.me/6581313085?text=Hello,%20I%20need%20electrical%20service%20assistance.`;
 
   const services = [
     {
@@ -207,7 +207,7 @@ const galleryImages = [
                 className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl flex items-center justify-center space-x-3"
               >
                 <Phone className="h-6 w-6" />
-                <span>+65 8165 0541</span>
+                <span>+65 8131 3085</span>
               </a>
               <a 
                 href={whatsappLink} 
@@ -273,7 +273,15 @@ const galleryImages = [
                 </ul>
                 <div className="mt-6">
                   <button className="text-blue-600 font-semibold flex items-center space-x-2 group-hover:text-blue-700 transition-colors">
-                    <span>Learn More</span>
+                    <a 
+                href={whatsappLink} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 py-3 rounded-xl flex items-center space-x-2 transition-all duration-300 transform hover:scale-105 shadow-lg"
+              >
+                <MessageCircle className="h-4 w-4" />
+                <span className="font-semibold">WhatsApp</span>
+              </a>
                     <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </button>
                 </div>
@@ -371,7 +379,7 @@ const galleryImages = [
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Our Work Portfolio</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Explore our recent electrical projects showcasing quality workmanship and attention to detail across Singapore.
+              
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -385,7 +393,7 @@ const galleryImages = [
       <div className="absolute bg-gradient-to-br from-blue-600/80 to-indigo-600/80 group-hover:from-blue-600/60 group-hover:to-indigo-600/60 transition-all duration-500"></div>
 
       {/* Content */}
-      <div className="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
+      <div className="absolute bottom-0 left-0 right-0 p-6 text-gray-900 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
         <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4">
           <h3 className="font-bold text-lg mb-2">{image.title}</h3>
           <span className="inline-block bg-white/30 px-3 py-1 rounded-full text-sm font-medium">

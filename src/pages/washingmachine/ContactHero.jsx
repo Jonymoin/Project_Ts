@@ -37,7 +37,7 @@ const ContactHero = () => {
 
           {/* WhatsApp */}
           <a
-            href="http://wa.me/6584608380"
+            href="http://wa.me/6581313085"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-blue-600 text-white hover:bg-green-600 px-5 py-3 rounded-full text-lg transition-all duration-500 font-semibold"

@@ -470,7 +470,7 @@ const galleryImages = [
                   </div>
                   <div>
                     <h3 className="font-bold text-gray-900 text-lg">Phone</h3>
-                    <p className="text-blue-600 font-medium">+65 8165 0541</p>
+                    <p className="text-blue-600 font-medium">+65 8131 3085</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4 p-6 bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl">
@@ -479,7 +479,7 @@ const galleryImages = [
                   </div>
                   <div>
                     <h3 className="font-bold text-gray-900 text-lg">WhatsApp</h3>
-                    <p className="text-green-600 font-medium">+65 8165 0541</p>
+                    <p className="text-green-600 font-medium">+65 8131 3085</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4 p-6 bg-gradient-to-r from-red-50 to-pink-50 rounded-2xl">
@@ -597,14 +597,14 @@ const galleryImages = [
                   <Phone className="h-5 w-5 text-blue-400" />
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-gray-300">+65 8165 0541</p>
+                    <p className="text-gray-300">+65 8131 3085</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">
                   <MessageCircle className="h-5 w-5 text-green-400" />
                   <div>
                     <p className="font-medium">WhatsApp</p>
-                    <p className="text-gray-300">+65 8165 0541</p>
+                    <p className="text-gray-300">+65 8131 3085</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">

@@ -8,6 +8,7 @@ const serviceLinks = [
   { name: "electrical service", slug: "electrical-service" },
   { name: "Plumbing Service", slug: "plumbing-service" },
   { name: "Air-Conditioning Service", slug: "air-conditioning-service" },
+  { name: "TV Installation", slug: "tv-install" },
 ];
 
 const Header = () => {

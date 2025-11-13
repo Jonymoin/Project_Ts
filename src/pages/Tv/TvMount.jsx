@@ -99,7 +99,7 @@ const TVMountingWebsite = () => {
                   <a href="#contact" className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition transform hover:scale-105">
                     Get Free Quote
                   </a>
-                  <a href="tel:+6565813130585" className="bg-white text-gray-900 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition transform hover:scale-105">
+                  <a href="tel:+65813130585" className="bg-white text-gray-900 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition transform hover:scale-105">
                     Call Now
                   </a>
                 </div>
@@ -203,14 +203,14 @@ const TVMountingWebsite = () => {
             </div>
             <div className="flex items-center gap-3">
               <MessageCircle className="w-6 h-6" />
-              <a href="https://wa.me/6565813130585" target="_blank" rel="noopener noreferrer" className="text-xl font-semibold hover:underline">
+              <a href="https://wa.me/6581313085" target="_blank" rel="noopener noreferrer" className="text-xl font-semibold hover:underline">
                 WhatsApp Us
               </a>
             </div>
             <div className="flex items-center gap-3">
               <Mail className="w-6 h-6" />
-              <a href="mailto:info@tvmountsg.com" className="text-xl font-semibold hover:underline">
-                info@tvmountsg.com
+              <a href="mailto:homerepairsng@gmail.com" className="text-xl font-semibold hover:underline">
+                homerepairsng@gmail.com
               </a>
             </div>
           </div>

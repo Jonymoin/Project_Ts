@@ -5,7 +5,6 @@ import Footer from './layouts/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
 import AboutUs from './components/AboutUs'
 import ScrollToTop from './ScroolToTop'
-import PrivacyPolicy from './components/PrivacyPolicy'
 import TermsnCon from './components/TermsnCon'
 import HeaderTop from './layouts/HeaderTop'
 
@@ -45,7 +44,7 @@ const App = () => {
 
         <Route path='/service/washing-machine' element={<WashingMachine />} />
         <Route path='/service/air-conditioning-service' element={<Aircon />} />
-        <Route path='/privacypolicy' element={<PrivacyPolicy />} />
+       
         <Route path='/terms&conditions' element={<TermsnCon />} />
 
       </Routes>

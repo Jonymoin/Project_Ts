@@ -70,10 +70,7 @@ const Footer = () => {
             
             <Link to="/about" className='flex items-center gap-2 hover:text-[#1598FF]'><TbArrowBigRightLinesFilled /> About Us</Link>
           </li>
-          <li>
-            
-            <Link to="/privacypolicy" className='flex items-center gap-2 hover:text-[#1598FF]'><TbArrowBigRightLinesFilled/> Privacy Policy</Link>
-          </li>
+          
           <li>
             
             <Link to="/terms&conditions" className='flex items-center gap-2 hover:text-[#1598FF]'><TbArrowBigRightLinesFilled/> Terms & Conditions</Link>

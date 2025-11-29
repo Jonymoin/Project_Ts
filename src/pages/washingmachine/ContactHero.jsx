@@ -44,7 +44,7 @@ const ContactHero = () => {
             data-clarity-label="whatsapp-hero"
           >
             <FaWhatsapp className="w-6 h-6" />
-            +65 8460 8380
+            +6581313085
           </a>
 
           {/* Middle Image */}

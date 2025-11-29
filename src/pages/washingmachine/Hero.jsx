@@ -17,7 +17,7 @@ const Hero = () => {
               className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-blue-50 transform hover:scale-105 transition-all duration-200 shadow-lg flex items-center gap-2"
             >
               <Phone className="w-5 h-5" />
-              Call Now: +65 8460 8380
+              Call Now: +6581313085
             </a>
             <a 
               href="https://wa.me/6581313085"

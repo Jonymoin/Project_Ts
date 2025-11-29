@@ -96,10 +96,10 @@ const TVMountingWebsite = () => {
                   {slide.subheadline}
                 </p>
                 <div className="flex gap-4 justify-center">
-                  <a href="https://wa.me/6581650541" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition transform hover:scale-105">
+                  <a href="https://wa.me/6581313085" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition transform hover:scale-105">
                     Get Free Quote
                   </a>
-                  <a href="tel:+6581650541" className="bg-white text-gray-900 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition transform hover:scale-105">
+                  <a href="tel:+6581313085" className="bg-white text-gray-900 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition transform hover:scale-105">
                     Call Now
                   </a>
                 </div>

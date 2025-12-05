@@ -197,13 +197,13 @@ const TVMountingWebsite = () => {
           <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
             <div className="flex items-center gap-3">
               <Phone className="w-6 h-6" />
-              <a href="tel:+6565813130585" className="text-xl font-semibold hover:underline">
-                +65 6581 3130 85
+              <a href="tel:+65813130585" className="text-xl font-semibold hover:underline">
+                +65 81 3130 85
               </a>
             </div>
             <div className="flex items-center gap-3">
               <MessageCircle className="w-6 h-6" />
-              <a href="https://wa.me/6581650541" target="_blank" rel="noopener noreferrer" className="text-xl font-semibold hover:underline">
+              <a href="https://wa.me/6581313085" target="_blank" rel="noopener noreferrer" className="text-xl font-semibold hover:underline">
                 WhatsApp Us
               </a>
             </div>

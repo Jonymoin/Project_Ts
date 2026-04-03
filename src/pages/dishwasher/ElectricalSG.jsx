@@ -6,8 +6,8 @@ const ElectricalSG = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
 
-  const phoneNumber = "+6581313085";
-  const whatsappLink = `https://wa.me/6581313085?text=Hello,%20I%20need%20electrical%20service%20assistance.`;
+  const phoneNumber = "+6581650541";
+  const whatsappLink = `https://wa.me/6581650541?text=Hello,%20I%20need%20electrical%20service%20assistance.`;
 
   const services = [
     {

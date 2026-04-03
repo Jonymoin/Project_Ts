@@ -8,7 +8,7 @@ const WhatsAppButton = () => {
   const location = useLocation();
 
   const isWashingPage = location.pathname === '/service/washing-machine';
-  const whatsappNumber = isWashingPage ? '6581313085' : '6581313085';
+  const whatsappNumber = isWashingPage ? '6581650541' : '6581650541';
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
 
   const handleClick = (e) => {

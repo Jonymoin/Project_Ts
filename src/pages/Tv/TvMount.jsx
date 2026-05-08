@@ -59,7 +59,7 @@ const TVMountingWebsite = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-gray-900 text-white py-4 px-6 sticky top-0 z-50 shadow-lg">
+      <header className="bg-gray-900 text-white py-4 px-6 sticky top-0 shadow-lg">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="text-2xl font-bold">TV Mount Pro SG</div>
           <div className="flex gap-6 items-center">

@@ -7,7 +7,6 @@ const serviceLinks = [
   { name: "Washing Machine", slug: "washing-machine" },
   { name: "electrical service", slug: "electrical-service" },
   { name: "Plumbing Service", slug: "plumbing-service" },
-  { name: "Air-Conditioning Service", slug: "air-conditioning-service" },
   { name: "TV Installation", slug: "tv-install" },
 ];
 
@@ -41,7 +40,7 @@ const Header = () => {
 
       {/* Header */}
       <div
-        className="w-full h-[100px] bg-[#1598FF] bg-cover bg-center flex items-center justify-between px-6 lg:px-16 z-50"
+        className="w-full h-[60px] bg-[#1598FF] bg-cover bg-center flex items-center justify-between px-6 lg:px-16 z-50"
       >
         <Link to="/">
           <img src={getLogoSrc()} alt="Logo" className="w-20 rounded-xl" loading='lazy'/>
@@ -138,7 +137,7 @@ const Header = () => {
                 Services
               </button>
               {mobileServiceOpen && (
-                <ul className="ml-4 mt-2 space-y-2 text-sm font-normal text-gray-700">
+                <ul className="ml-4 mt-2 space-y-2 text-sm font-normal text-gray-700 z-50">
                   {serviceLinks.map((service) => (
                     <li key={service.slug}>
                       <Link

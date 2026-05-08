@@ -15,7 +15,6 @@ import WhyChooseUs from './pages/washingmachine/WhyChooseUs'
 import ContactUs from './components/ContactUs'
 import Aircon from './pages/aircon/Aircon'
 import PlumbingSG from './pages/Plumbing/PlumbingSG'
-import ElectricalSG from './pages/dishwasher/ElectricalSG'
 import TVMountingWebsite from './pages/Tv/TvMount'
 
 
@@ -38,7 +37,7 @@ const App = () => {
         }/>
         
         <Route path='/about' element={<AboutUs />} />
-        <Route path='/service/electrical-service' element={<ElectricalSG />} />
+        
         <Route path='/service/plumbing-service' element={<PlumbingSG />} />
        <Route path='/service/tv-install' element={<TVMountingWebsite />} />
 

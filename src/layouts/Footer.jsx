@@ -16,8 +16,9 @@ const Footer = () => {
        { id: 1, name: "Washing Machine", slug: "washing-machine"},
        { id: 2, name: "electrical service", slug: "electrical-service"},
        { id: 3, name: "plumbing service", slug: "plumbing-service"},
+       {id: 4, name: "TV Installation", slug: "tv-install" },
+
        
-       { id: 6, name: "Air-Conditioning Service", slug: "air-conditioning-service" },
        
      
      ];

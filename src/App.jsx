@@ -13,7 +13,6 @@ import WashingMachine from './pages/washingmachine/WashingMachine';
 import Hero3 from './pages/washingmachine/Hero3'
 import WhyChooseUs from './pages/washingmachine/WhyChooseUs'
 import ContactUs from './components/ContactUs'
-import Aircon from './pages/aircon/Aircon'
 import PlumbingSG from './pages/Plumbing/PlumbingSG'
 import TVMountingWebsite from './pages/Tv/TvMount'
 
@@ -42,7 +41,7 @@ const App = () => {
        <Route path='/service/tv-install' element={<TVMountingWebsite />} />
 
         <Route path='/service/washing-machine' element={<WashingMachine />} />
-        <Route path='/service/air-conditioning-service' element={<Aircon />} />
+      
        
         <Route path='/terms&conditions' element={<TermsnCon />} />
 

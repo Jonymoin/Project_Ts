@@ -27,9 +27,9 @@ const Footer = () => {
   // 👉 Logic: Declare variables BEFORE return
   const isWashingMachinePage = location.pathname === '/service/washing-machine';
 
-  const phoneNumber = isWashingMachinePage ? '+6581650541 ' : '+6581650541';
-  const whatsappNumber = isWashingMachinePage ? '+656581650541' : '+6581650541';
-  const whatsappLink = isWashingMachinePage ? 'https://wa.me/6581650541' : 'https://wa.me/6581650541';
+  const phoneNumber = isWashingMachinePage ? '+6590574832 ' : '+6590574832';
+  const whatsappNumber = isWashingMachinePage ? '+656590574832' : '+6590574832';
+  const whatsappLink = isWashingMachinePage ? 'https://wa.me/6590574832' : 'https://wa.me/6590574832';
   const getLogoSrc = () => {
     switch (location.pathname) {
       case "/":

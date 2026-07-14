@@ -13,17 +13,17 @@ const HeaderTop = () => {
 
   // WhatsApp number & link conditionally set
   const whatsappNumber = isPlumbingPage 
-    ? '+65 81650541' 
-    : '+65 81650541';
+    ? '+65 90574832' 
+    : '+65 90574832';
 
   const whatsappLink = isPlumbingPage
-    ? 'https://wa.me/6581650541'
-    : 'https://wa.me/6581650541';
+    ? 'https://wa.me/6590574832'
+    : 'https://wa.me/6590574832';
 
   // Phone number conditionally set
   const phoneNumber = isPlumbingPage 
-    ? '+6581650541' 
-    : '+6581650541';
+    ? '+6590574832' 
+    : '+6590574832';
 
   const handleWhatsAppClick = (e) => {
     e.preventDefault(); 

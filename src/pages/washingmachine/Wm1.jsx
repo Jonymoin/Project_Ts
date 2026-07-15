@@ -46,7 +46,7 @@ const handleSubmit = async (e) => {
                 
                 
                 <a
-      href="tel:+6590574832"
+      href="tel:+6581310612"
       data-gtm-event="call_middle"
       className="inline-block bg-[#1598FF] hover:bg-red-700 text-black text-[18px] font-bold px-6 py-3 rounded-xl shadow-md transition duration-300"
     >

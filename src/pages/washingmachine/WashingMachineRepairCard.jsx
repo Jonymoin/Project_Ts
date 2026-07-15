@@ -60,7 +60,7 @@ const WashingMachineRepairCard = () => {
         {/* Buttons */}
         <div className="flex items-center gap-4 mt-4">
           <a
-            href="https://wa.me/6590574832"
+            href="https://wa.me/6581310612"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-green-500 hover:bg-green-700 text-white px-5 py-3 rounded-lg text-lg font-semibold transition"
@@ -70,7 +70,7 @@ const WashingMachineRepairCard = () => {
           </a>
 
           <a
-            href="tel:+6590574832"
+            href="tel:+6581310612"
             className="flex items-center gap-2 bg-[#ff6900] hover:bg-red-600 text-white px-5 py-3 rounded-lg text-lg font-semibold transition"
           >
             <FaPhoneAlt className="text-xl" />
